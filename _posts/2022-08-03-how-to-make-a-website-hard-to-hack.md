@@ -59,7 +59,7 @@ I appreciate your time. To keep up with new posts, you can add this site to feed
 
 \- rez0
 
-<meta name="twitter:card" content="how to make a website hard to hack" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@rez0__" />
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://rez0.blog/hacking/2022/08/03/how-to-make-your-website-hard-to-hack.html" />
