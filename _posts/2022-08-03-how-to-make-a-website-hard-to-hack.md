@@ -9,7 +9,7 @@ tags:
   - cybersecurity
 ---
 
-<img src="/assets/images/bubble.png" width="300px" style="display: block; margin-right: auto; margin-left: auto;"/>
+<img alt="bubble" src="https://i.imgur.com/qOdpjdg.png" width="300px" style="display: block; margin-right: auto; margin-left: auto;"/>
 
 
 I have hacked on thousands of websites and learned a bit about what makes a hacker's job more difficult. Simple design decisions can be a security multiplier as well as cut down on the quantity and complexity of security checks. What follows is a list of design decisions that add significant security impact. 
@@ -38,7 +38,7 @@ Whether or not the data segregation is separate hardware or just separate indice
 
 **Indication this is implemented:** It's often hard to tell. One way I've observed this to be evident is when there's a request such as `/api/v1/org/52452345/details` and changing the org ID results in a 404 rather than a 403 or 401. 
 
-<img alt="ig" src="/assets/images/cool-hacker.png" width="250px" style="display: block; margin-right: auto; margin-left: auto;"/>
+<img alt="hacker" src="https://i.imgur.com/aI0guMM.png" width="250px" style="display: block; margin-right: auto; margin-left: auto;"/>
 
 ## single sign-on everywhere
 
