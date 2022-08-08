@@ -1,5 +1,5 @@
 ---
-title: "how to make your website hard to hack"
+title: "how to make a website hard to hack"
 layout: post
 categories:
   - hacking
@@ -7,7 +7,7 @@ tags:
   - hacking
 ---
 
-<img alt="ig" src="/assets/images/bubble.png" width="300px" style="display: block; margin-right: auto; margin-left: auto;"/>
+<img src="/assets/images/bubble.png" width="300px" style="display: block; margin-right: auto; margin-left: auto;"/>
 
 
 I have hacked on thousands of websites and learned a bit about what makes a hacker's job more difficult. Simple design decisions can be a security multiplier as well as cut down on the quantity and complexity of security checks. What follows is a list of design decisions that add significant security impact. 
@@ -57,3 +57,10 @@ I appreciate your time. To keep up with new posts, you can add this site to feed
 
 \- rez0
 
+<meta name="twitter:card" content="how to make a website hard to hack" />
+<meta name="twitter:site" content="@rez0__" />
+<meta name="twitter:creator" content="@rez0__" />
+<meta property="og:url" content="https://rez0.blog/hacking/2022/08/03/how-to-make-your-website-hard-to-hack.html" />
+<meta property="og:title" content="how to make a website hard to hack" />
+<meta property="og:description" content="how to make a website hard to hack" />
+<meta property="og:image" content="https://rez0.blog/assets/images/bubble.png" />
