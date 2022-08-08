@@ -8,7 +8,7 @@ tags:
 ---
 
 <img alt="ig" src="/assets/images/bubble.png" width="300px" style="display: block; margin-right: auto; margin-left: auto;"/>
-<br>
+
 
 I have hacked on thousands of websites and learned a bit about what makes a hacker's job more difficult. Simple design decisions can be a security multiplier as well as cut down on the quantity and complexity of security checks. What follows is a list of design decisions that add significant security impact. 
 
