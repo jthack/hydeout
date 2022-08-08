@@ -3,8 +3,10 @@ title: "how to make a website hard to hack"
 layout: post
 categories:
   - hacking
+  - cybersecurity
 tags:
   - hacking
+  - cybersecurity
 ---
 
 <img src="/assets/images/bubble.png" width="300px" style="display: block; margin-right: auto; margin-left: auto;"/>
