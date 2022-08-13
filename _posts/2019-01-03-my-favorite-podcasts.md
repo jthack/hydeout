@@ -10,7 +10,7 @@ tags:
 I love podcasts. I've listened to a bunch in the last few years. Here's my favorites for a few categories:
 
 ## Security: Security Now
-<img src="https://elroycdn.twit.tv/sites/default/files/styles/twit_album_art_600x600/public/images/shows/security_now/album_art/sn1400.jpg" width="20%">
+<img src="https://elroy.twit.tv/sites/default/files/styles/twit_album_art_600x600/public/images/shows/security_now/album_art/sn2022_albumart_standard_2048.jpg?itok=7NzFowe1" width="20%">
 Steve Gibson has been cranking out episodes for over 10 years. The episodes are comprehensive in
 regards to security events week to week, but explained so well that anyone familiar with basic
 security concepts can understand. 
