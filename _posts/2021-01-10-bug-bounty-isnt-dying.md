@@ -38,3 +38,10 @@ If you have any questions, feel free to tweet me :) [https://twitter.com/rez0\_\
 
 rez0
 
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@rez0__" />
+<meta name="twitter:creator" content="@rez0__" />
+<meta property="og:url" content="https://rez0.blog/hacking/cybersecurity/2021/01/10/bug-bounty-isnt-dying.html" />
+<meta property="og:title" content="Bug bounty isn't dying. It's the future." />
+<meta property="og:description" content="There's been some negativity towards bug bounty.." />
+<meta property="og:image" content="https://i.imgur.com/MuwhWTr.png" />
