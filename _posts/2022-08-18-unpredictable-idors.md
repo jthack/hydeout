@@ -14,10 +14,10 @@ tags:
 
 There is an interesting debate around bug reports of IDORs with IDs which are not predictable. My stance is that they are valid vulnerabilities, they should be fixed, and this post will be a reference for why.
 
-### What's an unpredictable IDOR?
-If you're not sure what an IDOR is, [read Portswigger's post on it.](https://portswigger.net/web-security/access-control/idor)
+### What's an IDOR with an unpredictable ID?
+If you're not sure what an IDOR is, [read Portswigger's post on it.](https://portswigger.net/web-security/access-control/idor). If you know what an unpredictable ID is, you can skip to the next section.
 
-If you're not sure what an unpredictable IDOR is, I'll tell you. First lets define an ID. In lots of applications, there will be a string of characters or number (or both) used to represent an object such as a user, organization, or a piece of data. The app makes requests to view or change the data for these objects _with_ that ID.
+If you're not sure what an unpredictable IDOR is, I'll tell you. First lets define an ID. In lots of applications, there will be a string of characters or numbers used to represent an object such as a user, organization, or a piece of data. The app makes requests to view or change the data for these objects _with_ that ID.
 
 A predictable ID would be where the ID in those requests—and the corresponding backend database—is sequential (like  `467` for one object and `468` for another) or predictable (like if the username is being used as the ID).
 
