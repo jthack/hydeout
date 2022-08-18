@@ -15,7 +15,7 @@ tags:
 There is an interesting debate around bug reports of IDORs with IDs which are not predictable. My stance is that they are valid vulnerabilities, they should be fixed, and this post will be a reference for why.
 
 ### What's an IDOR with an unpredictable ID?
-If you're not sure what an IDOR is, [read Portswigger's post on it.](https://portswigger.net/web-security/access-control/idor). If you know what an unpredictable ID is, you can skip to the next section.
+If you're not sure what an IDOR is, [read Portswigger's post on it](https://portswigger.net/web-security/access-control/idor). If you know what an unpredictable ID is, you can skip to the next section.
 
 If you're not sure what an IDOR with an unpredictable ID is, I'll tell you. First lets define an ID. In lots of applications, there will be a string of characters or numbers used to represent an object such as a user, organization, or a piece of data. The app makes requests to view or change the data for these objects _with_ that ID.
 
@@ -76,6 +76,7 @@ After thinking about it though, I realized the flaw in this line of thinking. ID
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/VrquUx6" data-context="false" ><a href="//imgur.com/a/VrquUx6"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 Thanks again,
+
 rez0
 
 <meta name="twitter:card" content="summary_large_image" />
