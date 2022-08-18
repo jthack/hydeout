@@ -33,7 +33,9 @@ This is the argument I'm hoping to conclusively end: How should a report should 
 
 This isn't a problem for hackers to create a POC. They can use a second account to get the unpredictable ID for the first user to test the vulnerability. Here's the issue. A triager will often say "But how would the attacker get the ID?"
 
-I'm so glad you asked.
+I'm glad you asked.
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/VrquUx6" data-context="false" ><a href="//imgur.com/a/VrquUx6"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ### The big list of unpredictable ID sources
 
