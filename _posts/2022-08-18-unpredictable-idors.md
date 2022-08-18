@@ -49,7 +49,8 @@ Just because an ID is unpredictable, that doesn't mean it can't be found. Here's
 - **Unknown or future bug ID leak**: Just because the report submitter does not have a current way to leak unpredictable IDs, it doesn't mean there's not a way. Or that there won't be a bug in the future that leaks those IDs.
 * **It might not be unpredictable**: Any cryptography expert will tell you "random" with computers is very hard. It's one reason why [Cloudflare uses lava lamps](https://blog.cloudflare.com/randomness-101-lavarand-in-production/). Many "unpredictable" IDs may actually have a design flaw which leads to predictability.
 * **Clickjacking to steal the ID**: Clickjacking can leak unpredictable IDs.
-* **Org-IDs OAuth buttons**: OAuth "Sign in with" buttons can leak the org UUID in the generated URL
+* **Org-IDs in OAuth buttons**: OAuth "Sign in with" buttons can leak the org UUID in the generated URL
+* **Accidental screen share**: If you are streaming a video game or sharing your video on zoom and you alt-tab into an app with unfixed UUID IDORs, the UUID of your org or account would be in the URL and is now fully vulnerable.
 
 As you can see, there are countless way that an ID might be leaked.
 
