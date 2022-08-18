@@ -24,7 +24,7 @@ A predictable ID would be where the ID in those requests—and the corresponding
 So an "unpredictable ID" is anything used as an ID that isn't able to be predicted. It's most often a UUID, such as `0e925156-1dce-11ed-861d-0242ac120002`. But it could also be a concatenation of a random value and a unix timestamp or any other number of things.
 
 ### The debate
-IDORs are a fairly common bug. They can be nearly any severity. For example, read-only IDORs to leak email addresses of other users might be a low. Read/write IDORs on user objects for other organizations would be a Critical on most programs.
+IDORs are a common bug. They can be any severity. For example, read-only IDORs to leak email addresses of other users might be a low. Read/write IDORs on user objects for other organizations would be a Critical on most programs.
 
 This is the question we'll answer below: How should a report should be handled when there is an IDOR, but the ID required in the request is unpredictable?
 
