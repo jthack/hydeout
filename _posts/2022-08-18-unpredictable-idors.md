@@ -12,9 +12,9 @@ tags:
 ![](https://i.imgur.com/tpMrj6E.png){: width="300" }
 *It's an eye-door, get it?*
 
-Alright. We're settling it. We're going to conclude the long-overdue debate around IDORs with IDs which are not predictable.
+There is an interesting debate around bug reports of IDORs with IDs which are not predictable.
 
-They are valid vulnerabilities. They should be fixed. And this post will be a reference for why.
+My stance is that they are valid vulnerabilities, they should be fixed, and this post will be a reference for why.
 
 ### What's an unpredictable IDOR?
 If you're not sure what an IDOR is, [read Portswigger's post on it.](https://portswigger.net/web-security/access-control/idor)
@@ -26,11 +26,11 @@ A predictable ID would be where the ID in those requests—and the corresponding
 So an "unpredictable ID" is anything used as an ID that isn't able to be predicted. It's most often a UUID, such as `0e925156-1dce-11ed-861d-0242ac120002`. But it could also be a concatenation of a random value and a unix timestamp or any other number of things.
 
 ### The debate
-IDORs are a fairly common bug. They can be nearly any severity. Read-only IDORs to leak email addresses of other users might be a low. Read/write IDORs on user objects for other organizations would be a Critical on most programs.
+IDORs are a fairly common bug. They can be nearly any severity. For example, read-only IDORs to leak email addresses of other users might be a low. Read/write IDORs on user objects for other organizations would be a Critical on most programs.
 
-This is the argument I'm hoping to conclusively end: How should a report should be handled when there is an IDOR, but the ID required in the request is unpredictable?
+This is the question we'll answer below: How should a report should be handled when there is an IDOR, but the ID required in the request is unpredictable?
 
-This isn't a problem for hackers to create a POC. They can use a second account to get the unpredictable ID for the first user to test the vulnerability. Here's the issue. A triager will often say "But how would the attacker get the ID?"
+Finding the bug and creating a POC isn't a problem for bug hunters or pentesters. They can use a second account to get the unpredictable ID for the first user to test the vulnerability. Here's the issue. A triager will often say "But how would the attacker get the ID?"
 
 I'm glad you asked.
 
@@ -57,10 +57,16 @@ As you can see, there are countless way that an ID might be leaked.
 ![](https://i.imgur.com/wTp0WKS.png){: width="300" }
 *Another eye-door :P*
 
+### So how should it be handled?
+
+If a program is using CVSS, it's an easy answer. The "Attack Complexity" metric should be raised to High because it's relatively complex to find an unpredictable ID. It's a perfect use of that metric. 
+
+If a program doesn't use CVSS, I think it should be handled as a traditional IDOR and payed equivalently. However, if the company is confident there will never be ID leakage (such as the ID being in a POST request body, which would be less likely to leak in many of the above scenarios), accepting the report as a lower severity is another option. 
+
 ### Thanks
 I appreciate you taking the time to read the blog. If you think this is useful, feel free to share it or even use it in a report as justification when receiving some push back.
 
-If you have any questions, feel free to tweet me: [https://twitter.com/rez0\_\_](https://twitter.com/rez0__)
+If you have any questions or want to hear more from me, feel free to tweet/follow: [https://twitter.com/rez0\_\_](https://twitter.com/rez0__)
 
 ### Addendum: A curious critique
 I've wanted to write this post for a long time. The straw that broke the camel's back was [this thread](https://twitter.com/Hishammir1/status/1559606917013639170?s=20&t=gyMDKpu2Zgu_UMNRl0wVWw). When starting to write it, I saw [Cosmin](https://twitter.com/inhibitor181)'s reply and immediately thought I might be wrong. Cosmin is one of the top hackers all-time. He's extremely talented. [This is the tweet](https://twitter.com/inhibitor181/status/1559749931056898048) that worried me:
