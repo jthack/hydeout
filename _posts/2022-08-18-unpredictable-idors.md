@@ -9,9 +9,8 @@ tags:
   - cybersecurity
 ---
 
-<img alt="eye-door" src="https://i.imgur.com/tpMrj6E.png" width="300px" style="display: block; margin-right: auto; margin-left: auto;"/>
-![](https://i.imgur.com/tpMrj6E.png)
-*image_caption*
+![](https://i.imgur.com/tpMrj6E.png){: width="300" }
+*It's an eye-door, get it?*
 
 Alright. We're settling it. We're going to conclude the long-overdue debate around IDORs with IDs which are not predictable.
 
@@ -35,8 +34,6 @@ This isn't a problem for hackers to create a POC. They can use a second account 
 
 I'm glad you asked.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/VrquUx6" data-context="false" ><a href="//imgur.com/a/VrquUx6"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
 ### The big list of unpredictable ID sources
 
 Just because an ID is unpredictable, that doesn't mean it can't be found. Here's the many ways in which unpredictable IDs can be found.
@@ -57,7 +54,8 @@ Just because an ID is unpredictable, that doesn't mean it can't be found. Here's
 
 As you can see, there are countless way that an ID might be leaked.
 
-<img alt="eye-door" src="https://i.imgur.com/wTp0WKS.png" width="300px" style="display: block; margin-right: auto; margin-left: auto;"/>
+![](https://i.imgur.com/wTp0WKS.png){: width="300" }
+*Another eye-door :P*
 
 ### Thanks
 I appreciate you taking the time to read the blog. If you think this is useful, feel free to share it or even use it in a report as justification when receiving some push back.
@@ -69,6 +67,9 @@ I've wanted to write this post for a long time. The straw that broke the camel's
 > "It should really be N/A unless you have a way to grab UUID's. There are many apps that identify sessions or bearer tokens with UUID's. What do you do there? That is clearly not a bug and IDOR's that also need an UUID should fall under the no bug category, unless using UUID v1"
 
 After thinking about it though, I realized the flaw in this line of thinking. IDORs with unpredictable IDs are different than session tokens or bearer tokens because sessions have timeouts and change on each login. A session token from a year ago popping up on the Wayback Machine doesn’t have impact. Also, same-org users can’t view each other’s session tokens, nor would that be a likely dev mistake in the future (leaking auth tokens to all users). But unpredictable IDs on objects in an app can be seen by all users of that organization, often leak in parameters or paths, show up in browset history, and are something other endpoints are prone to leaking.
+
+### Bonus meme by [@hogarth45\_](https://twitter.com/Hogarth45_)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/VrquUx6" data-context="false" ><a href="//imgur.com/a/VrquUx6"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 Thanks again,
 rez0
