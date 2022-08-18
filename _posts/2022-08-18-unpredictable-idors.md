@@ -10,8 +10,8 @@ tags:
 ---
 
 <img alt="eye-door" src="https://i.imgur.com/tpMrj6E.png" width="300px" style="display: block; margin-right: auto; margin-left: auto;"/>
-
-# IDORs with unpredictable IDs are valid vulnerabilities
+![](https://i.imgur.com/tpMrj6E.png)
+*image_caption*
 
 Alright. We're settling it. We're going to conclude the long-overdue debate around IDORs with IDs which are not predictable.
 
