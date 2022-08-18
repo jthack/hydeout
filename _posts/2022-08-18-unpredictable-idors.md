@@ -12,9 +12,7 @@ tags:
 ![](https://i.imgur.com/tpMrj6E.png){: width="300" }
 *It's an eye-door, get it?*
 
-There is an interesting debate around bug reports of IDORs with IDs which are not predictable.
-
-My stance is that they are valid vulnerabilities, they should be fixed, and this post will be a reference for why.
+There is an interesting debate around bug reports of IDORs with IDs which are not predictable. My stance is that they are valid vulnerabilities, they should be fixed, and this post will be a reference for why.
 
 ### What's an unpredictable IDOR?
 If you're not sure what an IDOR is, [read Portswigger's post on it.](https://portswigger.net/web-security/access-control/idor)
