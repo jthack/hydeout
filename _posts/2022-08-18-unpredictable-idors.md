@@ -26,7 +26,7 @@ So an "unpredictable ID" is anything used as an ID that isn't able to be predict
 ### The debate
 IDORs are a common bug. They can be any severity. For example, read-only IDORs to leak email addresses of other users might be a low. Read/write IDORs on user objects for other organizations would be a Critical on most programs.
 
-This is the question we'll answer below: How should a report should be handled when there is an IDOR, but the ID required in the request is unpredictable?
+This is the question we'll answer below: How should a report be handled when there is an IDOR, but the ID required in the request is unpredictable?
 
 Finding the bug and creating a POC isn't a problem for bug hunters or pentesters. They can use a second account to get the unpredictable ID for the first user to test the vulnerability. Here's the issue. A triager will often say "But how would the attacker get the ID?"
 
