@@ -4,7 +4,7 @@ title: whoami
 sidebar_link: true
 ---
 
-<img alt="headshot" src="/assets/headshot.jpg" width="200px" />
+![](/assets/images/headshot.png){: width="200" }
 
 
 Hey! I'm Joseph, aka rez0. Thanks for checking out the site. 
