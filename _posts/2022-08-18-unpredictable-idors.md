@@ -51,6 +51,7 @@ Just because an ID is unpredictable, that doesn't mean it can't be found. Here's
 * **Clickjacking to steal the ID**: Clickjacking can leak unpredictable IDs.
 * **Org-IDs in OAuth buttons**: OAuth "Sign in with" buttons can leak the org UUID in the generated URL
 * **Accidental screen share**: If you are streaming a video game or sharing your video on zoom and you alt-tab into an app with unfixed UUID IDORs, the UUID of your org or account would be in the URL and is now fully vulnerable.
+* **Hard-coded IDs**: There are sometimes pre-existing hardcoded UUIDs or a dev might add one at a later time directly to the database. For example 00000000-00... resulted in a Critical [here](https://twitter.com/MrTuxracer/status/1560639161966555141?s=20&t=3WJ-KgS7GeBe3ZM_vXqkNQ).
 
 As you can see, there are countless way that an ID might be leaked.
 
