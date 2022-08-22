@@ -17,7 +17,7 @@ I have hacked on thousands of websites and learned a bit about what makes a hack
 
 This is what I call it when an API is deciding what data to return based on the auth mechanism for that user (cookies or authorization headers generally), rather than a parameter or path. This increases security significantly because it cuts down on the IDOR protection that is required. 
 
-**Indication this is implemented:** API endpoints are generic like `/api/v1/me` or `/api/v1/account` and only return your data. The alternative would be a path such as `/api/v1/account/1337` or `/api/v1/account?id=1337`. This can still be secure, of course. But any hacker will tell you that it's *much* less likely to be so.
+**Indication this is implemented:** API endpoints are generic like `/api/v1/me` or `/api/v1/account` and only return your data. The alternative would be a path such as `/api/v1/account/1337` or `/api/v1/account?id=1337`. This can still be secure, of course. But any hacker will tell you that it's less likely to be so.
 
 **Note**: There may be a term for this design principle. If so, please let me know on [twitter](https://twitter.com/rez0__). 
 
