@@ -37,7 +37,7 @@ Whether or not the data segregation is separate hardware or just separate indice
 
 **Indication this is implemented:** It's often hard to tell. One way I've observed this to be evident is when there's a request such as `/api/v1/org/52452345/details` and changing the org ID results in a 404 rather than a 403 or 401. 
 
-<img alt="hacker" src="https://i.imgur.com/aI0guMM.png" width="250px" style="display: block; margin-right: auto; margin-left: auto;"/>
+![](https://i.imgur.com/aI0guMM.png){: width="300" }
 
 ## single sign-on everywhere
 
