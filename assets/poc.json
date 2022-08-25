@@ -1,8 +1,8 @@
 {
-    "url": "https://rez0.blog/poc.yaml",
+    "url": "https://rez0.blog/assets/poc.yaml",
     "urls": [
         {
-            "url": "https://rez0.blog/poc.yaml",
+            "url": "https://rez0.blog/assets/poc.yaml",
             "name": "Foo"
         }
     ]
