@@ -1,0 +1,9 @@
+{
+    "url": "https://rez0.blog/poc.yaml",
+    "urls": [
+        {
+            "url": "https://rez0.blog/poc.yaml",
+            "name": "Foo"
+        }
+    ]
+}
