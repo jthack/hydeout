@@ -1,5 +1,5 @@
 ---
-title: "Root cause decision-making""
+title: "Root cause decision-making"
 layout: post
 categories:
   - personal
@@ -21,6 +21,8 @@ The second dot is "first principles". On podcasts and audiobooks I've listened t
 The third dot is a business application. I'll call it "bottom-line thinking" here. [Alex Hormozi](https://twitter.com/AlexHormozi) has mentioned in his numerous youtube videos and podcasts. It's the idea that viewing your actions (at work or in your side hustle) as they relate to the bottom line is super beneficial. 
 
 The fourth dot is a variation of the [five whys](https://en.wikipedia.org/wiki/Five_whys) applied to finding the intrinsic motivation behind one's actions. I've been applying this in my life for more than 10 years. The goal is to find out the underlying reason you are doing something. 
+
+![](https://i.imgur.com/hdaqMaL.jpg){: width="300" }
 
 ## Connecting the dots
 
@@ -52,7 +54,7 @@ rez0
 
 As a Christian, I think a lot about how to best glorify God with my life. So for me, I want the "root motivation" for most of my actions to be "to bring God glory."[^1] I work to provide for my family because I believe God gave me the responsibility to protect and provide for them. If I find myself randomly scrolling social media, that's likely not serving God in any capacity. However, producing quality content that I post on twitter is both meaningful work, and it allows me to grow my audience where I can be a light to the world. 
 
-Furthermore, it's both humbling and encouraging to remember that I am working for the Lord in whatever I do[^1]. I believe the Christian life is one of sacrifice [^2]. Doing chores around the house is serving my family. Tipping well is living generously[^3]. Even small things like parking slightly further away, so coworkers can have a better parking spot, can be a way to serve people around you. I also take care of my body. I believe that our bodies are a temple. 
+Furthermore, it's both humbling and encouraging to remember that I am working for the Lord in whatever I do.[^1] I believe the Christian life is one of sacrifice.[^2] Doing chores around the house is serving my family. Tipping well is living generously.[^3] Even small things like parking slightly further away, so coworkers can have a better parking spot, can be a way to serve people around you. I also take care of my body. I believe that our bodies are a temple. 
 
 So yeah, even in the realm of faith, thinking about the root motivation can be a powerful framing and focusing technique. It can help reframe day-to-day tasks into being more meaningful. And it can help one focus on doing things that are more important.
 
@@ -63,7 +65,7 @@ So yeah, even in the realm of faith, thinking about the root motivation can be a
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@rez0__" />
 <meta name="twitter:creator" content="@rez0__" />
-<meta property="og:url" content="https://rez0.blog/hacking/2022/08/18/unpredictable-idors.html" />
+<meta property="og:url" content="https://rez0.blog/2022/09/14/2022-09-13-root-cause-decision-making.html" />
 <meta property="og:title" content="Root cause decision-making" />
 <meta property="og:description" content="Applying root cause analysis to decision making" />
 <meta property="og:image" content="https://i.imgur.com/TsjSomC.jpg" />
