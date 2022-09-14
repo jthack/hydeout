@@ -10,6 +10,7 @@ tags:
 ---
 
 ![](https://i.imgur.com/TsjSomC.jpg){: width="300" }
+*Applying root cause analysis to decision making*
 
 Do you ever find your brain "connecting the dots" between multiple ideas or theories? Humas are great at pattern recognition, so you probably have. Those connected dots can lead to insights. That's what happened here for me. The following theory can help you make more money, be more productive, and most importantly, live a more meaningful life.
 
