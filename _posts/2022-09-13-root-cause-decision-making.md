@@ -14,13 +14,13 @@ tags:
 Do you ever find your brain "connecting the dots" between multiple ideas or theories? Humas are great at pattern recognition, so you probably have. Those connected dots can lead to insights. That's what happened here for me. The following theory can help you make more money, be more productive, and most importantly, live a more meaningful life.
 
 ## The dots
-The first dot is Root Cause Analysis. Root cause analysis (RCA) is a phrase used across different areas of tech and science. Being in security, I see it used most for incident response. It's simply a way to find the root cause of something that occurred.  
+The first dot is **Root Cause Analysis**. Root cause analysis (RCA) is a phrase used across different areas of tech and science. Being in security, I see it used most for incident response. It's simply a way to find the root cause of something that occurred.  
 
-The second dot is "first principles". On podcasts and audiobooks I've listened to over the last few years, the idea of "first principles" has surfaced a few times. First principles thinking is often defined as the practice of actively questioning every assumption you have about a concept. It's akin to peeling the layers of an onion back until you are at the "root ideas". 
+The second dot is **"first principles"**. On podcasts and audiobooks I've listened to over the last few years, the idea of "first principles" has surfaced a few times. First principles thinking is often defined as the practice of actively questioning every assumption you have about a concept. It's akin to peeling the layers of an onion back until you are at the "root ideas". 
 
-The third dot is a business application. I'll call it "bottom-line thinking" here. [Alex Hormozi](https://twitter.com/AlexHormozi) has mentioned in his numerous youtube videos and podcasts. It's the idea that viewing your actions (at work or in your side hustle) as they relate to the bottom line is super beneficial. 
+The third dot is a business application. I'll call it **"bottom-line thinking"** here. [Alex Hormozi](https://twitter.com/AlexHormozi) has mentioned in his numerous youtube videos and podcasts. It's the idea that viewing your actions (at work or in your side hustle) as they relate to the bottom line is super beneficial. 
 
-The fourth dot is a variation of the [five whys](https://en.wikipedia.org/wiki/Five_whys) applied to finding the intrinsic motivation behind one's actions. I've been applying this in my life for more than 10 years. The goal is to find out the underlying reason you are doing something. 
+The fourth dot is a variation of the [**five whys**](https://en.wikipedia.org/wiki/Five_whys) applied to finding the intrinsic motivation behind one's actions. I've been applying this in my life for more than 10 years. The goal is to find out the underlying reason you are doing something. 
 
 ![](https://i.imgur.com/hdaqMaL.jpg){: width="300" }
 
@@ -46,8 +46,10 @@ Ideas and theory are great, but I like practical tips more. Here's what this ent
 * When working for others, focus on the task that affects the bottom line most, and emphasize your efforts to superiors. This means you're being maximally impactful and getting credit for it.
 * When working for yourself, focus on the tasks that impact your bottom line the most. It's often the task with the most leverage (training someone, automating something, etc).
 * Many of my readers are bug bounty hunters. If you are hacking to make money, don't rabbit hole. If you find something interesting, spend a few minutes on it, save it off into a note, and keep going. The "priority" is finding more bugs, not figuring out one obscure bug. 
+* Etc. There are countless ways this can be applied. I'd love for you to tweet me a meaningful way you applied this to your life: [@rez0\_\_](https://twitter.com/rez0__)
 
 Thanks for reading! 
+
 rez0
 
 ## If interested: How I apply this to my faith
