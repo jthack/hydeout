@@ -49,9 +49,9 @@ Ideas and theory are great, but I like practical tips more. Here's what this ent
 * Many of my readers are bug bounty hunters. If you are hacking to make money, don't rabbit hole. If you find something interesting, spend a few minutes on it, save it off into a note, and keep going. The "priority" is finding more bugs, not figuring out one obscure bug. 
 * Etc. There are countless ways this can be applied. I'd love for you to tweet me a meaningful way you applied this to your life: [@rez0\_\_](https://twitter.com/rez0__)
 
-Thanks for reading! 
+Thanks for reading!
 
-rez0
+- rez0
 
 ## If interested: How I apply this to my faith
 
