@@ -51,7 +51,7 @@ Ideas and theory are great, but I like practical tips more. Here's what this ent
 
 Thanks for reading!
 
-- rez0
+\- rez0
 
 ## If interested: How I apply this to my faith
 
