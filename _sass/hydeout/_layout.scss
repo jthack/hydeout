@@ -41,7 +41,7 @@ body {
 
   .site-title {
     font-family: "Courier New", monospace;
-    font-weight: bold;
+    font-weight: normal;
     font-size: $large-font-size;
     margin-top: 0;
     margin-bottom: $heading-spacing;
@@ -229,7 +229,7 @@ body {
   }
 
   &.active {
-    font-weight: normal;
+    font-weight: bold;
   }
 }
 
