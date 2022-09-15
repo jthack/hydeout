@@ -9,7 +9,7 @@ tags:
   - cybersecurity
 ---
 
-![](https://i.imgur.com/qOdpjdg.png){: width="300" }
+![](https://i.imgur.com/qOdpjdg.png){: width="300" } ![](https://i.imgur.com/qOdpjdg.png){: width="300" }
 
 I have hacked on thousands of websites and learned a bit about what makes a hacker's job more difficult. Simple design decisions can be a security multiplier as well as cut down on the quantity and complexity of security checks. What follows is a list of design decisions that add significant security impact. 
 
