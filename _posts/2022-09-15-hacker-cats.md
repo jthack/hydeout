@@ -17,7 +17,7 @@ tags:
 | ![](https://mj-gallery.com/cf128826-9d01-4902-8c52-fecf37a93091/grid_0.png){: width="300"; style="float: center"} | ![](https://mj-gallery.com/4687c9f4-6b4d-4993-a9e7-b216fcca2671/grid_0.png){: width="300"; style="float: center"} |
 | ![](https://mj-gallery.com/80555b0d-78f6-4620-ae80-957a399daecc/grid_0.png){: width="300"; style="float: center"} | ![](https://mj-gallery.com/fb0b5e89-f33d-44f2-a193-cfc908dc4f56/grid_0.png){: width="300"; style="float: center"} |
 
-These images were made with [Midjourney](https://www.midjourney.com/app/). The prompt was variations of:
+These images were made with [Midjourney](https://www.midjourney.com/app/). The prompts were variations of:
 ```
 A cat in a hoodie is typing on a computer, 80's sci fi poster, propaganda poster, gothic art, synthwave colors, 4k detailed, video game art
 ```
