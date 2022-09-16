@@ -13,7 +13,7 @@ tags:
 A collection of AI-generated Hacker Monkeys
 
 
-If you want to see an image in full resolution, you can right click -> "Open image in new tab".
+If you want to see an image in full resolution, you can right click on the image and select "Open image in new tab".
 
 
 | :----: | :----: |

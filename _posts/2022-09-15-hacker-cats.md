@@ -13,7 +13,8 @@ tags:
 A collection of AI-generated Hacker Cats
 
 
-If you want to see an image in full resolution, you can right click -> "Open image in new tab".
+If you want to see an image in full resolution, you can right click on the image and select "Open image in new tab".
+
 
 | :----: | :----: |
 | ![](https://mj-gallery.com/222e1323-65e5-44f0-9580-eda617e89328/grid_0.png){: width="330"} | ![](https://mj-gallery.com/666a13a6-0faf-43ac-9ab7-5c11067515e5/grid_0.png){: width="300"} |
