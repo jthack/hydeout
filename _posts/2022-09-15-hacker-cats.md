@@ -2,7 +2,7 @@
 title: "Hacker cats"
 layout: post
 categories:
-  - hacking
+  - art
 tags:
   - personal
   - art

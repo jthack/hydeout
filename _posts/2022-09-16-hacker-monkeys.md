@@ -2,7 +2,7 @@
 title: "Hacker monkeys"
 layout: post
 categories:
-  - hacking
+  - art
 tags:
   - personal
   - art
