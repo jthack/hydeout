@@ -13,6 +13,8 @@ tags:
 A collection of AI-generated Hacker Cats
 
 
+If you want to see an image in full resolution, you can right click -> "Open image in new tab".
+
 | :----: | :----: |
 | ![](https://mj-gallery.com/222e1323-65e5-44f0-9580-eda617e89328/grid_0.png){: width="330"} | ![](https://mj-gallery.com/666a13a6-0faf-43ac-9ab7-5c11067515e5/grid_0.png){: width="300"} |
 | ![](https://mj-gallery.com/5b5b1021-2051-49c0-80ea-261e9acee1d6/grid_0.png){: width="330"} | ![](https://mj-gallery.com/067531e8-1f06-499b-b172-2be7dcfca9c8/grid_0.png){: width="300"} |
@@ -31,7 +33,7 @@ Thanks for looking! I hope you liked them! Follow me on twitter for more cool ha
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@rez0__" />
 <meta name="twitter:creator" content="@rez0__" />
-<meta property="og:url" content="https://rez0.blog/hacking/2022/09/15/hacker-cats.html" />
+<meta property="og:url" content="https://https://rez0.blog/art/2022/09/15/hacker-cats.html" />
 <meta property="og:title" content="Hacker cats" />
 <meta property="og:description" content="ai-generated cyber hacker cats" />
 <meta property="og:image" content="https://mj-gallery.com/d6ff0b6b-677b-4f9d-a0a8-ea2a1e0159be/grid_0.png" />

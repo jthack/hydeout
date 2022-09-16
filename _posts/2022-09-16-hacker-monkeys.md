@@ -14,6 +14,7 @@ A collection of AI-generated Hacker Monkeys
 
 
 If you want to see an image in full resolution, you can right click -> "Open image in new tab".
+
 | :----: | :----: |
 | ![](https://mj-gallery.com/11e05d4f-889d-458d-8559-c57ec8959a22/grid_0.png){: width="330"} | ![](https://mj-gallery.com/d33007d0-abb4-43c8-b1bc-369753e769df/grid_0.png){: width="300"} |
 | ![](https://mj-gallery.com/23d17b7b-3b40-453f-a794-4088dae2ca8b/grid_0.png){: width="330"} | ![](https://mj-gallery.com/5ab5c1ec-26f0-4dd1-85f5-15be18acd251/grid_0.png){: width="330"} |
@@ -34,7 +35,7 @@ Thanks for looking! I hope you liked them! Follow me on twitter for more cool ha
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@rez0__" />
 <meta name="twitter:creator" content="@rez0__" />
-<meta property="og:url" content="https://rez0.blog/hacking/2022/09/16/hacker-monkeys.html" />
+<meta property="og:url" content="https://rez0.blog/art/2022/09/16/hacker-monkeys.html" />
 <meta property="og:title" content="Hacker cats" />
 <meta property="og:description" content="ai-generated cyber hacker monkeys" />
 <meta property="og:image" content="https://mj-gallery.com/73f73267-1a3a-4fca-8623-7ab9d54d3517/grid_0.png" />
