@@ -9,8 +9,8 @@ tags:
   - hacking
 ---
 
-| :----: | :----: |
-| ![](https://mj-gallery.com/d6ff0b6b-677b-4f9d-a0a8-ea2a1e0159be/grid_0.png){: width="300"} | ![](https://mj-gallery.com/6c0c19f5-8a8b-42fa-b92d-015a38bd5dbc/grid_0.png){: width="300"} |
+![](https://mj-gallery.com/d6ff0b6b-677b-4f9d-a0a8-ea2a1e0159be/grid_0.png){: width="300"}
+A collection of AI-generated Hacker Cats
 
 
 | :----: | :----: |
