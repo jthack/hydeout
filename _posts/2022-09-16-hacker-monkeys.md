@@ -15,6 +15,7 @@ A collection of AI-generated Hacker Monkeys
 
 If you want to see an image in full resolution, you can right click -> "Open image in new tab".
 
+
 | :----: | :----: |
 | ![](https://mj-gallery.com/11e05d4f-889d-458d-8559-c57ec8959a22/grid_0.png){: width="330"} | ![](https://mj-gallery.com/d33007d0-abb4-43c8-b1bc-369753e769df/grid_0.png){: width="300"} |
 | ![](https://mj-gallery.com/23d17b7b-3b40-453f-a794-4088dae2ca8b/grid_0.png){: width="330"} | ![](https://mj-gallery.com/5ab5c1ec-26f0-4dd1-85f5-15be18acd251/grid_0.png){: width="330"} |
