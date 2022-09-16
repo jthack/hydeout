@@ -17,7 +17,7 @@ If you want to see an image in full resolution, you can right click on the image
 
 
 | :----: | :----: |
-| ![](https://mj-gallery.com/11e05d4f-889d-458d-8559-c57ec8959a22/grid_0.png){: width="330"} | ![](https://mj-gallery.com/d33007d0-abb4-43c8-b1bc-369753e769df/grid_0.png){: width="300"} |
+| ![](https://mj-gallery.com/11e05d4f-889d-458d-8559-c57ec8959a22/grid_0.png){: width="330"} | ![](https://mj-gallery.com/995024d7-9944-499b-8d5c-88ab8d8c2de1/grid_0.png){: width="300"} |
 | ![](https://mj-gallery.com/23d17b7b-3b40-453f-a794-4088dae2ca8b/grid_0.png){: width="330"} | ![](https://mj-gallery.com/5ab5c1ec-26f0-4dd1-85f5-15be18acd251/grid_0.png){: width="330"} |
 | ![](https://mj-gallery.com/c8a53206-9d3d-4fce-b1cd-c35419e1f628/grid_0.png){: width="330"} | ![](https://mj-gallery.com/69fd4c69-41a0-4664-94e9-0585a0ab218d/grid_0.png){: width="330"} |
 | ![](https://mj-gallery.com/b684ce2e-9087-439c-91cc-b0b546f8aec6/grid_0.png){: width="330"} | ![](https://mj-gallery.com/e3f414c3-fb22-4af8-a627-4cd0c9057bcf/grid_0.png){: width="330"} |
