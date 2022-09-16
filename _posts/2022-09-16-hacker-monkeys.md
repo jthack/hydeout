@@ -37,6 +37,6 @@ Thanks for looking! I hope you liked them! Follow me on twitter for more cool ha
 <meta name="twitter:site" content="@rez0__" />
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://rez0.blog/art/2022/09/16/hacker-monkeys.html" />
-<meta property="og:title" content="Hacker cats" />
+<meta property="og:title" content="Hacker monkeys" />
 <meta property="og:description" content="ai-generated cyber hacker monkeys" />
 <meta property="og:image" content="https://mj-gallery.com/73f73267-1a3a-4fca-8623-7ab9d54d3517/grid_0.png" />
