@@ -36,5 +36,5 @@ Thanks for looking! I hope you liked them! Follow me on twitter for more cool ha
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://https://rez0.blog/art/2022/09/15/hacker-cats.html" />
 <meta property="og:title" content="Hacker cats" />
-<meta property="og:description" content="ai-generated cyber hacker cats" />
+<meta property="og:description" content="ai-generated hacker cats" />
 <meta property="og:image" content="https://mj-gallery.com/d6ff0b6b-677b-4f9d-a0a8-ea2a1e0159be/grid_0.png" />
