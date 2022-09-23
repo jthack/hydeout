@@ -19,9 +19,9 @@ Information disclosure by forced browsing occurs for a variety of reasons. I've 
 
 Perhaps a zip of the webroot was created to save as a backup. A copy may have been left on the server. This is a big deal since many servers run php or asp code, which is executed server side. The credentials in those files normally can't be accessed via the browser because it is executed server-side before being sent to the browser. However, downloading them as a zip means all the files can be read.
 
-Git folders are often left behind because deploying servers or features by simply cloning the repo is quite easy. Unless there is a config which blocks access to this folder, it's now exposed to the internet.
+Git folders are often left behind because deploying servers or features by simply cloning the repo is quite easy. With these on a webserver, unless there is a config which blocks access to this folder, it's now exposed to the internet.
 
-Other times, authentication might be enforced on only some endpoints. By browsing directly to endpoints without an authentication check, unintended access can be achieved.
+One final example would be when there is authentication which is not enforced on all endpoints. By browsing directly to endpoints without an authentication check, unintended access can be achieved.
 
 ![](https://i.imgur.com/VyAFApu.jpeg){: width="300" }
 
