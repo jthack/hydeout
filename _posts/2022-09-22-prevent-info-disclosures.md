@@ -23,6 +23,8 @@ Git folders are often left behind because deploying servers or features by simpl
 
 Other times, authentication might be enforced on only some endpoints. By browsing directly to endpoints without an authentication check, unintended access can be achieved.
 
+![](https://i.imgur.com/VyAFApu.jpeg){: width="300" }
+
 ## The fix in theory
 
 I want to explain the fix at a high level first because many organizations will have their own way to implement this process. Also, any non-technical readers can have a clean break at the end of this section and still have a practical step-by-step requirement to pass to their security team.
