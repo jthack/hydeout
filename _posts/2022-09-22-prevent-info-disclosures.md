@@ -61,9 +61,9 @@ Since this post is geared towards defensive security folks and ffuf is more of a
 
 `-c`  is just colorized output, which is nice.
 
-`-u`  is for the input url. The FUZZ keyword is what will be replaced by the liens in the wordlist for each request.
+`-u`  is for the input url. The FUZZ keyword is what will be replaced by the lines in the wordlist for each request.
 
-`-w`  is for wordlist
+`-w`  is for wordlist.
 
 `-t`  is for the number of threads to use. By default, ffuf is relatively fast using 40 threads. Toning that down will help reduce the likelihood of getting blocked by the WAF.
 
