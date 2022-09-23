@@ -10,7 +10,7 @@ sidebar_link: true
 Hey! I'm Joseph, aka rez0. Thanks for checking out the site. 
 
 I'm a Christian, husband, father, hacker, and cybersecurity professional.
-I love most things in life, but I'm particularly fond of hacking, running, podcasts, and sweet potato casserole.
+I love most things in life, but I'm particularly fond of hacking, ai-art, running, podcasts, and keylime pie.
 
 <p class="message">
   "As water reflects the face, so one's life reflects the heart." Proverbs 27:19
