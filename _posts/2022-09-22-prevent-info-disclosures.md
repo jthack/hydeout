@@ -46,7 +46,7 @@ Some practicalities that make the above theory a little more difficult to apply 
 
 So here are the solutions:
 
-  1. To list all files in a nice format (in bash/zsh), change to the webroot directory of your server and run this command to save all file paths to `all_files.txt`:
+  1. Gathering paths involves getting routes and listing files. Frameworks like rails have a `routes` command that will display all routes. Laravel has a `route:list` command. If you are using a framework like these, look up the command to list the paths and combine them with the following instructions. To list all files in a nice format (in bash/zsh), change to the webroot directory of your server and run this command to save all file paths to `all_files.txt`:
 ```bash
 find . -name "*" -print | cut -d/ -f2- > all_files.txt
 ```
