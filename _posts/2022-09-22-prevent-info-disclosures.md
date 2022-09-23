@@ -1,5 +1,5 @@
 ---
-title: "How to prevent Forced Browsing"
+title: "How to secure against Forced Browsing"
 layout: post
 categories:
   - cybersecurity
@@ -150,6 +150,6 @@ I really hope you enjoyed this article. I'd appreciate it if you shared the post
 <meta name="twitter:site" content="@rez0__" />
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://rez0.blog/cybersecurity/2022/09/22/prevent-info-disclosures.html" />
-<meta property="og:title" content="How to prevent Forced Browsing" />
+<meta property="og:title" content="How to secure against Forced Browsing" />
 <meta property="og:description" content="Eliminate an entire vulnerability class from your web server in less than an hour" />
 <meta property="og:image" content="https://i.imgur.com/eQaB5XZ.png" />
