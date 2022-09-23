@@ -82,10 +82,8 @@ https://gist.github.com/jthack/ba2c5a1061a913a5c698b9e2b152a362
 ```bash
 # Before the first run, read the comments and change the script 
 # for your company
-# Before anything, install ffuf with 
-# `go install github.com/ffuf/ffuf@latest`
-# Before anything, install anew with 
-# `go install -v github.com/tomnomnom/anew@latest`
+# Install ffuf with `go install github.com/ffuf/ffuf@latest`
+# Install anew with `go install -v github.com/tomnomnom/anew@latest`
 
 # Change the WEBROOT variable below to the location of the webroot
 WEBROOT=/var/www/html/CHANGE/ME
