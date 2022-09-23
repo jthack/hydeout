@@ -17,7 +17,7 @@ As a hacker and bug hunter, one of my favorite bugs to find is information discl
 
 Information disclosure by forced browsing occurs for a variety of reasons. I've found entire webroots in zip files, exposed git folders, and authentication bypasses.
 
-Perhaps a zip of the webroot was created to save as a backup. Then after creating it, the file was copied elsewhere, but the original was left on the server. This is a big deal since many servers run php or asp code, which is executed server side. The credentials in those files normally can't be accessed via the browser because it is executed server-side before being sent to the browser.
+Perhaps a zip of the webroot was created to save as a backup. A copy may have been left on the server. This is a big deal since many servers run php or asp code, which is executed server side. The credentials in those files normally can't be accessed via the browser because it is executed server-side before being sent to the browser. However, downloading them as a zip means all the files can be read.
 
 Git folders are often left behind because deploying servers or features by simply cloning the repo is quite easy. Unless there is a config which blocks access to this folder, it's now exposed to the internet.
 
