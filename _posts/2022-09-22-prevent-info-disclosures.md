@@ -27,7 +27,7 @@ One final example would be when there is authentication which is not enforced on
 
 ## The fix in theory
 
-I want to explain the fix at a high level first because many organizations will have their own way to implement this process. Also, any non-technical readers can have a clean break at the end of this section and still have a practical step-by-step requirement to pass to their security team.
+I want to explain the fix at a high level before sharing commands and code because many organizations will have their own way to implement this process. Also, any non-technical readers can have a clean break at the end of this section and still have a practical step-by-step requirement to pass to their security team.
 
 Here's the overview of how to drastically reduce exposures on your webservers. This will be performed for each server:
 1. Gather all paths to all content on the web server (where the website resides)
