@@ -121,7 +121,7 @@ cat output.csv | cut -d, -f2 | anew all_exposed_paths.txt
 Your company will be significantly more secure if you regularly scan and review all the servers you own with a script like the one above.
 
 ## Follow up with me
-If you're a security engineer who does this and finds some sensitive stuff exposed, I would LOVE to hear about how this helped. Please [tweet or dm me](https://twitter.com/rez0\_\_) the story!
+If you're a security engineer who does this and finds some sensitive stuff exposed, I would LOVE to hear about how this helped. Please [tweet or dm me](https://twitter.com/rez0__) the story!
 
 If you're a company who doesn't fully understand this post, feel free to reach out with any questions!
 
