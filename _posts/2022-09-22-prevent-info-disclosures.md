@@ -134,10 +134,13 @@ This strategy may not work for:
 - Large-scale companies with hundreds or thousands of domains might find this process difficult. That said, focusing on your core domains would be a great place to start, and the provided script could be pushed via salt/other tools to automate it at scale.
 
 
+![](https://i.imgur.com/4ArPB60.png){: width="300" }
 ## Thanks
-I really hope you enjoyed this article. I'd appreciate it if you shared the post with anyone you thinkg would find it useful.
+I really hope you enjoyed this article. I'd appreciate it if you shared the post with anyone you think would find it useful.
+
 \- rez0
 
+*If you're curious, all the images are AI-generated with Midjourney. I post a lot of AI-generated hacker art [on twitter](https://twitter.com/rez0__/media).*
 
 
 <meta name="twitter:card" content="summary_large_image" />
