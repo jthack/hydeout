@@ -51,7 +51,7 @@ So here are the solutions:
 find . -name "*" -print | cut -d/ -f2- > all_files.txt
 ```
 
-  2. Now we will use that list to fuzz the web server for those files. I prefer [ffuf](https://github.com/ffuf/ffuf) for this task but you feroxbuster, dirsearch, dirb, and others will also work:
+  2. Now we will use that list to fuzz the web server for those files. I prefer [ffuf](https://github.com/ffuf/ffuf) for this task but feroxbuster, dirsearch, dirb, and others will also work:
 ```bash
 ffuf -c -u https://example.com/FUZZ -w all_files.txt -t 5 -mc 200 
 -ac -o output.csv -H "User-agent: Mozilla/5.0 Security Testing"
