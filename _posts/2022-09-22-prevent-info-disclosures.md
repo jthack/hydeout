@@ -42,6 +42,7 @@ If your website has a login process that is for customers or external users, thi
 Some practicalities that make the above theory a little more difficult to apply at scale are:
 1. There might be a lack of knowledge on how to output all the files in a useable format
 2. Browsing to hundreds of files is time-consuming
+3. Many "servers" are reverse-proxied into specific paths on a host. 
 3. Files are added and modified on the server all the time
 
 So here are the solutions:
@@ -61,7 +62,7 @@ Since this post is geared towards defensive security folks and ffuf is more of a
 
 `-c`  is just colorized output, which is nice.
 
-`-u`  is for the input url. The FUZZ keyword is what will be replaced by the lines in the wordlist for each request.
+`-u`  is for the input url. The FUZZ keyword is what will be replaced by the lines in the wordlist for each request. 
 
 `-w`  is for wordlist.
 
@@ -76,7 +77,9 @@ Since this post is geared towards defensive security folks and ffuf is more of a
 `-H`  is for any header. We are using it to set a custom user agent for traffic tagging, as well as making sure we aren't using the default ffuf agent in case it's blocked by the WAF.
 
 {:start="3"}
-  3. We can continuously monitor new files, fuzz for them, and alert developers or engineers with a simple script. I've put an example script below with in-line notes explaining each command. It's fully plug and play if you follow the instructions. Setup should only take a few minutes. This can be set to run regularly via a cron job. I also put it in a gist:
+  3. If the server you are securing is proxied to a specific path, simply add that path to the ffuf command. For example, if the app is built and proxied to /app/ then change it to be /app/FUZZ in the command above (and in the script below)
+{:start="4"}
+  4. We can continuously monitor new files, fuzz for them, and alert developers or engineers with a simple script. I've put an example script below with in-line notes explaining each command. It's fully plug and play if you follow the instructions. Setup should only take a few minutes. This can be set to run regularly via a cron job. I also put it in a gist:
 [https://gist.github.com/jthack/ba2c5a1061a913a5c698b9e2b152a362](https://gist.github.com/jthack/ba2c5a1061a913a5c698b9e2b152a362)
 
 ```bash
