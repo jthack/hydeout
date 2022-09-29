@@ -9,10 +9,6 @@ tags:
 ---
 
 ![](https://i.imgur.com/4yAgZMY.jpg){: width="300" }
-*Eliminate an entire vulnerability class from your web server in less than an hour*
-
-# How to create awesome AI-generated art
-
 Generating Hacker AI art for the last few months has been a passion of mine. I was accepted into Dalle 2's Beta pretty early. I used a lot of prompts to learn how it worked and how to optimize what I wanted to create. Midjourney was around at that time, and I hopped over to try it out. It's what I primarily use these days due to the unlimited generations for $30. I've kept up with the AI art scene. I often get asked how to generate AI art. This is a guide I hope will be useful to all those people.
 
 Note: The AI art stuff is changing really fast. New models and new features are added all the time. If any of this is incorrect, feel free to ping me on twitter, but no promises on keeping it up to date.
