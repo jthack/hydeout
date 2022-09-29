@@ -40,6 +40,7 @@ And you can combine them. So a great prompt would be:
 key anime visual of a warrior angel wearing a glowing hoodie typing on a laptop, professional digital art, trending on artstation, background is a cyberpunk city
 </code>
 
+Voila! 🎉
 ![](https://i.imgur.com/PKs6XHr.png){: width="300" }
 
 ## Features
@@ -83,6 +84,7 @@ a hacker cat typing on a laptop, as drawn by artgerm, synthwave style, 8k --test
 
 Notice the `--testp`  in my prompt. This is because (at the time of writing) has multiple "models" you can invoke. The default engine (without using --testp or --test) has a really cool artsy vibe without adding extra descriptors. But it has a lot of issues with smaller details. The new models are much better at details but have a bit less of an artsy vibe without good descriptions. Personally, I think `--testp` is way better. I always use it.
 
+Voila! 🎉
 ![](https://i.imgur.com/cCtVl09.png){: width="300" }
 
 ## Features
