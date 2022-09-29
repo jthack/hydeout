@@ -17,7 +17,7 @@ Midjourney was around at that time, and I hopped over to try it out. It's what I
 
 ## DALL·E 2
 
-The instructions here are simple. Go to [here](https://labs.openai.com/signup) to get started. There's no longer a waitlist. Now you can start generating images.
+The instructions here are simple. Go [here](https://labs.openai.com/signup) to get started. There's no longer a waitlist. Once logged in you can start generating images.
 
 ### Pricing
 - You get 50 free credits your first month.
@@ -65,7 +65,7 @@ Go to [https://www.midjourney.com/home/](https://www.midjourney.com/home/) and c
 - $600/year for enterprises
 
 ### Tips
-Midjourney is less good at interpreting user input by default. They are always releasing new models and flags to use. Midjourney is less literal in its interpretation. So if you want it to "look cool", you don't always have to give it qualifiers. That said, using descriptions can make it look much better.
+Midjourney is less good at interpreting user input by default. However, they are always releasing new models and flags to use. There's a model right now that is quite good at interpretting user input (`--testp`). Midjourney is less literal in its interpretation. So if you want it to "look cool", you don't always have to give it qualifiers. That said, using descriptions can make it look much better.
 
 Some of my favorites are:
 - `8k detailed`
