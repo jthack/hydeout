@@ -25,7 +25,7 @@ The instructions here are simple. Go [here](https://labs.openai.com/signup) to g
 - $15 for 115 more credits
 
 ### Tips
-DALL-E is really good at interpreting user input. It is very literal in its interpretation. So if you want it to "look cool", you need to give it descriptions that would make it look cool.
+DALL-E is really good at interpreting user input. It is very literal in its interpretation. So if you want it to "look cool", you need to give it descriptions that would make it look cool. You can find good prompts at [https://dalle2.gallery/#search](https://dalle2.gallery/#search) and use parts of them to generate what you want!
 
 Some of my favorites are:
 - `key anime visual of <concept>`
@@ -65,7 +65,7 @@ Go to [https://www.midjourney.com/home/](https://www.midjourney.com/home/) and c
 - $600/year for enterprises
 
 ### Tips
-Midjourney is less good at interpreting user input by default. However, they are always releasing new models and flags to use. There's a model right now that is quite good at interpretting user input (`--testp`). Midjourney is less literal in its interpretation. So if you want it to "look cool", you don't always have to give it qualifiers. That said, using descriptions can make it look much better.
+Midjourney is less good at interpreting user input by default. However, they are always releasing new models and flags to use. There's a model right now that is quite good at interpretting user input (`--testp`). Midjourney is less literal in its interpretation. So if you want it to "look cool", you don't always have to give it qualifiers. That said, using descriptions can make it look much better. If you are logged in, you can go to [https://www.midjourney.com/app/feed/all/](https://www.midjourney.com/app/feed/all/) to view good prompts and repurpose descriptions that you want to use. 
 
 Some of my favorites are:
 - `8k detailed`
