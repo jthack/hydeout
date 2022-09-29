@@ -17,7 +17,7 @@ Midjourney was around at that time, and I hopped over to try it out. It's what I
 
 ## DALL·E 2
 
-Instructions here are simple. Go to https://labs.openai.com/signup to get started. There's no longer a waitlist. Now you can start generating.
+The instructions here are simple. Go to [here](https://labs.openai.com/signup) to get started. There's no longer a waitlist. Now you can start generating images.
 
 ### Pricing
 - You get 50 free credits your first month.
@@ -36,6 +36,11 @@ Some of my favorites are:
 
 And you can combine them. So a great prompt would be:
 
+<style>
+    pre, code {
+        white-space: pre-wrap;
+    }
+</style>
 <code>
 key anime visual of a warrior angel wearing a glowing hoodie typing on a laptop, professional digital art, trending on artstation, background is a cyberpunk city
 </code>
