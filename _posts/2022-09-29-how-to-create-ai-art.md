@@ -36,9 +36,7 @@ Some of my favorites are:
 
 And you can combine them. So a great prompt would be:
 
-<code>
-key anime visual of a warrior angel wearing a glowing hoodie typing on a laptop, professional digital art, trending on artstation, background is a cyberpunk city
-</code>
+`key anime visual of a warrior angel wearing a glowing hoodie typing on a laptop, professional digital art, trending on artstation, background is a cyberpunk city`
 
 Voila! 🎉
 ![](https://i.imgur.com/PKs6XHr.png){: width="300" }
@@ -78,16 +76,14 @@ Some of my favorites are:
 
 And you can combine them. So a great prompt might be:
 
-```
-a hacker cat typing on a laptop, as drawn by artgerm, synthwave style, 8k --testp
-```
+`a hacker cat typing on a laptop, as drawn by artgerm, synthwave style, 8k --testp`
 
 Notice the `--testp`  in my prompt. This is because (at the time of writing) has multiple "models" you can invoke. The default engine (without using --testp or --test) has a really cool artsy vibe without adding extra descriptors. But it has a lot of issues with smaller details. The new models are much better at details but have a bit less of an artsy vibe without good descriptions. Personally, I think `--testp` is way better. I always use it.
 
 Voila! 🎉
 ![](https://i.imgur.com/cCtVl09.png){: width="300" }
 
-## Features
+### Features
 Midjourney has a different set of awesome features. Since they take flags like a command line program, there's too much to explain here. I'll cover a few and link you to their documenation so you can learn them.
 - Uploading pictures as "inspiration" and weighting the new generation to them
 - The ability to generate a different aspect ratios
