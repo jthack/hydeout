@@ -9,9 +9,9 @@ tags:
 ---
 
 ![](https://i.imgur.com/4yAgZMY.jpg){: width="300" }
-Generating Hacker art via AI has been a passion of mine for a few months. I was accepted into Dalle 2's Beta pretty early. I learned how it worked and to optimize my creations. 
+Generating hacker art via AI has been a passion of mine for a few months. I was accepted into DALL·E 2's Beta pretty early. I learned how it worked and to optimize my creations. 
 
-Midjourney was around at that time, and I hopped over to try it out. It's what I primarily use these days due to the unlimited generations for $30. I've kept up with the AI art scene. I often get asked how to generate AI art. This is a guide I hope will be useful to all those people.
+Midjourney was around at that time so I tried it as well. It's where I make everything now due to the unlimited generations for $30. I've kept up with the AI art progression. I often get asked how to generate AI art. This is a guide to answer just that question.
 
 *Note: The AI art stuff is changing really fast. New models and new features are added all the time. If any of this is incorrect, feel free to ping me on twitter, but no promises on keeping it up to date.*
 
@@ -25,7 +25,7 @@ The instructions here are simple. Go [here](https://labs.openai.com/signup) to g
 - $15 for 115 more credits
 
 ### Tips
-DALL-E is really good at interpreting user input. It is very literal in its interpretation. So if you want it to "look cool", you need to give it descriptions that would make it look cool. You can find good prompts at [https://dalle2.gallery/#search](https://dalle2.gallery/#search) and use parts of them to generate what you want!
+DALL·E is really good at interpreting user input. It is very literal in its interpretation. So if you want it to "look cool", you need to give it descriptions that would make it look cool. You can find good prompts at [https://dalle2.gallery/#search](https://dalle2.gallery/#search) and use parts of them to generate what you want!
 
 Some of my favorites are:
 - `key anime visual of <concept>`
@@ -42,7 +42,7 @@ Voila! 🎉 You should get an image similar to this:
 ![](https://i.imgur.com/PKs6XHr.png){: width="300" }
 
 ## Features
-DALL-E has some really nice features:
+DALL·E has some really nice features:
 - Uploading pictures you want to edit or generate around
 - In-painting where you can remove aspects you don't like and regenerate them
 - Out-painting where you can create conglomerates by creating around an image
