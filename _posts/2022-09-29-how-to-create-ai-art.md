@@ -38,7 +38,7 @@ And you can combine them. So a great prompt would be:
 
 `key anime visual of a warrior angel wearing a glowing hoodie typing on a laptop, professional digital art, trending on artstation, background is a cyberpunk city`
 
-Voila! 🎉
+Voila! 🎉 You should get an image similar to this:
 ![](https://i.imgur.com/PKs6XHr.png){: width="300" }
 
 ## Features
@@ -78,9 +78,9 @@ And you can combine them. So a great prompt might be:
 
 `a hacker cat typing on a laptop, as drawn by artgerm, synthwave style, 8k --testp`
 
-Notice the `--testp`  in my prompt. This is because (at the time of writing) has multiple "models" you can invoke. The default engine (without using --testp or --test) has a really cool artsy vibe without adding extra descriptors. But it has a lot of issues with smaller details. The new models are much better at details but have a bit less of an artsy vibe without good descriptions. Personally, I think `--testp` is way better. I always use it.
+Notice the `--testp`  in my prompt. This is because (at the time of writing) has multiple "models" you can invoke. The default engine (without using `--testp` or `--test`) has a really cool artsy vibe without adding extra descriptors. But it has a lot of issues with smaller details. The new models are much better at details but have a bit less of an artsy vibe without good descriptions. Personally, I think `--testp` is way better. I always use it.
 
-Voila! 🎉
+Voila! 🎉 You should get an image similar to this:
 ![](https://i.imgur.com/cCtVl09.png){: width="300" }
 
 ### Features
@@ -89,10 +89,11 @@ Midjourney has a different set of awesome features. Since they take flags like a
 - The ability to generate a different aspect ratios
 - Faster shipping of updates
 - Variations as a feature built in that is quite good. It changes just enough to be useful
+- Documentation is here [https://midjourney.gitbook.io/docs/](https://midjourney.gitbook.io/docs/)
 
 ## Stable Diffusion
 
-Stable diffusion is probably the biggest impact player right now. It was actually incorporated into Midjourney's test and testp models which is what makes them so good. SD is free and open-source. There are lots of guides to getting set up on it. The quality depends on your machine and how long you let it spend generating images. I personally have not gotten set up on it other than using a simply jupyter notebook on google collab. Here's some guides on how to get set up if you decide to try it:
+Stable diffusion is probably the biggest impact player right now. It was actually incorporated into Midjourney's test and testp models which is what makes them so good. SD is free and open-source. There are lots of guides to getting set up on it. The quality depends on your machine and how long you let it spend generating images. I personally have not gotten set up on it other than using a simple jupyter notebook on Google collab. Here's some guides on how to get set up if you decide to try it:
 
 - https://www.assemblyai.com/blog/how-to-run-stable-diffusion-locally-to-generate-images/
 - https://stealthoptional.com/tech/how-to-run-stable-diffusion/
@@ -102,6 +103,8 @@ One thing that is amazing about stable diffusion is all the ways you can customi
 
 ## Thanks
 I appreciate you taking the time to read the post. Hopefully you enjoyed it. I post a lot of my art on [my twitter](https://twitter.com/rez0__/media). If you click the media tab, you can scroll back through the art I've posted. Also, I sell some of the best generations as NFTs here: https://opensea.io/collection/hackers-by-rez0. Even if you're not interested in buying, it's a cool place to see some of the best images.
+
+rez0
 
 
 <meta name="twitter:card" content="summary_large_image" />
