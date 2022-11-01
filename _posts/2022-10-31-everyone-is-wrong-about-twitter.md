@@ -9,6 +9,7 @@ tags:
 ---
 
 ![](https://i.imgur.com/9R69z44.jpg){: width="300" }
+*Twitter's new fearless leader, by Midjourney AI*
 
 The twittersphere has been full of hot-takes since Elon took over. Most everyone is wrong because they are falling into [false consensus effect](https://en.wikipedia.org/wiki/False_consensus_effect). 
 
