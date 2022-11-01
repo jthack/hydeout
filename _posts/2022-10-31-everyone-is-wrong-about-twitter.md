@@ -57,9 +57,9 @@ A person's usage of twitter is going to greatly affect their perception of the p
 
 The point is this: **don't assume everyone's experience is the same as your own**. Twitter is a massive place. Someone who only follows their mom and two cousins is going to have a vastly different experience than someone who follows 500 people. 
 
-And don't assume twitter-as-a-whole is changing when it's likely your usage, settings, and communities have slowly changed over time. 
+And don't assume twitter-as-a-whole is changing when it's more likely that your usage, settings, and communities have slowly changed over time. 
 
-Don't get me wrong, I think the world is more polarized (at least in the US). I also think it's possible the bot, scam, ads, and verified aspects of twitter have changed over time and will continue to change. **But without some real data and evidence, complaining that twitter is changing based on your drop in the ocean is like saying "America is much colder this year" based exclusively on the weather at your house.** 
+Don't get me wrong, I think the world is more polarized (at least in the US). I also think it's possible the bots, scams, ads, and verification rules of twitter have changed over time and will continue to change. **But without some real data and evidence, complaining that twitter is changing based on your drop in the ocean is like saying "America is much colder this year" based exclusively on the weather at your house.** 
 
 \- rez0
 
