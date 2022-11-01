@@ -30,8 +30,8 @@ There are other communities which are completely different. Some communities are
 ### Different Settings
 
 The second biggest factor in a person's twitter experience is their configuration and usage of its settings.
-- Do you mute or block others? If so, they are less likely to be bothered by the same people.
-- Do you mute words or phrases which might trigger them? If so, they're are probably more likely to be having a pleasant experience on twitter.
+- Do you mute or block others? If so, you are less likely to be bothered by the same people.
+- Do you mute words or phrases which might trigger them? If so, you're are probably more likely to be having a pleasant experience on twitter.
 - Do you use the default "Home" algorithm or the "Latest Tweets" setting?
 - Do you use dark mode?
 
