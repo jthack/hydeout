@@ -69,5 +69,5 @@ For more of my thoughts, bug bounty tips, and AI-generated hacker art, [follow m
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://rez0.blog/personal/2022/10/31-everyone-is-wrong-about-twitter" />
 <meta property="og:title" content="Everyone is wrong about Twitter" />
-<meta property="og:description" content="Everyone is wrong because they are falling into false consensus effect." />
+<meta property="og:description" content="Everyone is wrong because they are falling into the false consensus effect." />
 <meta property="og:image" content="https://i.imgur.com/9R69z44.jpg" />
