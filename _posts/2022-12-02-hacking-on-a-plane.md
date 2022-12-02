@@ -81,4 +81,4 @@ For more of my thoughts, bug bounty tips, and AI-generated hacker art, [follow m
 <meta property="og:url" content="https://rez0.blog/hacking/2022/12/02-hacking-on-a-plane" />
 <meta property="og:title" content="Hacking on a plane" />
 <meta property="og:description" content="Finding Two Critical Vulnerabilities On One Flight " />
-<meta property="og:image" content="https://i.imgur.com/9R69z44.jpg" />
+<meta property="og:image" content="https://i.imgur.com/6u4iy7e.png" />
