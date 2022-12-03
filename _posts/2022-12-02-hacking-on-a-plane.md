@@ -17,7 +17,7 @@ This is a short write-up about how I could have accessed the personal and financ
 
 While on a 14-hour flight last week, after about 8 hours, I got tired of watching shows and reading books. I don't usually want to pay for WiFi, but I decided to check the price. If there is a flight to splurge on, it's a 14-hour one. 
 
-When I pulled up my phone, I saw WiFi was provided by GoGo Inflgiht. I faintly recalled there being a bug bounty program on BugCrowd for them at some point. Before putting my credit card information and home address into an application, I often take a cursory glance at the security of the system. 
+When I pulled up my phone, I saw WiFi was provided by GoGo Inflight. I faintly recalled there being a bug bounty program on BugCrowd for them at some point. Before putting my credit card information and home address into an application, I often take a cursory glance at the security of the system. 
 
 It allows you to register an account without putting in credit card data. So I created a test account, and browsed around to a couple pages before checking burp. The following request stood out to me due to the response containing all of my account information. Also, like any good bug hunter, the user_name field stood out as a potential IDOR.
 
