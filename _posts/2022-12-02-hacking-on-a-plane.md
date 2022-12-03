@@ -28,12 +28,11 @@ GET /edge/apidecorator/v3/customer?data_types=PERSONAL,PMTINSTRUMENTS,GROUP_ATTR
 Host: gbp.inflightinternet.com
 ```
 
-The thing about the username is that it's unguessable due to the timestamp. I assumed it might not always have been that way, quickly checking for user_name `test`, assuming that it wouldn't exist or that it would restrict access. There's no way it would be that easy...
+The thing about the username is that it's unguessable due to the timestamp. I decided to test it anyways by creating another account and using that username. I assumed that it wouldn't work or would restrict access. There's no way it would be that easy...
 
-Tada! 🎉
-![](https://i.imgur.com/nuTNom6.png)
+Tada! 🎉 It worked!
 
-I still assumed the impact was limited due to the new `user_name` format, so I tried changing `user_name` to `email_address` since that was in the response... and it worked also. To validate real users, I asked a few friends for their email (and their permission to access their data). Sure enough, it worked. 
+I still thought the impact was limited due to the `user_name` format, so I tried changing `user_name` to `email_address` since that was in the response... and it worked also. 
 
 I tried `customer_id` since the IDs are integers. It would increase the impact from a targeted vulnerability (by email address) to disclosing all users by simply incrementing through all the IDs. That also worked!
 
