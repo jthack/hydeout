@@ -1,5 +1,5 @@
 ---
-title: "Hacking on a plane: Finding two Critical vulnerabilities on one flight"
+title: "Hacking on a plane: Leaking data of millions and taking over any account"
 layout: post
 categories:
   - hacking
@@ -82,5 +82,5 @@ For more of my thoughts, bug bounty tips, and AI-generated hacker art, [follow m
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://rez0.blog/hacking/2022/12/02/hacking-on-a-plane.html" />
 <meta property="og:title" content="Hacking on a plane" />
-<meta property="og:description" content="Finding Two Critical Vulnerabilities On One Flight " />
+<meta property="og:description" content="Leaking data of millions and taking over any account" />
 <meta property="og:image" content="https://i.imgur.com/6u4iy7e.png" />
