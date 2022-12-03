@@ -21,8 +21,10 @@ When I pulled up my phone, I saw WiFi was provided by GoGo Inflgiht. I faintly r
 
 It allows you to register an account without putting in credit card data. So I created a test account, and browsed around to a couple pages before checking burp. The following request stood out to me due to the response containing all of my account information. Also, like any good bug hunter, the user_name field stood out as a potential IDOR.
 
-```html
-GET /edge/apidecorator/v3/customer?data_types=PERSONAL,PMTINSTRUMENTS,GROUP_ATTRIBUTES&requester=GOGO_INTERNET&tracking_id=uxdId-N510DN_A25AE4339A5309CCFA508534B99332B0_1668735922_0avmL6L5q&user_name=testingz20221118213555&uxd_id=uxdId-_N510DN_A25AE4339A5309CCFA508534B99332B0_1668735922_0avmL6L5q HTTP/1.1
+```
+GET /edge/apidecorator/v3/customer?data_types=PERSONAL,PMTINSTRUMENTS,GROUP_ATTRIBUTES
+&requester=GOGO_INTERNET&tracking_id=uxdId-N510DN_A25AE4339A5309CCFA508534B9933
+&user_name=testingz20221118213555&uxd_id=uxdId-_N510DN_A25AE4339A5309CCFA508534 HTTP/1.1
 Host: gbp.inflightinternet.com
 ```
 
