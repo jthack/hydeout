@@ -17,7 +17,7 @@ This is a short write-up about how I could have accessed the personal and financ
 
 While on a 14-hour flight last week, after about 8 hours, I got tired of watching shows and reading books. I don't usually want to pay for WiFi, but I decided to check the price. If there is a flight to splurge on, it's a 14-hour one. 
 
-When I pulled up my phone, I saw WiFi was provided by GoGo Inflight. I faintly recalled there being a bug bounty program on BugCrowd for them at some point. Before putting my credit card information and home address into an application, I often take a cursory glance at the security of the system. 
+When I pulled up my phone, I saw WiFi was provided by a specific provider for which I faintly recalled there being a bug bounty program on BugCrowd. Before putting my credit card information and home address into an application, I often take a cursory glance at the security of the system. 
 
 It allows you to register an account without putting in credit card data. So I created a test account, and browsed around to a couple pages before checking burp. The following request stood out to me due to the response containing all of my account information. Also, like any good bug hunter, the user_name field stood out as a potential IDOR.
 
@@ -38,7 +38,7 @@ I tried `customer_id` since the IDs are integers. It would increase the impact f
 
 ## But wait, there's more!
 
-I happened to check my personal email for an account. I assumed I had signed up for wifi with GoGo in the past before getting into security. Sure enough, I had an older account. And because I was already going to disclose a critical bug, I decided to check for another bug with that second account.
+I happened to check my personal email for an account. I assumed I had signed up for wifi in the past before getting into security. Sure enough, I had an older account. And because I was already going to disclose a critical bug, I decided to check for another bug with that second account.
 
 The password reset functionality used two requests. The first request was to 
 `POST /edge/apidecorator/v2/customer/authenticate/` and validated the user's auth. After that, a PUT request to `/edge/apidecorator/v2/customer/` had this body:
@@ -65,7 +65,7 @@ Given PCI and GDPR compliance, these bugs in the hands of an attacker could have
 
 ## Disclosure details
 
-I looked around for a security contact at GoGo without much luck. Eventually I was pointed to the Airline ISAC. They were super helpful. Since I found the bugs while on a flight, they sent me a contact at that airline. Even though it was third-party, the airline worked with me to get it fixed. With their superb help, this was the timeline:
+I looked around for a security contact with the vendor without much luck. Eventually I was pointed to the Aviation ISAC. They were super helpful. Since I found the bugs while on a flight, they sent me a contact at that airline. Even though it was third-party, the airline worked with me to get it fixed. With their superb help, this was the timeline:
 
 -  Monday (November 21st) the airline was made aware of the issue and immediately proceeded to escalate and contact the appropriate groups for validation and remediation.
 -  Tuesday (November 22nd) the impacted third-party was formally debriefed, proceeded to confirm the validity of the findings, and began immediately working on a resolution.
