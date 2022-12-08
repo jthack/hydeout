@@ -23,7 +23,7 @@ It allows you to register an account without putting in credit card data. So I c
 
 ```
 GET /edge/apidecorator/v3/customer?data_types=PERSONAL,PMTINSTRUMENTS,GROUP_ATTRIBUTES
-&requester=GOGO_INTERNET&tracking_id=uxdId-_A25AE4339A5309CCFA508534B9933
+&requester=INTERNET&tracking_id=uxdId-_A25AE4339A5309CCFA508534B9933
 &user_name=testingz20221118213555&uxd_id=uxdId-__A25AE4339A5309CCFA508534 HTTP/1.1
 Host: gbp.inflightinternet.com
 ```
@@ -49,7 +49,7 @@ The password reset functionality used two requests. The first request was to
     "password": "password123!"
   },
   "user": "testingz20221118213555",
-  "uxdId": "uxdId-GET /edge/apidecorator/v3/customer?data_types=PERSONAL,PMTINSTRUMENTS,GROUP_ATTRIBUTES&requester=GOGO_INTERNET&tracking_id=uxdId-_A25AE4339A5309CCFA508534B99332B0_1668735922_0avmL6L5q&user_name=testingz20221118213555&uxd_id=uxdId-__A25AE4339A5309CCFA508534B99332B0_1668735922_0avmL6L5q HTTP/1.1__A25AE4339A5309CCFA508534B99332B0_1668735922_0avmL6L5q"
+  "uxdId": "uxdId-GET /edge/apidecorator/v3/customer?data_types=PERSONAL,PMTINSTRUMENTS,GROUP_ATTRIBUTES&requester=INTERNET&tracking_id=uxdId-_A25AE4339A5309CCFA508534B99332B0_1668735922_0avmL6L5q&user_name=testingz20221118213555&uxd_id=uxdId-__A25AE4339A5309CCFA508534B99332B0_1668735922_0avmL6L5q HTTP/1.1__A25AE4339A5309CCFA508534B99332B0_1668735922_0avmL6L5q"
 }
 ```
 
