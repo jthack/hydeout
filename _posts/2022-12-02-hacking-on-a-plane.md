@@ -25,7 +25,7 @@ It allows you to register an account without putting in credit card data. So I c
 GET /edge/apidecorator/v3/customer?data_types=PERSONAL,PMTINSTRUMENTS,GROUP_ATTRIBUTES
 &requester=INTERNET&tracking_id=uxdId-_A25AE4339A5309CCFA508534B9933
 &user_name=testingz20221118213555&uxd_id=uxdId-__A25AE4339A5309CCFA508534 HTTP/1.1
-Host: gbp.inflightinternet.com
+Host: internet.com
 ```
 
 The thing about the username is that it's unguessable due to the timestamp. I decided to test it anyways by creating another account and using that username. I assumed that it wouldn't work or would restrict access. There's no way it would be that easy...
