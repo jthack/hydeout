@@ -22,7 +22,7 @@ First, let's talk about **dysregulation vs disobedience**. Dysregulation is when
 
 When a child is dysregulated, they often don't hear, let alone understand, the coaching or correction we're giving them. An example would be when they're extremely angry or scared. They need help calming down more than they need to be instructed in that moment. And then you can coach them after they're calm. On the other hand, if they're just being disobedient, immediate correction and coaching might be more appropriate. An example might be when you ask them to clean up their room and they refuse.
 
-One way to help with dysregulation is to teach regulation techniques. The most common one is taking deep breaths, but there are others such as a getting a cold drink, eating someting, or event hitting a pillow. As a parent, it's important to model regulation for your children. For example, if you're feeling frustrated, you can say "Daddy is going to take 5 deep breaths because I'm feeling a little frustrated." 
+One way to help with dysregulation is to teach regulation techniques. The most common one is taking deep breaths, but there are others such as a getting a cold drink, eating something, or even hitting a pillow. As a parent, it's important to model regulation for your children. For example, if you're feeling frustrated, you can say "Daddy is going to take 5 deep breaths because I'm feeling a little frustrated." 
 
 ### Calm Pilot Analogy
 
