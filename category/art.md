@@ -3,4 +3,5 @@ layout: category
 title: art
 ---
 
-art I've made (probably hacker-related)
+![](/assets/images/wizard.png){: width="500"}
+AI Art or posts about AI art
