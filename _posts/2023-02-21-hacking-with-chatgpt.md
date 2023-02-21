@@ -24,7 +24,7 @@ The other unique skill of ChatGPT that people underestimate is the fact that it'
 
 Rather than "I'm getting error xyz, how do I solve this problem?", you can utilitze "Below is my code. I'm getting error xyz. Where is the problem and how do I solve it?". In short, it's more than a smart oracle. It's also a speedy assistant.
 
-Let's just into use-cases.
+Let's jump into use-cases.
 
 ## ChatGPT Engineering Use-Cases
 
