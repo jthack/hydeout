@@ -22,7 +22,7 @@ The sweet spot is when you need a task completed that is small or medium in size
 ### Active Input Processing
 The other unique skill of ChatGPT that people underestimate is the fact that it's actively processing the input. That's a super-power compared to googling. If you have an error in a bit of code, you might be able to very quickly google a solution to your issue. But you still have to _find_ that issue in the bit of code. ChatGPT is uniquely suited to be a massive advantage in those situations because you can paste your code into it as a part of the question.
 
-Rather that "I'm getting error xyz, how do I solve this problem?", you can utilitze "Below is my code. I'm getting error xyz. Where is the problem and how do I solve it?". In short, it's more than a smart oracle. It's also a speedy assistant.
+Rather than "I'm getting error xyz, how do I solve this problem?", you can utilitze "Below is my code. I'm getting error xyz. Where is the problem and how do I solve it?". In short, it's more than a smart oracle. It's also a speedy assistant.
 
 Let's just into use-cases.
 
