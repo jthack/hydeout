@@ -3,4 +3,5 @@ layout: category
 title: cybersecurity
 ---
 
-Posts about cyber security (aka information security, digital security, or whatever the latest buzzword is).
+![](/assets/images/soc.png){: width="400"}
+posts about cyber security

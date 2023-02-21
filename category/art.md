@@ -3,4 +3,4 @@ layout: category
 title: art
 ---
 
-Art I've made (probably hacker-related)
+art I've made (probably hacker-related)
