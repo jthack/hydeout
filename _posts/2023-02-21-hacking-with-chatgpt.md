@@ -34,7 +34,7 @@ Now, let's talk about actual examples. These are the cool ways that I have used 
 
 As a hacker or security engineer, there is often data in a format that isn't ideal. Giving ChatGPT a plaintext description of a lengthy process and getting a working script as output just feels like magic. 
 
-**Example prompt:**
+Example prompt:
 ```
 Write a python script that reads the file "input.zip", unzips it, then reads the csv files inside line by line. It should take the second columns from the csv files, which are urls, and parse out the domain and save those in a new file called domains.txt. It should take the paths from the urls and save those in a file called paths.txt. 
 ```
@@ -43,7 +43,7 @@ Write a python script that reads the file "input.zip", unzips it, then reads the
 
 Often there is interesting minified javascript code in web applications that is useful for finding bugs. Parsing it and following what the functions do can be difficult. The files are often too large to paste the entire thing, but you can paste large parts of it into ChatGPT and ask it to comment the code while also making it more readable.
 
-**Example prompt:**
+Example prompt:
 ```
 Clean up the following js code by making it more readable and adding comments:
 
@@ -54,7 +54,7 @@ Clean up the following js code by making it more readable and adding comments:
 
 As you probably know, json POST requests aren't vulnerable to CSRF. However, many frameworks and libraries allow urlencoded form POST bodies by default. So if there's not any CSRF protection on a json api request, trying url-encoded forms is a great way to find some bugs. The problem is that it's a lot of work to manually modify the request, especially if there are nested objects. This type of request will have ChatGPT doing it for you.
 
-**Example prompt:**
+Example prompt:
 
 ```bash
 Transform this entire burp request from json into a x-www-form-urlencoded request:
@@ -71,17 +71,17 @@ Content-Type: application/json
 
 This is what I was mentioning in the Ideal Tasks section. If you've got code that isn't working, is doing something weird, or is throwing an error. You can paste the relevant code into ChatGPT and have it help your find the problem (or just fix it for you!).
 
-**Example prompt:**
+Example prompt:
 
 ```
 Below is my code. I'm getting error "EXAMPLE ERROR". Explain the problem, fix my code, and put the output in a code block
 ```
 
-### In conclusion
+### Now do it!
 
-Hopefully I've given you some good ideas on how to use ChatGPT for security engineering and hacking. It's been a really good asset for me. Also, I'm sure other AI tools will pop up. This isn't unique to ChatGPT, it would probably all work nearly as well on GPT3. And it will likely all be way better on GPT4. 
+Hopefully I've given you some good ideas on how to use ChatGPT for security engineering and hacking. It's been an asset for me. Also, I'm sure other AI tools will pop up. This isn't unique to ChatGPT, it would probably all work nearly as well on GPT3. And it will likely all be way better on GPT4. 
 
-Thanks for taking the time to read the post!
+Thanks for taking the time to read the post! If you're using ChatGPT in a neat way, let me know!
 
 \- rez0
 
