@@ -3,4 +3,5 @@ layout: category
 title: hacking
 ---
 
-hacking and bug-bounty content
+![](/assets/images/hackplanet.png){: width="500"}
+Content about hacking and bug bounty
