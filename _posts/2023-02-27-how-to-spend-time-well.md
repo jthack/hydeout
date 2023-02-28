@@ -89,7 +89,7 @@ Potentially harmful activities
 
 ## Parting thoughts
 
-This is something that has been bouncing around in my head for awhile. I don't think I've fully fleshed it out or captured it here, but maybe feedback from this post will help me refine it. And in the mean time it can be adding value to the world. If you disagree or dislike this post, feel free to ignore it or let me know what you disagree with.
+This is something that has been bouncing around in my head for awhile. I don't think I've fully fleshed it out or captured it here, but maybe feedback from this post will help me refine it. And in the mean time, it can be adding value to the world. If you disagree or dislike this post, feel free to ignore it or let me know what you disagree with.
 
 My hope is that this genuinely stirs your heart in a way that makes your life exceedingly better. 
 
