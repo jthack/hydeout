@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+	<!-- Add Firebase products that you want to use -->
+	<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-firestore.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-functions.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-messaging.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-storage.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-performance.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-remote-config.js"></script>
+
+	<!-- 
+
+		Host the .html file on a server/VPS (don't try on localhost, sometimes DEVs allow localhost for their own servers) - If it works, that means there's no restriction and anyone can utilize the keys to query using the keys -- Open to corrections/improvements
+
+	 -->
+
+    <script>
+    // Initialize Firebase
+    //firebase.initializeApp({
+    //  apiKey: "",
+    //  authDomain: "",
+    //  databaseURL: "",
+    //  projectId: "",
+    //  storageBucket: "",
+    //  messagingSenderId: "",
+    //  appId: "",
+    //  measurementId: ""
+    //});
+
+      firebase.initializeApp({
+  apiKey: "AIzaSyB2ESeIDMI0rDI6uNu9AK4ZWadcx5HztcI",
+  authDomain: "myair-canada-stg.firebaseapp.com",
+  projectId: "myair-canada-stg",
+  storageBucket: "myair-canada-stg.appspot.com",
+  messagingSenderId: "743334644386",
+  appId: "1:743334644386:web:8e6630759407650a9fa5fb",
+  measurementId: "G-R8RJ9GQFRF",
+  debugMode: !0
+});
+
+
+
+    console.log(firebase.analytics());	
+	console.log(firebase.auth());		
+	console.log(firebase.firestore());		
+	console.log(firebase.functions());		
+	console.log(firebase.messaging());		
+	console.log(firebase.storage());		
+	console.log(firebase.performance());		
+	console.log(firebase.database());	
+	console.log(firebase.remoteConfig());	
+
+	console.log(firebase.app().name);
+
+    </script>
+
+</body>
+</html>
