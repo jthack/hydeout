@@ -6,7 +6,6 @@ categories:
 tags:
   - personal
   - productivity
-  - faith
 ---
 
 ![](https://i.imgur.com/txOGLHt.png){: width="400" }
