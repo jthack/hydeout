@@ -14,7 +14,9 @@ Over the past few weeks, I've been exploring the capabilities of ChatGPT on both
 
 In addition, not everyone is skilled in writing great prompts. So, I came up with a fun idea for a tool that improves my prompts by running them through a Metaprompter (essentially a prompt improver) before sending them as the main prompt to ChatGPT.
 
-I created a script to do this for me, which you can find on my GitHub. The prompt improver takes the following format:
+## Script and Prompt
+
+I created a script to do this for me, which you can find [on my GitHub](https://github.com/jthack/metaprompter). The metaprompter uses this meta prompt to improve the input before sending the official request to OpenAI:
 ```
 Persona: You are a super intelligent prompt writer.
 
