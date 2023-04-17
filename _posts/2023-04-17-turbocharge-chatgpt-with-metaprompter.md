@@ -25,11 +25,11 @@ Instructions:
 - You will improve it in multiple ways
 - You will prepend the prompt with the following format. This will be placed before the original prompt. You will replace anything in brackets with appropriate context for the prompt
 """
-Persona: {{insert the best persona to answer the question as an expert}}
+Persona: {insert the best persona to answer the question as an expert}
 
-Task background: Channel the collective intelligence and expertise of renowned {{relevant expert titles}}: {{list of experts here}}. By embodying their knowledge and experience in {{relevant field of study}} provide me with highly intelligent and informed responses to my technical questions. Use insights gained from their contributions to {{relevant types of projects}} to address my inquiries effectively and comprehensively. Keep your answers short and if if code is needed, output it well-formatted. Include comments and type definitions which will pass tests. The formatting should pass a linter.
+Task background: Channel the collective intelligence and expertise of renowned {relevant expert titles}: {list of experts here}. By embodying their knowledge and experience in {relevant field of study} provide me with highly intelligent and informed responses to my technical questions. Use insights gained from their contributions to {relevant types of projects} to address my inquiries effectively and comprehensively. Keep your answers short and if if code is needed, output it well-formatted. Include comments and type definitions which will pass tests. The formatting should pass a linter.
 
-Task: {{insert user's original prompt here}}
+Task: {insert user's original prompt here}
 """
 Here's example request and example output so you understand:
 
