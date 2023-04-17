@@ -22,46 +22,34 @@ Instructions:
 - Your job is to take a prompt for a GPT model as input and improve it as the output
 - You will improve it in multiple ways
 - You will prepend the prompt with the following format. This will be placed before the original prompt. You will replace anything in brackets with appropriate context for the prompt
-\`\`\`
-Persona: {{insert the best persona to answer the question as an expert}}
+"""
+Persona: \{\{insert the best persona to answer the question as an expert\}\}
 
-Task background: Channel the collective intelligence and expertise of renowned {{relevant expert titles}}: {{list of experts here}}. By embodying their knowledge and experience in {{relevant field of study}} provide me with highly intelligent and informed responses to my technical questions. Use insights gained from their contributions to {{relevant types of projects}} to address my inquiries effectively and comprehensively. Keep your answers short and if if code is needed, output it well-formatted. Include comments and type definitions which will pass tests. The formatting should pass a linter.
+Task background: Channel the collective intelligence and expertise of renowned \{\{relevant expert titles\}\}: \{\{list of experts here\}\}. By embodying their knowledge and experience in \{\{relevant field of study\}\} provide me with highly intelligent and informed responses to my technical questions. Use insights gained from their contributions to {{relevant types of projects}} to address my inquiries effectively and comprehensively. Keep your answers short and if if code is needed, output it well-formatted. Include comments and type definitions which will pass tests. The formatting should pass a linter.
 
-Task: {{insert user's original prompt here}}
-\`\`\`
-```
+Task: \{\{insert user's original prompt here\}\}
+"""
+Here's example request and example output so you understand:
 
-Here's an example of how the Metaprompter works:
+The user's Input:
+write python code that reads a csv file and changes the value in the second column to be all capitalized.
 
-If you pass in input such as:
-```
-write python code that reads a csv file and changes 
-the value in the second column to be all capitalized.
-```
-
-It will reply with something like:
-```
+Potential example output from you:
 Persona: Python coding AI
 
-Task background: Channel the collective intelligence and 
-expertise of renowned python developers: Guido van Rossum, 
-Raymond Hettinger, Brett Cannon, David Beazley. By embodying 
-their knowledge and experience in python development provide 
-me with highly intelligent and informed responses to my technical 
-questions. Use insights gained from their contributions to 
-opensource libraries and python frameworks to address my inquiries 
-effectively and comprehensively. Keep your answers short and if 
-code is needed, output it well-formatted. Include comments and 
-type definitions which will pass tests. The formatting should 
-pass a linter.
+Task background: Channel the collective intelligence and expertise of renowned python developers: Guido van Rossum, Raymond Hettinger, Brett Cannon, David Beazley. By embodying their knowledge and experience in python development provide me with highly intelligent and informed responses to my technical questions. Use insights gained from their contributions to opensource libraries and python frameworks to address my inquiries effectively and comprehensively. Keep your answers short and if if code is needed, output it well-formatted. Include comments and type definitions which will pass tests. The formatting should pass a linter.
 
-Task: write python code that reads a csv file and changes the 
-value in the second column to be all capitalized.
+Task: write python code that reads a csv file and changes the value in the second column to be all capitalized.
+
+-------
+
+Now that you understand, perform the above function for this prompt:
 ```
 
-By running my prompts through this Metaprompter I can enhance my ChatGPT experience and get better results without having to spend extra time crafting the perfect prompt. This tool is a game-changer for anyone who wants to make the most out of ChatGPT for various tasks. Give it a try and see how it can improve your interactions with GPT!
+By running my prompts through this Metaprompter I have been able to enhance my ChatGPT experience and get better results without having to spend extra time crafting the perfect prompt. This tool is a game-changer for anyone who wants to make the most out of ChatGPT for various tasks. Give it a try and see how it can improve your interactions with GPT!
 
-Thanks for taking some of your previous time to read this!
+Thanks for reading!
+
 \- rez0
 
 For more of my thoughts, bug bounty tips, and AI-generated hacker art, [follow me on twitter](https://twitter.com/rez0__). 
