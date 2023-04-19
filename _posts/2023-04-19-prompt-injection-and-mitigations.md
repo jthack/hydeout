@@ -35,7 +35,9 @@ Imagine a service that a SaaS provider exposes where you can ask questions about
 
 1. **Plugin-hijacking**
 
-   If a service utilizes the OpenAI plugin model with multiple models enabled (or their backend has integrated plugin-like functionality, such as browsing or taking actions based on user input), a user's input could maliciously trigger these plugins.
+   If a service utilizes the OpenAI plugin model with multiple models enabled (or their backend has integrated plugin-like functionality, such as browsing or taking actions based on user input), a user's input could maliciously trigger the unintended plugin.
+
+   This could play out many ways, but here's one example. If there's a codebase with a `query_openai()` function which gets called by Prompt Functions in multiple places, it might be using the [plugin model](https://openai.com/blog/chatgpt-plugins) for some required external functionality. The team may also call the same function for an internal admin panel which uses a different plugin. Prompt injection would potentially allow use of the internal admin plugin.
 
 2. **Indirect injection attacks**
 
