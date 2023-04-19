@@ -16,7 +16,7 @@ First, let's define some terms to ensure clarity.
 
 - **LLM**: Large language model (e.g., ChatGPT, GPT-4)
 - **Prompt functions**: Functions that call an LLM as part of their code (sometimes referred to as an agent)
-- **Prompt firewall**: Security-based LLM functions used on inbound prompts or outbound data
+- **Prompt firewall**: Security-based Prompt Functions used on inbound prompts or outbound data
 
 ## Why Care?
 
