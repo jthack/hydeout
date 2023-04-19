@@ -10,7 +10,6 @@ tags:
 ---
 
 ![](https://i.imgur.com/m9MdyJx.png){: width="400" }
-
 I recently participated as a panelist on a HackerOne press panel where there was discussion about AI and security. In preparation, I delved into the topic of prompt injection. In this post, I explore prompt injection risks and potential mitigations.
 
 First, let's define some terms to ensure clarity. 
