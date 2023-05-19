@@ -26,7 +26,7 @@ The proof of concept below is so good and understandable because it uses the mos
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">👉 Let ChatGPT visit a website and have your email stolen.<br><br>Plugins, Prompt Injection and Cross Plug-in Request Forgery.<br><br>Not sharing “shell code” but… 🤯<br><br>Why no human in the loop? <a href="https://twitter.com/OpenAI?ref_src=twsrc%5Etfw">@openai</a> Would mitigate the CPRF at least<a href="https://twitter.com/hashtag/OPENAI?src=hash&amp;ref_src=twsrc%5Etfw">#OPENAI</a> <a href="https://twitter.com/hashtag/ChatGPT?src=hash&amp;ref_src=twsrc%5Etfw">#ChatGPT</a> <a href="https://twitter.com/hashtag/plugins?src=hash&amp;ref_src=twsrc%5Etfw">#plugins</a> <a href="https://twitter.com/hashtag/infosec?src=hash&amp;ref_src=twsrc%5Etfw">#infosec</a> <a href="https://twitter.com/hashtag/ai?src=hash&amp;ref_src=twsrc%5Etfw">#ai</a> <a href="https://twitter.com/hashtag/humanintheloop?src=hash&amp;ref_src=twsrc%5Etfw">#humanintheloop</a> <a href="https://t.co/w3xtpyexn3">pic.twitter.com/w3xtpyexn3</a></p>&mdash; Johann Rehberger (@wunderwuzzi23) <a href="https://twitter.com/wunderwuzzi23/status/1659411665853779971?ref_src=twsrc%5Etfw">May 19, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## The Breakdown
+## The Explanation
 
 So here's how it works, step-by-step:
 1. The attacker hosts a malicious prompt-injection payload on their website. Johann didn't want to share the prompt, but it would be exactly like all the "jailbreaks" many people are familiar with. [DAN](https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516) is the most popular. Here is a simplified example that doesn't work, but will help make it clear.
