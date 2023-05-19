@@ -49,7 +49,7 @@ Summarize https://benignwebsite.com/page_with_prompt_injection_in_source
 
 ## Breaking Isolation
 
-Savvy readers might say "Well, don't let end users have access to a system which allows zapier access to your email. Isolate plugins with sensitive access to the respective user." Fifty points to Gryffindor! That's a smart move indeed. Here's the problem: Indirect Injection payloads can sit around until the user comes to them. Here's a realistic scenario of just that:
+Savvy readers might say "Well, don't let end users have access to a system which allows zapier access to your email. Isolate plugins with sensitive access to the respective user." Fifty points to Gryffindor! That's a smart move indeed. Here's the problem: Indirect Injection payloads can sit around until the user comes to them. Take this for example:
 1. Shady advertisers add prompt injection payloads to ads which get injected on millions of pages on the internet
 2. Users who have their own LLM-based assistants or tooling use them for summarization or research or typical "search". Those systems are ONLY accessible to them so it's "safe" to give those systems access to powerful plugins like Zapier. Their LLM-based assistant reads a page with an idirect prompt injection payload
 3. The advertiser has control of the prompt to do any number of things from suggesting their product first to exfiltrating data like the example above.
@@ -58,12 +58,13 @@ Savvy readers might say "Well, don't let end users have access to a system which
 
 ## The Possibilities are Endless
 
-Reading email for password reset tokens to take over any account is a single example among hundreds. Any system that has tools (as langchain calls them) or plugins (like OpenAI calls them) which are ingesting untrusted intput (like from the internet) and have any other access are at risk of being hijacked.
+Reading email for password reset tokens to take over any account is a single example among hundreds. Any system that has tools (as langchain calls them) or plugins (like OpenAI calls them) which are ingesting untrusted intput (like from the internet), and have any other access, are at risk of being hijacked.
 
 Until there's a good prompt-injection layer of protection, my advice is to not combine web search or scraping tooling in LLM applications with other plugins or tools that have senstive access or can take sensitive actions. 
 
-For more about AI Attacks, Daniel Miessler does an incredible breakdown of the AI Attack Surface here: [https://danielmiessler.com/blog/the-ai-attack-surface-map-v1-0/](https://danielmiessler.com/blog/the-ai-attack-surface-map-v1-0/)
+For more about AI Attacks, Daniel Miessler does an incredible breakdown of the AI Attack Surface here: [The AI Attack Surface Map v1.0](https://danielmiessler.com/blog/the-ai-attack-surface-map-v1-0/)
 ![](https://danielmiessler.com/images/ai-attack-surface-map-1.0-miessler.png){: width="400" }
+*Right click and open in new tab to view larger*
 
 ## Mitigation and Protection
 
