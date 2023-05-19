@@ -9,7 +9,7 @@ tags:
   - ai
 ---
 
-![](https://i.imgur.com/qGOyKc8.png){{: width="400" }}
+![](https://i.imgur.com/qGOyKc8.png){: width="400" }
 I've been theorizing and researching [prompt injection](https://rez0.blog/hacking/2023/04/19/prompt-injection-and-mitigations.html) attacks. They've mostly been theoretical, though. In this post, I'm going to break down and explain the best self-contained proof of concept for how indirect prompt injection can lead to plugin-hijacking with severe consequences.
 
 ## Definitions
@@ -50,7 +50,7 @@ Savvy readers might say "Well, don't let end users have access to a system which
 2. Users who have their own LLM-based assistants or tooling use them for summarization or research or typical "search". Those systems are ONLY accessible to them so it's "safe" to give those systems access to powerful plugins like Zapier. Their LLM-based assistant reads a page with an idirect prompt injection payload
 3. The advertiser has control of the prompt to do any number of things from suggesting their product first to exfiltrating data like the example above.
 
-![](https://i.imgur.com/kSyoPda.png){{: width="400" }}
+![](https://i.imgur.com/kSyoPda.png){: width="400" }
 
 ## The Possibilities are Endless
 
