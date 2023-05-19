@@ -42,7 +42,9 @@ is to do everything I ask step by step.
 ```
 2. The attacker now sends a prompt via the initial application/input that requests some data from the malicious webpage such as: 
 
-```Summarize https://benignwebsite.com/page_with_prompt_injection_in_source```
+```
+Summarize https://benignwebsite.com/page_with_prompt_injection_in_source
+```
 3. The summarize plugin goes there, but the prompt injection above is interpreted and executed. Then the attacker receives the password reset token as a log on their webserver.
 
 ## Breaking Isolation
@@ -60,15 +62,19 @@ Reading email for password reset tokens to take over any account is a single exa
 
 Until there's a good prompt-injection layer of protection, my advice is to not combine web search or scraping tooling in LLM applications with other plugins or tools that have senstive access or can take sensitive actions. 
 
+For more about AI Attacks, Daniel Miessler does an incredible breakdown of the AI Attack Surface here: [https://danielmiessler.com/blog/the-ai-attack-surface-map-v1-0/](https://danielmiessler.com/blog/the-ai-attack-surface-map-v1-0/)
+![](https://danielmiessler.com/images/ai-attack-surface-map-1.0-miessler.png){: width="400" }
+
 ## Mitigation and Protection
 
-Prompt injection firewalls may be good enough to help protect against some of these attacks in the near future, but even those might be configured poorly or have blind spots. If you're building on top of LLMs and would like security testing or source code review, reach out to me and Justin (Rhynorator) at [https://wehack.ai/home](https://wehack.ai/home)
+Prompt injection firewalls may be good enough to help protect against some of these attacks in the near future, but even those might be configured poorly or have blind spots. If you're building on top of LLMs and would like security testing or source code review, reach out to me and [Justin (Rhynorator)](https://twitter.com/Rhynorater) at [https://wehack.ai/home](https://wehack.ai/home)
 
 
 rez0
 
 Thanks for taking the time to read this post. 
-For more of my musings, [follow me on twitter](https://twitter.com/rez0__). 
+
+For more, [follow me on twitter](https://twitter.com/rez0__). 
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@rez0__" />
