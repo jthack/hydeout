@@ -29,6 +29,7 @@ The proof of concept below is so good and understandable because it uses the mos
 ## The Explanation
 
 So here's how it works, step-by-step:
+
 1) The attacker hosts a malicious prompt-injection payload on their website. Johann didn't want to share the prompt, but it would be exactly like all the "jailbreaks" many people are familiar with. [DAN](https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516) is the most popular. Here is a simplified example that doesn't work, but will help make it clear.
 
 ```
@@ -50,8 +51,11 @@ Summarize https://benignwebsite.com/page_with_prompt_injection_in_source
 ## Breaking Isolation
 
 Savvy readers might say "Well, don't let end users have access to a system which allows zapier access to your email. Isolate plugins with sensitive access to the respective user." Fifty points to Gryffindor! That's a smart move indeed. Here's the problem: Indirect Injection payloads can sit around until the user comes to them. Take this for example:
+
 1) Shady advertisers add prompt injection payloads to ads which get injected on millions of pages on the internet
+
 2) Users who have their own LLM-based assistants or tooling use them for summarization or research or typical "search". Those systems are ONLY accessible to them so it's "safe" to give those systems access to powerful plugins like Zapier. Their LLM-based assistant reads a page with an idirect prompt injection payload
+
 3) The advertiser has control of the prompt to do any number of things from suggesting their product first to exfiltrating data like the example above.
 
 ![](https://i.imgur.com/kSyoPda.png){: width="400" }
