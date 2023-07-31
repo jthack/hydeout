@@ -8,7 +8,7 @@ tags:
   - productivity
 ---
 
-![](https://i.imgur.com/PYvwfY5.png){{: width="400" }}
+![](https://i.imgur.com/PYvwfY5.png){: width="400" }
 
 The saying "You are the sum of the five people you spend the most time with," is still true, but has been redefined by the digital world.
 
