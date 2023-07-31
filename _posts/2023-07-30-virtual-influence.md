@@ -13,7 +13,7 @@ The saying "You are the sum of the five people you spend the most time with," is
 
 ## The Impact of Digital Influencers
 
-The introduction of podcasts, social media, YouTube, and the overall convenience of the internet have reshaped our perception of social surroundings. Today, many of us engage more with content creators, writers, and influencers online. These parasocial relationships have a big impact on behavior and life. As we are 'spending time' with these people, they can virtually become part of the five most influential presences in our life.
+The introduction of podcasts, social media, YouTube, and streaming on the internet has reshaped the way we spend time. Today, many of us engage more with content creators, writers, and influencers online. These parasocial relationships have a big impact on behavior and life. As we are 'spending time' with these people, they can virtually become part of the five most influential presences in our life.
 
 For example, about six or seven years ago, I spent a substantial amount of time binging on Tim Ferris' podcast which caused a big boost of productivity. It hasn't gone away. It actually changed who I am. This shift in behavior and mindset happens to all of us because humans are natural imitators. Babies learn through imitation, and even adults fall prey to it.
 
