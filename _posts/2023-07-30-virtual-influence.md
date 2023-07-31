@@ -41,6 +41,6 @@ For more of my thoughts on personal growth, cybersecurity, and anything under th
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://rez0.blog/personal/2023/07/30/virtual-influence" />
 <meta property="og:title" content="Virtual Influence: A New Take on an Old Saying" />
-<meta property="og:description" content="Redefining the idea that you are the sum of the five people you spend the most time with" />
+<meta property="og:description" content="Redefining the idea that you are the sum of the five people you spend the most time with." />
 <meta property="og:image" content="https://i.imgur.com/PYvwfY5.png" />
 
