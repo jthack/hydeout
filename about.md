@@ -4,7 +4,7 @@ title: whoami
 sidebar_link: true
 ---
 
-![](/assets/images/headshot.png){: width="200" }
+![](/assets/images/headshot.jpg){: width="200" }
 
 
 Hey! I'm Joseph Thacker, but I often go by rez0. Thanks for checking out the site. 
