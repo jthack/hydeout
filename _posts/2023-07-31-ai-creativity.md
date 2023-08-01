@@ -17,13 +17,13 @@ I've heard many people say that LLMs (and generative AI overall) don't create ne
 
 ## Clarifying the Question
 
-First let's define "new things" as those that are both new and meaningful **in a specific context**. For example, if there's a working breakthrough due to a conceptual shift in one industry that is applicable to another industry and it's novel, then that's a success. It's new and meaningful for that context. I also think LLMs will create (and may have already created) novel breakthroughs in fields where it's more than just a variation of a known one.
+First let's define "new things" as those that are both new and meaningful **in a specific context**. For example, if there's a breakthrough due to a new concept in one industry that is applicable to another industry and it's novel, then that's a success. It's new and meaningful for that context. I do also think LLMs will create (and may have already created) novel breakthroughs in fields where it's more than just a variation of a known one.
 
 ## A Common Objection
 "It's just math" or "it's just token prediction" is one of the most common objections. I think it's an important distinction, but I don't view it as an objection. It's just an explanation of how the system works. If a math-only system can give us new and meaningful output, then I would say it can be creative.
 
 ## No Systemic Constraint for Novelty
-I'm no expert in first-principles thinking, but I believe the first principle to discuss is whether or not there there's a systemic constraint to LLMs creating novel ideas. I think it's safe to assume that new ideas or breakthroughs can be expressed with the current tokens LLMs have access to. This is likly also true without varying from english dictionary words. For example, when humans make a new discovery, we describe it in the language we already have. And LLMs have all that language. 
+I'm no expert in first-principles thinking, but I believe the first principle to discuss for this topic is whether there's a systemic constraint to LLMs creating novel ideas. I think it's safe to assume that new ideas or breakthroughs can be expressed with the current tokens LLMs have access to. This is likly also true without varying from english dictionary words. For example, when humans make a new discovery, we describe it in the language we already have. And LLMs have all that language. 
 
 One could argue that stringing together tokens that were input into the system isn't creating anything "new". But by that definition, no human discoveries are "new." 
 
