@@ -9,33 +9,33 @@ tags:
 ---
 
 ![](https://i.imgur.com/5JwxDjF.png){: width="400" }
-Is Generative AI Output Novel Creation or Simple Imitation?
+Is generative AI output novel creation or simple imitation?
 
 I've heard many people say that LLMs (and generative AI overall) don't create new things. They can only output variations of what was put in. I disagree. Let's dig into why.
 
-Note: Yes I know generative AI is _usually_ imitating. But the question I am attempting to answer here is whether they can _ever_ create something novel. 
+**Note:** I know generative AI is _usually_ imitating. But the question I am attempting to answer here is whether they can _ever_ create something novel. 
 
-First let's define "new things" as new and meaningful _in a specific context_. For example, if there's a breakthrough in biology that has concepts which can be applied to the field of medicine and GPT4 suggests a valid variation of that breakthrough. If that variation is a novel solution or idea for the field of medicine, and it works, I consider that success. It's new and meaningful for that context. I also think LLMs will create (and probably already have created) novel breakthroughs in fields where it's not just a variation of a breakthrough in another field.
+First let's define "new things" as those that are both new and meaningful **in a specific context**. For example, if there's a breakthrough due to a conceptual shift in one industry that is applicable to another industry, but it's never been tried. If that variation is a novel solution, and an LLM suggests it, then that's a success. It's new and meaningful for that context. I also think LLMs will create (and may have already created) novel breakthroughs in fields where it's not just a variation of a known one.
 
 ## A Common Objection
 "It's just math" or "it's just token prediction" is one of the most common objections. I think it's an important distinction, but I don't view it as an objection. It's just an explanation of how the system works. If a math-only system can give us new and meaningful output, then I would say it can be creative.
 
 ## No Systemic Constraint for Novelty
-I'm no expert in first-principle thinking, but I believe the first principle to discuss is whether or no there there's a system constraint to LLMs creating novel ideas. I think it's safe to assume that new ideas or breakthroughs can be expressed with the current tokens LLMs have access to. This is likly also true without varying from simple english dictionary words. For example, when humans make a new discovery, we describe it in the language we already have. And LLMs have all that language. 
+I'm no expert in first-principles thinking, but I believe the first principle to discuss is whether or not there there's a systemic constraint to LLMs creating novel ideas. I think it's safe to assume that new ideas or breakthroughs can be expressed with the current tokens LLMs have access to. This is likly also true without varying from english dictionary words. For example, when humans make a new discovery, we describe it in the language we already have. And LLMs have all that language. 
 
 One could argue that stringing together tokens that were input into the system isn't creating anything "new". But by that definition, no human discoveries are "new." 
 
 ## Provably Creative?
 
-It seems almost logically provable that it can be creative. For example, if you ask it to do something obviously not in the training data, it can do it. If you say write a poem about a hacker who is a caterpillar with a theme of forbidden love in the style of shakespeare, this isn't in the training data, and it can do it. This is new, but doesn't satisfy our definition of being both new and meaningful. 
+It seems almost logically provable that it can be creative. For example, if you ask an LLM to answer you about something obviously not in the training data, it can do it. If you say "write a poem about a hacker who is a caterpillar with a theme of forbidden love in the style of shakespeare," this isn't in the training data, but it can do it. This is new, but doesn't satisfy our definition of being both new and meaningful. 
 
-LLMs can describe and understand the components and overall ideas behind very meaningful fields of research. So if you have it reason about the nature of something meaningful and you "guide it away" from its preconcieved notions based on the human input, I believe it can come up with unique ideas. Most of them are quite bad, but I think there's a non-trivial chance that you'll get good, meaningful output depending on the niche of the question. Asking for a new letter in the alphabet won't result in anything new. However, asking for new approaches to solve world hunger might.
+However, LLMs _can_ describe and understand the components and overall ideas behind very meaningful fields of research. So if there were a way to force it to create "new" ideas in those fields, it would satisfy our definition of "new things." Read on and find out.
 
 ## Comparison to Humans
 
 Humans are effectively token imitators ourselves. We learn thoughts and ideas from human output just like LLMs. We learn how to string together phrases into sentences and yet somehow we're capable of creativity. I think llms are the same way. One key difference is that they lack the human "experience". We have sight, taste, touch, etc. And our brains are completely different than a Generative AI Model. But there are multi-modal modals coming out such as GPT4 with vision and bard which effectively "understand" what it's like to "see" nearly everything as well as having the vast knowledge LLMs already posses. 
 
-And really, I don't think we, as humans, come up with anything novel or meaningful that isn't sitting on the shoulders of the research and understanding that came before it. Since LLMS understand the "building blocks" of required knowledge for tons of domains (the concepts that are in its training set like time, rationality, order of events, location, etc.), it seems evident to me that it can draw novel and meaningful conclusions as well as suggest viable solutions.
+And really, I don't think we, as humans, come up with anything novel or meaningful that isn't sitting on the shoulders of the research and understanding that came before it. Since LLMS understand the "building blocks" of required knowledge for tons of domains (the concepts that are in its training set like time, rationality, order of events, location, etc.), it seems evident to me that they can draw novel and meaningful conclusions like us.
 
 ![](https://i.imgur.com/OMDHtcV.png){: width="400" }
 
@@ -50,7 +50,7 @@ If you imagine a generative AI model as a big box of all possible tokens, and it
 
 Raising the temperature will increase the odds of something novel, but that increases the noise. The LLM will hallucinate much more making it difficult or annoying for humans to sort through the bad output/ideas. Read on for a potential solution to this.
 
-## Novelty How-To
+### 1) Novelty How-To
 
 How do we drive the AI towards novelty? I've got some general advice and three strategies. The general advice is to ask for novelty. For example, I sometimes use a system prompt such as:
 
@@ -63,7 +63,7 @@ And here are the three strategies I've observed and used for creative output.
 - Novel Questions
 - Restricted Thinking
 
-### Mixing Concepts
+### 2) Mixing Concepts
 Ask about a combination of topics or ideas that clearly couldn't be in the training set.
 
 Example:
@@ -71,7 +71,7 @@ Example:
 Apply the NIST Cybersecurity framework abstractly to testing LLMs and apps built on top of large language models. What vulnerabilities might exist? Consider a system where the LLM can make HTTP requests, query internal documentation, and accepts prompts from both staff and customers.
 ```
 
-### Novel Questions
+### 3) Novel Questions
 Ask a new question that hasn't been asked before.
 
 Example:
@@ -115,5 +115,5 @@ For more of my thoughts on ai, hacking, and more, [follow me on twitter](https:/
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://rez0.blog/personal/2023/07/31/ai-creativity" />
 <meta property="og:title" content="AI Creativity: Can LLMs create new things?" />
-<meta property="og:description" content="Is Generative AI Output Novel Creation or Simple Imitation?" />
+<meta property="og:description" content="Is generative AI output novel creation or simple imitation?" />
 <meta property="og:image" content="https://i.imgur.com/5JwxDjF.png" />
