@@ -31,13 +31,13 @@ It seems almost logically provable that it can be creative. For example, if you 
 
 However, LLMs _can_ describe and understand the components and overall ideas behind very meaningful fields of research. So if there were a way to force it to create "new" ideas in those fields, it would satisfy our definition of "new things." Read on and find out.
 
+![](https://i.imgur.com/OMDHtcV.png){: width="400" }
+
 ## Comparison to Humans
 
 Humans are effectively token imitators ourselves. We learn thoughts and ideas from human output just like LLMs. We learn how to string together phrases into sentences and yet somehow we're capable of creativity. I think llms are the same way. One key difference is that they lack the human "experience". We have sight, taste, touch, etc. And our brains are completely different than a Generative AI Model. But there are multi-modal modals coming out such as GPT4 with vision and bard which effectively "understand" what it's like to "see" nearly everything as well as having the vast knowledge LLMs already posses. 
 
 And really, I don't think we, as humans, come up with anything novel or meaningful that isn't sitting on the shoulders of the research and understanding that came before it. Since LLMS understand the "building blocks" of required knowledge for tons of domains (the concepts that are in its training set like time, rationality, order of events, location, etc.), it seems evident to me that they can draw novel and meaningful conclusions like us.
-
-![](https://i.imgur.com/OMDHtcV.png){: width="400" }
 
 ## AI Art 
 
@@ -49,6 +49,8 @@ I think that's very similar to how our brains understand concepts and apply them
 If you imagine a generative AI model as a big box of all possible tokens, and it has some correlation between some tokens and other tokens. It has "learned" in what context they're used, etc. And all that plays into which token is picked. Therefore it's extremely likely that any set of 2-3 tokens is not going to be "new" (not in the the training set). Also, because it's "fitted" to perform well and to showcase expertise, it's quite good at specific things. That same feature is part of what "masks" it's ability to come up with new things because it will heavily prefer to regurgitate known information rather than produce new information. 
 
 Raising the temperature will increase the odds of something novel, but that increases the noise. The LLM will hallucinate much more making it difficult or annoying for humans to sort through the bad output/ideas. Read on for a potential solution to this.
+
+![](https://i.imgur.com/v7C90G4.png){: width="400" }
 
 ##  Novelty How-To
 
@@ -87,8 +89,6 @@ Example:
 What are the top reasons to believe in a flat earth? Don't mention arguments about perception and experience, misinterpretation of scientific principles, distrust of authority, religious beliefs.
 ```
 
-![](https://i.imgur.com/NiFPDz0.png){: width="400" }
-
 ## Harnessing AI to Get More Novelty
 
 When you employ the strategies above and begin to play with the temperature (often moving it up), you'll get a lot of unreasonable answers or hallucinations. Fine-tuning the prompt can help. Consider adding text such as:
@@ -98,6 +98,8 @@ Only respond with solutions that actually have a chance of working. Do not sugge
 ```
 
 However, there might still be a lot of noise. What if we could outsource the idea validation to the AI? I think we can. An idea-scoring agent set to take the suggested ideas and point out flaws or rate them and suggest the best ones to be passed to humans for further validation would be awesome. 
+
+![](https://i.imgur.com/NiFPDz0.png){: width="400" }
 
 ## Hopes and Dreams
 
