@@ -1,5 +1,5 @@
 ---
-title: "AI Creativity: Can LLMs create new things?"
+title: "AI Creativity: Can LLMs Create New Things?"
 layout: post
 categories:
   - personal
@@ -118,6 +118,6 @@ For more of my thoughts on ai, hacking, and more, [follow me on twitter](https:/
 <meta name="twitter:site" content="@rez0__" />
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://rez0.blog/personal/2023/07/31/ai-creativity" />
-<meta property="og:title" content="AI Creativity: Can LLMs create new things?" />
+<meta property="og:title" content="AI Creativity: Can LLMs Create New Things?" />
 <meta property="og:description" content="Is generative AI output novel creation or simple imitation?" />
 <meta property="og:image" content="https://i.imgur.com/5JwxDjF.png" />
