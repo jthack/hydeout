@@ -105,11 +105,12 @@ However, there might still be a lot of noise. What if we could outsource the ide
 
 ## Hopes and Dreams
 
-I think all of this is extremely interesting because I genuinely believe we can harness models as simple as GPT-4 with the right prompts and data to create potential solutions for massive problems like curing cancer. And future models will be even better. Imagine we're trying to [invent a new drug](https://www.technologyreview.com/2023/02/15/1067904/ai-automation-drug-development/). The LLM will know what ingedients are in tons of drugs, and it knows what those drugs do. It knows which ingredients are best mixed with those drugs to make them bind well and be effective. So if you gave it the right context and asked it to invent a drug that does something new, it may be able to come up with great ideas. And even if it's not perfect, I expect there's a good chance it would have ideas that researchers in the field haven't considered because no one can know the properties of every substance. LLMs can. 
+I think all of this is extremely interesting because I genuinely believe we can harness models as simple as GPT-4 with the right prompts, validation, and data to create potential solutions for massive problems like curing cancer. And future models will be even better. Imagine we're trying to [invent a new drug](https://www.technologyreview.com/2023/02/15/1067904/ai-automation-drug-development/). The LLM could know what ingedients are in all current drugs, and it knows what those drugs do. It knows which ingredients are best mixed with those drugs to make them bind well and be effective. So if you gave it the right context and asked it to invent a drug that does something new and necessary, it may be able to come up with great ideas. And even if it's not perfect, I expect there's a good chance it would have ideas that researchers in the field haven't considered because no one can know the properties of every substance. LLMs can. 
 
 And this just one example. It can be applied to other domains. Humanity has thousands of problems that need creative solutions. It gets me so pumped that it might be possible to use AI for solving so many of them.
 
 This was a _much_ longer post than usual. I hope you enjoyed it. Reach out on twitter with any thoughts or disagreements :) 
+
 \- rez0
 
 For more of my thoughts on ai, hacking, and more, [follow me on twitter](https://twitter.com/rez0__).
