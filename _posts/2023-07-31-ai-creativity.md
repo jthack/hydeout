@@ -50,7 +50,7 @@ If you imagine a generative AI model as a big box of all possible tokens, and it
 
 Raising the temperature will increase the odds of something novel, but that increases the noise. The LLM will hallucinate much more making it difficult or annoying for humans to sort through the bad output/ideas. Read on for a potential solution to this.
 
-### 1) Novelty How-To
+##  Novelty How-To
 
 How do we drive the AI towards novelty? I've got some general advice and three strategies. The general advice is to ask for novelty. For example, I sometimes use a system prompt such as:
 
@@ -63,7 +63,7 @@ And here are the three strategies I've observed and used for creative output.
 - Novel Questions
 - Restricted Thinking
 
-### 2) Mixing Concepts
+### 1) Mixing Concepts
 Ask about a combination of topics or ideas that clearly couldn't be in the training set.
 
 Example:
@@ -71,7 +71,7 @@ Example:
 Apply the NIST Cybersecurity framework abstractly to testing LLMs and apps built on top of large language models. What vulnerabilities might exist? Consider a system where the LLM can make HTTP requests, query internal documentation, and accepts prompts from both staff and customers.
 ```
 
-### 3) Novel Questions
+### 2) Novel Questions
 Ask a new question that hasn't been asked before.
 
 Example:
@@ -79,7 +79,7 @@ Example:
 What are the five ways to use the metaverse and wearable VR technology to incentivize more secure coding practice among developers?
 ```
 
-### Restricted Thinking
+### 3) Restricted Thinking
 Ask about something but give it a deny-list of the known/common responses. If you aren't sure the known or common responses, you can ask the LLM what they are and then pass those as the deny list.
 
 Example:
