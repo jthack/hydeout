@@ -13,13 +13,11 @@ Is generative AI output a novel creation or simple imitation?
 
 I've heard many people say that LLMs (and generative AI overall) don't create new things. They can only output variations of what was put in. I disagree. Let's dig into why.
 
-**Note:** I know generative AI is _usually_ imitating. But the question I am attempting to answer here is whether they can _ever_ create something novel. 
+**Note:** I know generative AI is _usually_ imitating. But the question I am attempting to answer here is whether they can ever create something original. 
 
 ## Clarifying the Question
 
-_"Creativity is a process involving the generation of new ideas or concepts, or new associations between existing ideas or concepts, and their substantiation into a product that has novelty and originality."_ 
-
-\- [New World Encyclopedia](https://www.newworldencyclopedia.org/entry/Creativity)
+_"Creativity is a process involving the generation of new ideas or concepts, or new associations between existing ideas or concepts, and their substantiation into a product that has novelty and originality."_ \- [New World Encyclopedia](https://www.newworldencyclopedia.org/entry/Creativity)
 
 Based on the definition above, we'll consider something "creative" if is new and meaningful **in a specific context** (as the secord part of the definition mentions). For example, if there's a breakthrough due to a new concept in one industry that is applicable to another industry and it's novel, then that's a success. It's new and meaningful for that context. 
 
@@ -40,7 +38,7 @@ However, LLMs _can_ describe and understand the components and overall ideas beh
 ## Comparison to Humans
 Humans are effectively token imitators ourselves. We learn thoughts and ideas from human output just like LLMs. We learn how to string together phrases into sentences and yet somehow we're capable of creativity. I think llms are the same way. One key difference is that they lack the human "experience". We have sight, taste, touch, etc. And our brains are completely different than a Generative AI Model. But there are multi-modal modals coming out such as GPT4 with vision and bard which effectively "understand" what it's like to "see" nearly everything as well as having the vast knowledge LLMs already possess. 
 
-And really, I don't think we, as humans, come up with anything novel or meaningful that isn't based on the understanding of things that came before it. Since LLMS understand the "building blocks" of required knowledge for tons of domains (and the concepts that are in its training set like time, rationality, order of events, location, etc.), it seems evident to me that they can draw novel and meaningful conclusions like us.
+And really, I don't think we, as humans, come up with anything truly original that isn't based on our understanding of things that came before it. Since LLMS understand the "building blocks" of required knowledge for tons of domains (and the concepts that are in its layers like time, rationality, order of events, location, etc.), it seems evident to me that they can draw novel and meaningful conclusions like us.
 
 ## AI Art 
 One other reason I think generative AI can create novel output is by looking at how image models can create incredible new and amazing art. Since they learn "concepts" at a high level, they are able to apply that abstractly to any situation. If you prompt for a dragon, it makes a dragon. If you request a hacker, it can do a hacker, etc. And it can do them in infinitely many styles so it's clearly applying the "idea" or the "notion" of a dragon rather than copying a dragon exactly from training data. I think LLMs are similar. They have this notion of logic and attention and other concepts at a high level. For example, you can ask for rhyme, molecules, scenery, a genre, a different language, or any other concept it understands and applies it to infinitely many contexts. 
