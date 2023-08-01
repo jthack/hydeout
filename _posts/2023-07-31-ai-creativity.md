@@ -13,7 +13,7 @@ Is generative AI output a novel creation or simple imitation?
 
 I've heard many people say that LLMs (and generative AI overall) don't create new things. They can only output variations of what was put in. I disagree. Let's dig into why.
 
-**Note:** I know generative AI is _usually_ imitating. But the question I am attempting to answer here is whether they can ever create something original. 
+**Note:** I know generative AI is _usually_ imitating. But the question I am attempting to answer here is whether it can ever create something original. 
 
 ## Clarifying the Question
 
