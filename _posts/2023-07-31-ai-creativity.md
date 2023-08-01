@@ -31,7 +31,7 @@ One could argue that stringing together tokens that were training isn't creating
 
 It seems almost logically provable that it can be creative. For example, if you ask an LLM to answer you about something obviously not in the training data, it can do it. If you say "write a poem about a hacker who is a caterpillar with a theme of forbidden love in the style of shakespeare," this isn't in the training data, but it can do it. This is new, but doesn't satisfy our definition of being both new and meaningful. 
 
-However, LLMs _can_ describe and understand the components and overall ideas behind very meaningful fields of research. So if there were a way to force it to create "new" ideas in those fields, it would satisfy our definition of "new things." Read on and find out.
+However, LLMs _can_ describe and understand the components and overall ideas behind very meaningful fields of research. So if there were a way to force it to create "new" ideas in those fields, it would satisfy our definition of "new things." Read on and find out how.
 
 ![](https://i.imgur.com/OMDHtcV.png){: width="400" }
 
