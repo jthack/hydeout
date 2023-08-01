@@ -17,7 +17,7 @@ I've heard many people say that LLMs (and generative AI overall) don't create ne
 
 ## Clarifying the Question
 
-First let's define "new things" as those that are both new and meaningful **in a specific context**. For example, if there's a breakthrough due to a conceptual shift in one industry that is applicable to another industry, but it's never been tried. If that variation is a novel solution, and an LLM suggests it, then that's a success. It's new and meaningful for that context. I also think LLMs will create (and may have already created) novel breakthroughs in fields where it's not just a variation of a known one.
+First let's define "new things" as those that are both new and meaningful **in a specific context**. For example, if there's a working breakthrough due to a conceptual shift in one industry that is applicable to another industry and it's novel, then that's a success. It's new and meaningful for that context. I also think LLMs will create (and may have already created) novel breakthroughs in fields where it's more than just a variation of a known one.
 
 ## A Common Objection
 "It's just math" or "it's just token prediction" is one of the most common objections. I think it's an important distinction, but I don't view it as an objection. It's just an explanation of how the system works. If a math-only system can give us new and meaningful output, then I would say it can be creative.
