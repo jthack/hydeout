@@ -25,7 +25,7 @@ First let's define "new things" as those that are both new and meaningful **in a
 ## No Systemic Constraint for Novelty
 I'm no expert in first-principles thinking, but I believe the first principle to discuss for this topic is whether there's a systemic constraint to LLMs creating novel ideas. I think it's safe to assume that new ideas or breakthroughs can be expressed with the current tokens LLMs have access to. This is likly also true without varying from english dictionary words. For example, when humans make a new discovery, we describe it in the language we already have. And LLMs have all that language. 
 
-One could argue that stringing together tokens that were input into the system isn't creating anything "new". But by that definition, no human discoveries are "new." 
+One could argue that stringing together tokens that were training isn't creating something "new". But by that definition, no human discoveries are "new." We know all the words and phrases to describe new discoveries before we've discovered them. Then we string them together to describe the new thing.
 
 ## Provably Creative?
 
