@@ -9,7 +9,7 @@ tags:
 ---
 
 ![](https://i.imgur.com/5JwxDjF.png){: width="400" }
-Is generative AI output novel creation or simple imitation?
+Is generative AI output a novel creation or simple imitation?
 
 I've heard many people say that LLMs (and generative AI overall) don't create new things. They can only output variations of what was put in. I disagree. Let's dig into why.
 
@@ -19,7 +19,7 @@ I've heard many people say that LLMs (and generative AI overall) don't create ne
 
 _"Creativity is a process involving the generation of new ideas or concepts, or new associations between existing ideas or concepts, and their substantiation into a product that has novelty and originality."_ 
 
-- [New World Encyclopedia](https://www.newworldencyclopedia.org/entry/Creativity)
+\- [New World Encyclopedia](https://www.newworldencyclopedia.org/entry/Creativity)
 
 Based on the definition above, we'll consider something "creative" if is new and meaningful **in a specific context** (as the secord part of the definition mentions). For example, if there's a breakthrough due to a new concept in one industry that is applicable to another industry and it's novel, then that's a success. It's new and meaningful for that context. 
 
