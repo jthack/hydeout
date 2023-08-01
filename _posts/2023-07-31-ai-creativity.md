@@ -17,18 +17,20 @@ I've heard many people say that LLMs (and generative AI overall) don't create ne
 
 ## Clarifying the Question
 
-First let's define "new things" as those that are both new and meaningful **in a specific context**. For example, if there's a breakthrough due to a new concept in one industry that is applicable to another industry and it's novel, then that's a success. It's new and meaningful for that context. I do also think LLMs will create (and may have already created) novel breakthroughs in fields where it's more than just a variation of a known one.
+_"Creativity is a process involving the generation of new ideas or concepts, or new associations between existing ideas or concepts, and their substantiation into a product that has novelty and originality."_ 
 
-## A Common Objection
-"It's just math" or "it's just token prediction" is one of the most common objections. I think it's an important distinction, but I don't view it as an objection. It's just an explanation of how the system works. If a math-only system can give us new and meaningful output, then I would say it can be creative.
+- [New World Encyclopedia](https://www.newworldencyclopedia.org/entry/Creativity)
+
+Based on the definition above, we'll consider something "creative" if is new and meaningful **in a specific context** (as the secord part of the definition mentions). For example, if there's a breakthrough due to a new concept in one industry that is applicable to another industry and it's novel, then that's a success. It's new and meaningful for that context. 
+
+I do also think LLMs will create (and may have already created) novel breakthroughs in fields where it's more than just a variation. It's harder to argue so I won't move the goal post for this blog. A person might ask why I don't simply show an example of truly astounding breakthrough. In order to say for certain that it is new and meaningful, you need to be an expert in a field with knowledge of most of the research. So, if you're reading this and you're a super-expert in a field who used an LLM to make a big breakthrough, I'd love to know about it!
 
 ## No Systemic Constraint for Novelty
-I'm no expert in first-principles thinking, but I believe the first principle to discuss for this topic is whether there's a systemic constraint to LLMs creating novel ideas. I think it's safe to assume that new ideas or breakthroughs can be expressed with the current tokens LLMs have access to. This is likly also true without varying from english dictionary words. For example, when humans make a new discovery, we describe it in the language we already have. And LLMs have all that language. 
+Let's start with first principles. I'm no expert in first-principles thinking, but for this topic I believe it would be whether there's a systemic constraint to LLMs creating novel ideas. For example, an LLM can't make videos as output. However, I think it's safe to assume that new ideas or breakthroughs can be expressed with the current tokens LLMs have access to. This is likly also true without varying from english dictionary words. For example, when humans make a new discovery, we describe it in the language we already have. And LLMs have all that language. 
 
-One could argue that stringing together tokens that were training isn't creating something "new". But by that definition, no human discoveries are "new." We know all the words and phrases to describe new discoveries before we've discovered them. Then we string them together to describe the new thing.
+One could argue that stringing together tokens that were in the training data isn't creating something novel. But by that definition, no human discoveries are novel. We know all the words and phrases to describe new discoveries before we've discovered them. Then we string those words together to describe the new thing.
 
 ## Provably Creative?
-
 It seems almost logically provable that it can be creative. For example, if you ask an LLM to answer you about something obviously not in the training data, it can do it. If you say "write a poem about a hacker who is a caterpillar with a theme of forbidden love in the style of shakespeare," this isn't in the training data, but it can do it. This is new, but doesn't satisfy our definition of being both new and meaningful. 
 
 However, LLMs _can_ describe and understand the components and overall ideas behind very meaningful fields of research. So if there were a way to force it to create "new" ideas in those fields, it would satisfy our definition of "new things." Read on and find out how.
@@ -36,13 +38,11 @@ However, LLMs _can_ describe and understand the components and overall ideas beh
 ![](https://i.imgur.com/OMDHtcV.png){: width="400" }
 
 ## Comparison to Humans
-
 Humans are effectively token imitators ourselves. We learn thoughts and ideas from human output just like LLMs. We learn how to string together phrases into sentences and yet somehow we're capable of creativity. I think llms are the same way. One key difference is that they lack the human "experience". We have sight, taste, touch, etc. And our brains are completely different than a Generative AI Model. But there are multi-modal modals coming out such as GPT4 with vision and bard which effectively "understand" what it's like to "see" nearly everything as well as having the vast knowledge LLMs already possess. 
 
-And really, I don't think we, as humans, come up with anything novel or meaningful that isn't sitting on the shoulders of the research and understanding that came before it. Since LLMS understand the "building blocks" of required knowledge for tons of domains (the concepts that are in its training set like time, rationality, order of events, location, etc.), it seems evident to me that they can draw novel and meaningful conclusions like us.
+And really, I don't think we, as humans, come up with anything novel or meaningful that isn't based on the understanding of things that came before it. Since LLMS understand the "building blocks" of required knowledge for tons of domains (and the concepts that are in its training set like time, rationality, order of events, location, etc.), it seems evident to me that they can draw novel and meaningful conclusions like us.
 
 ## AI Art 
-
 One other reason I think generative AI can create novel output is by looking at how image models can create incredible new and amazing art. Since they learn "concepts" at a high level, they are able to apply that abstractly to any situation. If you prompt for a dragon, it makes a dragon. If you request a hacker, it can do a hacker, etc. And it can do them in infinitely many styles so it's clearly applying the "idea" or the "notion" of a dragon rather than copying a dragon exactly from training data. I think LLMs are similar. They have this notion of logic and attention and other concepts at a high level. For example, you can ask for rhyme, molecules, scenery, a genre, a different language, or any other concept it understands and applies it to infinitely many contexts. 
 
 I think that's very similar to how our brains understand concepts semantically and apply them to new situations. We have the ability to apply the knowledge to situations or questions that we've never heard before. Generative AI does too.
@@ -92,7 +92,6 @@ What are the top reasons to believe in a flat earth? Don't mention arguments abo
 ```
 
 ## Harnessing AI to Get More Novelty
-
 When you employ the strategies above and begin to play with the temperature (often moving it up), you'll get a lot of unreasonable answers or hallucinations. Fine-tuning the prompt can help. Consider adding text such as:
 
 ```
@@ -104,12 +103,13 @@ However, there might still be a lot of noise. What if we could outsource the ide
 ![](https://i.imgur.com/NiFPDz0.png){: width="400" }
 
 ## Hopes and Dreams
+I think all of this is extremely interesting because I genuinely believe we do hard things like cure cancer by harnessing models as simple as GPT-4 with the right prompts, validation, and data to create solutions. And future models will be even better. 
 
-I think all of this is extremely interesting because I genuinely believe we can harness models as simple as GPT-4 with the right prompts, validation, and data to create potential solutions for massive problems like curing cancer. And future models will be even better. Imagine we're trying to [invent a new drug](https://www.technologyreview.com/2023/02/15/1067904/ai-automation-drug-development/). The LLM could know what ingedients are in all current drugs, and it knows what those drugs do. It knows which ingredients are best mixed with those drugs to make them bind well and be effective. So if you gave it the right context and asked it to invent a drug that does something new and necessary, it may be able to come up with great ideas. And even if it's not perfect, I expect there's a good chance it would have ideas that researchers in the field haven't considered because no one can know the properties of every substance. LLMs can. 
+Imagine we're trying to [invent a new drug](https://www.technologyreview.com/2023/02/15/1067904/ai-automation-drug-development/). The LLM could know what ingedients are in all current drugs, and it knows what those drugs do. It knows which ingredients are best mixed with those drugs to make them bind well and be effective. So if you gave it the right context and asked it to invent a drug that does something new and necessary, it may be able to come up with great ideas. And even if it's not perfect, I expect there's a good chance it would have ideas that researchers in the field haven't considered because no one can know the properties of every substance. LLMs can. 
 
-And this just one example. It can be applied to other domains. Humanity has thousands of problems that need creative solutions. It gets me so pumped that it might be possible to use AI for solving so many of them.
+And this just one example. It can be applied to other domains. Humanity has thousands of problems that need creative solutions. It gets me so pumped that it might be possible to use AI for solving so many of them. 
 
-This was a _much_ longer post than usual. I hope you enjoyed it. Reach out on twitter with any thoughts or disagreements :) 
+This was a _much_ longer post than usual. I hope you enjoyed it. Reach out on twitter with any thoughts or disagreements and definitely let me know if you use AI for a big breakthrough :) 
 
 \- rez0
 
