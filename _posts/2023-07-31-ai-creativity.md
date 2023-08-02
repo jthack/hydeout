@@ -19,7 +19,7 @@ I've heard many people say that LLMs (and generative AI overall) don't create ne
 
 _"Creativity is a process involving the generation of new ideas or concepts, or new associations between existing ideas or concepts, and their substantiation into a product that has novelty and originality."_ \- [New World Encyclopedia](https://www.newworldencyclopedia.org/entry/Creativity)
 
-Based on the definition above, we'll consider something "creative" if is new and meaningful **in a specific context** (as the secord part of the definition mentions). For example, if there's a breakthrough due to a new concept in one industry that is applicable to another industry and it's novel, then that's a success. It's new and meaningful for that context. 
+Based on the definition above, we'll consider something "creative" if it is new and meaningful **in a specific context** (as the secord part of the definition mentions). For example, if there's a breakthrough due to a new concept in one industry that is applicable to another industry and it's novel, then that's a success. It's new and meaningful for that context. 
 
 I do also think LLMs will create (and may have already created) novel breakthroughs in fields where it's more than just a variation. It's harder to argue so I won't move the goal post for this blog. A person might ask why I don't simply show an example of truly astounding breakthrough. In order to say for certain that it is new and meaningful, you need to be an expert in a field with knowledge of most of the research. So, if you're reading this and you're a super-expert in a field who used an LLM to make a big breakthrough, I'd love to know about it!
 
