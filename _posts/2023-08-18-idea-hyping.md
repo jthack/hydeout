@@ -42,7 +42,7 @@ This resonated with me for two reasons. First, I find myself doing it quite a lo
 
 ## Developing the Skill
 Paul Graham is a smart guy and in that snippet, he called this a skill. I have to agree. Personally, I believe it's a part of the skillset that has helped me develop great       relationships with other talented hackers. It comes naturally to me, so it's not insincere. If it doesn't come naturally, I think you can still train yourself to do it           genuinely.  Here's the process:
-1. Directy compliment the idea enthusiastically
+1. Directly compliment the idea enthusiastically
 2. Think about other domains where it's applicable and tell them
 3. Tell them about cool features or user interface ideas
 4. Spend a few minutes brainstorming and expanding on it
