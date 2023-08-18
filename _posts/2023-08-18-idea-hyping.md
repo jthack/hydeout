@@ -38,10 +38,13 @@ The following exchange on the podcast inspired this post:
 ### Personal Resonance
 This resonated with me for two reasons. First, I find myself doing it quite a lot. When a friend tells me an idea, my brain runs wild. I get excited and start asking them if     they've considered all the amazing ways the idea can be applied, abstracted, or refined. The other reason is that I love friends who do this to my ideas. Some friends like       Daniel Miessler and Justin Gardner stand out in particular. Both of them have taken my ideas and helped me see wider implications and applications.
 
+![](https://i.imgur.com/QiJB7qO.png){: width="400" }
+
 ### Developing the Skill
 Paul Graham is a smart guy and in that snippet, he called this a skill. I have to agree. Personally, I believe it's a part of the skillset that has helped me develop great       relationships with other talented hackers. It comes naturally to me, so it's not insincere. If it doesn't come naturally, I think you can still train yourself to do it           genuinely.  Here's the process:
 1. Directy compliment the idea
 2. Think about other domains
+
 \- rez0
 
 For more of my thoughts on ai, hacking, and more, [follow me on twitter](https://twitter.com/rez0__).
