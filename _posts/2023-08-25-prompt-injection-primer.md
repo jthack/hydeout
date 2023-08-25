@@ -23,7 +23,7 @@ There are two links to it below. The first is the Github Repo. If it's useful, I
 
 **Github Repo:** [https://github.com/jthack/PIPE](https://github.com/jthack/PIPE)
 
-**PDF Link:** [https://github.com/jthack/PIPE/blob/main/pipe.pdf](https://github.com/jthack/PIPE/blob/main/pipe.pdf)
+**PDF Link:** [https://rez0.blog/assets/pipe.pdf](https://rez0.blog/assets/pipe.pdf) (also in the Github repo)
 
 Please check it out, share it, and [give me feedback](https://twitter.com/rez0__) if you have any!
 
