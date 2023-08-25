@@ -16,7 +16,7 @@ Everyone loves talking about prompt injection, but the real impact to an applica
 
 So, I wrote a guide to make it clear:
 - Where is the risk?
-- What would an attack would look like?
+- What would an attack look like?
 - How can it be prevented?
 
 There are two links to it below. The first is the Github Repo. If it's useful, I'd love if you starred it and put in a pull request for any suggested changes. The second is the PDF link which is better for printing and some people find it easier to read.
