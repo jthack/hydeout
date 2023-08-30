@@ -45,7 +45,7 @@ Here is a sample of my writing so that you can emulate it:
 <snippet of your writing>
 ```
 
-**Utilize presence_penalty or frequency_penalty** to increase the chance of repeating words. Let's assume you're using OpenAI's models. If you're using Simon's command line tool `llm`, you would use `-o presence_penalty -.8` (or any value between -2 and 0)  but you can also pass `presence_penalty` and `frequency_penalty` in via the API. Here's an example using `llm` command line tool.      
+**Utilize presence_penalty or frequency_penalty** to increase the chance of repeating words. Let's assume you're using OpenAI's models. If you're using [Simon](https://twitter.com/simonw)'s command line tool [llm](https://github.com/simonw/llm/), you would use `-o presence_penalty -.8` (or any value between -2 and 0)  but you can also pass `presence_penalty` and `frequency_penalty` in via the API. Here's an example using `llm` command line tool.      
 ```
 echo '<prompt>' | llm -o presence_penalty -.8
 ```
