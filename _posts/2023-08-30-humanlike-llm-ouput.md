@@ -48,26 +48,30 @@ Here is a sample of my writing so that you can emulate it:
 
 **Put the desired format in the prompt** because a middle school essay, for example, will have a rigid Introduction-Arguments-Conclusion structure. By limiting its creativity to the skill level of the desired output, you can force it to seem more like the intended writer. This can be extrapolated to other structures. Example:  
 ```
-<prompt> it should be 5 paragraphs. 1 intro where it introduces the 3 ideas of 
-the middle 3 paragraphs. and then 1 conclusion paragraph that also mentions the 3 main ideas.
+<prompt> it should be 5 paragraphs. 1 intro where it introduces 
+the 3 ideas of the middle 3 paragraphs. and then 1 conclusion 
+paragraph that also mentions the 3 main ideas.
 ```
 
 ## Full Examples With Real Output
 
-Note: If you can't read theses, right click on the image and choose "Open in New Tab" to view them easier.
+**Note:** If you can't read theses, right click on the image and choose "Open in New Tab" to view them easier.
 
-Harry Potter Paper  
-![](/assets/images/harry_potter.png){: width="600" }
+Harry Potter Paper Example
 
-Cybersecurity Career Essay  
-![](/assets/images/cyber_essay.png){: width="600" }
+![](/assets/images/harry_potter.png){: width="800" }
 
-New Blog Post Introduction  
-![](/assets/images/blog_intro.png){: width="600" }
+Cybersecurity Career Essay Example
+
+![](/assets/images/cyber_essay.png){: width="800" }
+
+New Blog Post Introduction Example
+
+![](/assets/images/blog_intro.png){: width="800" }
 
 
 ## Conclusion
-In conclusion, while it's true that LLM-generated text often has a distinctive style, it's not because LLMs are inherently formal or uncreative. It's a reflection of the data they were trained on and the way they were prompted. With the right prompt, I believe LLMs can generate text that is indistinguishable from human-written text.
+While it's true that LLM-generated text often has a distinctive style, it's not because LLMs are inherently formal or uncreative. It's a reflection of the data they were trained on and the way they were prompted. With the right prompt, I believe LLMs can generate text that is indistinguishable from human-written text.
 
 \- rez0
 
