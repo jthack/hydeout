@@ -29,9 +29,9 @@ This is why LLMs often sound formal or academic. The training data is skewed tow
 There are a couple ways to get more authentic sounding output.
 
 **Ask for less formal text directly.** Here's some examples:
-1. "Write a text message to a friend about <topic>"
-2. "Write a junior high level paper about <topic>. It shouldn't be well written."
-3. "Informally, as if writing on IRC or Reddit, tell me about <topic> but still use good grammar and puctuation."
+1. "Write a text message to a friend about (topic)"
+2. "Write a junior high level paper about (topic). It shouldn't be well written."
+3. "Informally, as if writing on IRC or Reddit, tell me about (topic) but still use good grammar and puctuation."
 
 **Limit its vocabulary** by adding something like this to your prompt:  
 `<prompt>. It should use middle school level vocabulary.`
