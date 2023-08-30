@@ -33,8 +33,10 @@ There are a couple ways to get more authentic sounding output.
 2. "Write a junior high level paper about (topic). It shouldn't be well written."
 3. "Informally, as if writing on IRC or Reddit, tell me about (topic) but still use good grammar and puctuation."
 
-**Limit its vocabulary** by adding something like this to your prompt:  
-`<prompt>. It should use middle school level vocabulary.`
+**Limit its vocabulary** by adding something like this to your prompt:   
+```
+<prompt>. It should use middle school level vocabulary.
+```
 
 **Give it the desired style as context** by including a few thousand tokens of the writing style and tone you'd like it to emulate. Example:  
 ```
@@ -43,8 +45,10 @@ Here is a sample of my writing so that you can emulate it:
 <snippet of your writing>
 ```
 
-**Utilize presence_penalty or frequency_penalty** to increase the chance of repeating words. Let's assume you're using OpenAI's models. If you're using Simon's command line tool `llm`, you would use `-o presence_penalty -.8` (or any value between -2 and 0)  but you can also pass `presence_penalty` and `frequency_penalty` in via the API. Here's an example using `llm` command line tool.    
-`echo 'prompt' | llm -o presence_penalty -.8`
+**Utilize presence_penalty or frequency_penalty** to increase the chance of repeating words. Let's assume you're using OpenAI's models. If you're using Simon's command line tool `llm`, you would use `-o presence_penalty -.8` (or any value between -2 and 0)  but you can also pass `presence_penalty` and `frequency_penalty` in via the API. Here's an example using `llm` command line tool.      
+```
+echo '<prompt>' | llm -o presence_penalty -.8
+```
 
 **Put the desired format in the prompt** because a middle school essay, for example, will have a rigid Introduction-Arguments-Conclusion structure. By limiting its creativity to the skill level of the desired output, you can force it to seem more like the intended writer. This can be extrapolated to other structures. Example:  
 ```
