@@ -50,7 +50,7 @@ There are so many things we know as adults that we take for granted. Kids often 
 - [From [Gracie Bullyproof program](https://www.gracieuniversity.com/Pages/Public/Information)] If you want them to know how to handle bullies, pretend to be bullying them at home. Teach them how to use their voice to stand up for themselves by speaking loud and authoritatively. Teach them to say things like "I don't like that" and "That's mean. Don't say it."
 
 ![](https://rez0.blog/assets/parenting3.png){: width="400" }
-## Invite them into the work at a young age
+## Invite them into work at a young age
 
 One thing that my wife and I started doing this year was inviting our kids into our housework. It's been such a game-changer. They're little, they make it harder, and it takes a lot longer. But the benefits are well worth it. 
 
