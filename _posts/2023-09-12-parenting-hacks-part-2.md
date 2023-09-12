@@ -14,7 +14,7 @@ As I mentioned in my last post, I'm a hacker and bug bounty hunter. So, I spend 
 As a parent, we have to parent with a specific outcome in mind or we'll lose our way. There are two types of desired outcomes: short-term and long-term. 
 
 ### Desired Long-term Outcomes
-The desired long-term outcomes are the most important as they guide all our behavior. These vary family to family, but I've put a few here.
+The desired long-term outcomes are the most important as they can guide all parenting behavior. These vary family to family, but I've put a few here.
 - I want my kids to know they were loved, are loved, and trust that they will always be loved by me.
 - I want my kids to be physically, emotionally, and spiritually healthy.
 
