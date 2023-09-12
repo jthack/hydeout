@@ -36,7 +36,7 @@ In the **training years**, compliance should continue but you can explain yourse
 
 In the **coaching years**, and I think this might be the hardest part, so many parents try to keep up the hardcore discipline. They never allow their child to make low-risk decisions by themselves. This robs the child of learning from failures and begins to erode respect. In the coaching years, try to look for opportunities to say "I would do {suggestion}, but I'll let you decide." 
 
-Also, in the **coaching years**, DON'T LECTURE. It's so tempting to 
+Also, in the **coaching years**, DON'T LECTURE. It's so tempting to ramble on when explaining a situation. Teenagers will tune you out. Listen a lot. Speak a little.
 
 In the **friendship years**, many parents continue to give unsolicited advice, often causing frustration. I heard some wisdom around telling your adult children something along these lines: "I am always here to give advice and help you, but from this point, I'll mostly bite my tongue unless you ask." This seems so healthy to me. I'm sure I'll fail at it sometimes, but it shows so much respect and love. 
 
