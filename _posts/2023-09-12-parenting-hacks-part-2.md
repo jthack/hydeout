@@ -68,13 +68,13 @@ I don't have time to cover every small tip in detail so these are some rapid-fir
 
 ## Scripts
 Personally, I find scripts to be one of the most useful information from parenting content. For that reason, there's no way I could post a part 2 of this series without some good scripts we've been using. Many of these also came from "Parenting: Getting it Right".  
-- [Literally EVERY TIME they ask a question. It teaches them critical thinking and helps them find their own voice/opinions] "What do you think?"
-- [Before we ask if they did something against the rules] "Hey {name}, I have a question for you. And you might be tempted to lie, so think about what you're going to say before you say it. Remember, we always tell the truth." 
-- [When dealing with bedtime fears] "You're always safe with me. Our home is a safe place. You've slept in this bed over 1,000 times. Has anything bad ever happened?"
-- [When they only say "sorry"] "Uh oh! Sorry isn't a sentence. What are you sorry for?"
-- [When modeling forgiveness, show them how to repair the relationship] "I'm sorry that I {action}. Is there anything I can do to make it up to you?" 
-- [As a mantra to yourself or a spouse] "It's just a season."
-- [As a mantra to yourself or a spouse for remembering to let them learn from their mistakes] "Don't bail, let 'em fail"
+- [Literally EVERY TIME they ask a question. It teaches them critical thinking and helps them find their own voice/opinions] **"What do you think?"**
+- [Before we ask if they did something against the rules] **"Hey {name}, I have a question for you. And you might be tempted to lie, so think about what you're going to say before you say it. Remember, we always tell the truth." **
+- [When dealing with bedtime fears] **"You're always safe with me. Our home is a safe place. You've slept in this bed over 1,000 times. Has anything bad ever happened?"**
+- [When they only say "sorry"] **"Uh oh! Sorry isn't a sentence. What are you sorry for?"**
+- [When modeling forgiveness, show them how to repair the relationship] **"I'm sorry that I {action}. Is there anything I can do to make it up to you?" **
+- [As a mantra to yourself or a spouse] **"It's just a season."**
+- [As a mantra to yourself or a spouse for remembering to let them learn from their mistakes] **"Don't bail, let 'em fail"**
 
 ## Closing thoughts
 
