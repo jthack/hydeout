@@ -32,7 +32,7 @@ The desired short-term outcomes will vary throughout your kids lives. I recently
 - Coaching Years (12-18): **Understanding & Some Autonomy**
 - Friendship Years (18+ years old): **Full Autonomy**
 
-For example, in the **discipline years**, the goal is mostly compliance. You will weave in the long-term goals as well, but most parenting decisions are to achieve compliance. This is because safety requires compliance. A two year old doesn't understand that the road is dangerous or the stove is hot. We discipline out of love to protect them. In this phase, explanations aren't even required. They need to listen quickly for their safety.
+For example, in the **discipline years**, the goal is mostly compliance. You will weave in the long-term goals as well, but most parenting decisions are to achieve compliance. This is because safety requires compliance. A two year old doesn't understand that the road is dangerous or the stove is hot. We discipline out of love to protect them. In this phase, explanations aren't even required, but are still helpful. They need to listen quickly for their safety.
 
 In the **training years**, compliance should continue but you can explain yourself to your children because you want them to be able to abstract out the principles and apply them to other situations. They still mostly need to listen and obey everything parents say though.
 
