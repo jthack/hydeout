@@ -25,10 +25,10 @@ If you want your kids to be physically healthy, science shows us the most import
 ### Desired Short-term Outcomes
 
 The desired short-term outcomes will vary throughout your kids lives. I recently read an amazing parenting book called [Parenting: Getting it Right](https://www.amazon.com/Parenting-Getting-Right-Andy-Stanley/dp/0310366275) which broke down these phases extremely well. The ranges may vary some from child to child, but it's an amazing frame to use for thinking through parenting decisions.  
-- Discipline Years (0-5 years old): Compliance
-- Training Years (5-12): Compliance + Understanding
-- Coaching Years (12-18): Understanding + Introduce Autonomy
-- Friendship Years (18+ years old): Full Autonomy
+- Discipline Years (0-5 years old): **Compliance**
+- Training Years (5-12): **Compliance & Understanding**
+- Coaching Years (12-18): **Understanding & Some Autonomy**
+- Friendship Years (18+ years old): **Full Autonomy**
 
 For example, in the **discipline years**, the goal is mostly compliance. You will weave in the long-term goals as well, but most parenting decisions are to achieve compliance. This is because safety requires compliance. A two year old doesn't understand that the road is dangerous or the stove is hot. We discipline out of love to protect them. In this phase, explanations aren't even required. They need to listen quickly for their safety.
 
