@@ -65,8 +65,9 @@ I don't have time to cover every small tip in detail so these are some rapid-fir
 - Overreacting often leads to hiding the behavior rather than changes in behavior. 
 - Compliment your spouse _to your kids_. It's modeling love, and it makes them more secure in their parents love for each other.
 - Get interested in whatever your kids are interested in.
-- Take more videos than pictures. Hearing their little voices and seeing their mannerisms is priceless.
-
+- Take more videos than pictures. Hearing their little voices and seeing their mannerisms is priceless.- Don't be afraid to apologize to your kids when you're wrong. It teaches them humility and that it's okay to make mistakes.
+- Remember to take time for yourself. Parenting is hard work and it's important to recharge so you can be the best parent you can be.
+- Lastly, enjoy every moment. They grow up fast and you'll miss these days when they're gone. 
 
 ## Scripts
 Personally, I find scripts to be one of the most useful information from parenting content. For that reason, there's no way I could post a part 2 of this series without some good scripts we've been using. Many of these also came from "Parenting: Getting it Right".  
@@ -76,11 +77,16 @@ Personally, I find scripts to be one of the most useful information from parenti
 - **"Uh oh! Sorry isn't a sentence. What are you sorry for?"** [When they only say "sorry"] 
 - **"I'm sorry that I {action}. Is there anything I can do to make it up to you?"** [When modeling forgiveness, show them how to repair the relationship] 
 - **"It's just a season."** [As a mantra to yourself or a spouse]
-- **"Don't bail, let 'em fail"** [As a mantra to yourself or a spouse for remembering to let them learn from their mistakes] 
+- **"Don't bail, let 'em fail"** [As a mantra to yourself or a spouse for remembering to let them learn from their mistakes]
+- **"I can see that you're really frustrated. Would you like some help or do you want to try again on your own?"** [When they are struggling with a task]
+- **"Everyone makes mistakes, it's how we learn. What can we learn from this?"** [When they make a mistake]
+- **"We're a team. We help each other."** [To foster a sense of unity and cooperation]
 
 ## Closing thoughts
 
-As with last time, I really hope all of the above is helpful. Same disclaimer: every child is different, so your mileage may very.
+As with last time, I really hope all of the above is helpful. Same disclaimer: **every child is different, so your mileage may very.**
+
+Parenting is a journey, not a destination. It's about learning and growing with your children. It's about making mistakes and learning from them. It's about love, patience, and understanding. Remember, you're not just raising kids, you're raising the next generation of adults. So, parent with a vision, roleplay everything, invite them into work at a young age, and never stop learning.
 
 Parenthood is the greatest adventure and gift. AND it's really hard, but it's an incredible blessing. For those of you with kids, thank you for deciding to be parents. I'm hoping you "enjoy it just a little more."
 
