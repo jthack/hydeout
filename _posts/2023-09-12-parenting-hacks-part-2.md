@@ -9,7 +9,9 @@ tags:
 ---
 
 ![](https://rez0.blog/assets/parenting2.png){: width="400" }
-As I mentioned in my last post, I'm a hacker and bug bounty hunter. So, I spend a lot of my time improving myself and looking for an edge. As a dad of three, that means learning scripts and tricks that get the desired outcome. And that's something I didn't cover in the last post. 
+As I mentioned in my last post, I'm a hacker and bug bounty hunter. So, I spend a lot of my time improving myself and looking for an edge. As a dad of three, that means learning scripts and tricks that get the desired outcome. 
+
+## Parenting with a Vision
 
 As a parent, we have to parent with a specific outcome in mind or we'll lose our way. There are two types of desired outcomes: short-term and long-term. 
 
