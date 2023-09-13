@@ -34,7 +34,7 @@ The desired short-term outcomes will vary throughout your kids lives. I recently
 
 For example, in the **discipline years**, the goal is mostly compliance. You will weave in the long-term goals as well, but most parenting decisions are to achieve compliance. This is because safety requires compliance. A two year old doesn't understand that the road is dangerous or the stove is hot. We discipline out of love to protect them. In this phase, explanations aren't even required, but are still helpful. They need to listen quickly for their safety.
 
-In the **training years**, compliance should continue but you can explain yourself to your children because you want them to be able to abstract out the principles and apply them to other situations. They still mostly need to listen and obey everything parents say though.
+In the **training years**, compliance should continue but explaining the _why_ becomes even more important because you want them to be able to abstract out the principles and apply them to other situations. They still mostly need to listen and obey everything parents say though.
 
 In the **coaching years**, and I think this might be the hardest part, so many parents try to keep up the hardcore discipline. They never allow their child to make low-risk decisions by themselves. This robs the child of learning from failures and begins to erode respect. In the coaching years, try to look for opportunities to say "I would do {suggestion}, but I'll let you decide." 
 
