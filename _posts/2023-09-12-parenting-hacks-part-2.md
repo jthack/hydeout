@@ -65,7 +65,8 @@ I don't have time to cover every small tip in detail so these are some rapid-fir
 - Overreacting often leads to hiding the behavior rather than changes in behavior. 
 - Compliment your spouse _to your kids_. It's modeling love, and it makes them more secure in their parents love for each other.
 - Get interested in whatever your kids are interested in.
-- Take more videos than pictures. Hearing their little voices and seeing their mannerisms is priceless.- Don't be afraid to apologize to your kids when you're wrong. It teaches them humility and that it's okay to make mistakes.
+- Take more videos than pictures. Hearing their little voices and seeing their mannerisms is priceless.
+- Don't be afraid to apologize to your kids when you're wrong. It teaches them humility and that it's okay to make mistakes.
 - Remember to take time for yourself. Parenting is hard work and it's important to recharge so you can be the best parent you can be.
 - Lastly, enjoy every moment. They grow up fast and you'll miss these days when they're gone. 
 
