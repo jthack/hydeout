@@ -11,7 +11,7 @@ tags:
 ![](https://i.imgur.com/C6uGNdw.png){: width="450"}
 If you don't use vi/vim, you might not find this post that practical, but it also might convince you to try it!
 
-## Leveraging vim's 'Visual Mode'
+## Leveraging vim's Visual Mode
 
 For those unfamiliar, vim has a feature calle 'visual mode'. This allows you to select some text, which can then be manipulated in various ways. One such way is hitting the colon key, followed by an exclamation point. This allows you to run a shell command using the selected text as input from stdin. Then the output from the command is written directly into the file, replacing the selected text right before your eyes. Here's a simple sort example.
 
@@ -56,15 +56,23 @@ Also, llms don't always reflect the entire input into the response (and they may
 comment(){
   llm -s 'Add comments to this code. Respond with the code and comments. Do not alter the functional aspect of the code, but still return it. Be sure and include the code in the response. Do not respond in a markdown code block. Just respond with the code and comments. Do not preamble or say anything before or after the code. for example: If the user sent "print(1)\nprint(2)", you would reply "# Prints 1\nprint(1)\n# Prints 2\nprint(2)"' - o temperature .2
 }
+```
+```bash
 fix(){
   llm -s 'Fix the syntax of this code. Respond with the code including any fixes. Do not alter the functional aspect of the code, but simply fix it and respond with all of it. Do not respond in a markdown code block. Just respond with the code. Do not preamble or say anything before or after the code. for example: If the user sent "print(1", you would simply reply "print(1)"' -o temperature .2
 }
+```
+```bash
 edit(){
   llm -s 'Edit this text to remove unnecessary filler words such as "like", "you know", and unimportant adverbs. Respond with the edited text only. Do not alter the speaking style or primary content.' -o temperature .1
 }
+```
+```bash
 blog(){
   llm -s 'Write a blog about the topic from the user as a wise and succinct writer such as Paul Graham or Tyler Cowen, but only use high school term paper vocabulary or lower.' -o temperature .4 -o presence_penalty .2 -m  gpt-4
 }
+```
+```bash
 finish(){
   message=`cat`
   echo -n $message
