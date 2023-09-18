@@ -8,14 +8,14 @@ tags:
   - personal
 ---
 
-![](https://i.imgur.com/C6uGNdw.png){: width="450" }
+![](https://i.imgur.com/C6uGNdw.png){: width="450"}
 If you don't use vi/vim, you might not find this post that practical, but it also might convince you to try it!
 
 ## Leveraging vim's 'Visual Mode'
 
 For those unfamiliar, vim has a feature calle 'visual mode'. This allows you to select some text, which can then be manipulated in various ways. One such way is hitting the colon key, followed by an exclamation point. This allows you to run a shell command using the selected text as input from stdin. Then the output from the command is written directly into the file, replacing the selected text right before your eyes. Here's a simple sort example.
 
-<video width="600" controls>
+<video width="700" controls>
   <source src="/assets/vimvisualexample.mov" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -32,13 +32,13 @@ Or perhaps you've written a piece of code, but forgot to add comments explaining
 
 You could even use an LLM to help finish a sentence or paragraph that you're struggling with live inside your text editor. Simply select the text you've written so far, run a command using an LLM, and have the rest of the sentence or paragraph automatically generated for you.
 
-<video width="600" controls>
+<video width="700" controls>
     <source src="/assets/vimcomment.mov" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 *Using llm to comment some code*
 
-<video width="600" controls>
+<video width="700" controls>
     <source src="/assets/vimfinish.mov" type="video/mp4">
     Your browser does not support the video tag.
 </video>
@@ -52,7 +52,7 @@ You will need to download the command line tool `llm` by Simon Willison. Here is
 
 Also, llms don't always reflect the entire input into the response (and they may include some preamble about their response) so your llm calls will need to account for that. To make it easy to understand and replicate, I've put my `.zshenv` here:
 
-```
+```bash
 comment(){
   llm -s 'Add comments to this code. Respond with the code and comments. Do not alter the functional aspect of the code, but still return it. Be sure and include the code in the response. Do not respond in a markdown code block. Just respond with the code and comments. Do not preamble or say anything before or after the code. for example: If the user sent "print(1)\nprint(2)", you would reply "# Prints 1\nprint(1)\n# Prints 2\nprint(2)"' - o temperature .2
 }
@@ -72,9 +72,9 @@ finish(){
 }
 ```
 
-## Enhancing Productivity and Efficiency
+## Peace
 
-In conclusion, the combination of vim's powerful text editing capabilities and the sophisticated text generation and understanding of LLMs opens up a world of possibilities. From correcting typos to generating code comments, and even helping to finish your sentences, these tools can significantly enhance your productivity and efficiency. As technology continues to advance, I look forward to seeing what other exciting developments the future holds.
+I really hope you enjoyed these tips. If you're a vim and llm user (or willing to try them), I think it will really open your mind up to what is possible with these tools!
 
 \- rez0
 
