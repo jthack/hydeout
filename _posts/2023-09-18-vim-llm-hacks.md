@@ -48,7 +48,7 @@ You could even use an LLM to help finish a sentence or paragraph that you're str
 
 There are a few caveats, which are totally solvable. Vim doesn't load .bashrc/.zshrc or .bash_profile/.zsh_profile for its command execution. It _does_ however, load the env file. So you will need to put your functions in `.zshenv`. 
 
-You will need to download the command line tool `llm` by Simon Willison. Here is a link to the github repo. 
+You will need to download the command line tool `llm` by Simon Willison. Here is a link to the github repo: https://github.com/simonw/llm/
 
 Also, llms don't always reflect the entire input into the response (and they may include some preamble about their response) so your llm calls will need to account for that. To make it easy to understand and replicate, I've put my `.zshenv` here:
 
