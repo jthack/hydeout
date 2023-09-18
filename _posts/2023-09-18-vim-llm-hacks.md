@@ -30,7 +30,7 @@ Imagine, for instance, that you've written a piece of text with some typos in it
 
 Or perhaps you've written a piece of code, but forgot to add comments explaining what it does. Again, you could select the code in vim, run a command using an LLM, and have comments automatically generated and inserted into your code.
 
-You could even use an LLM to help finish a sentence or paragraph that you're struggling with live inside your text editor. Simply select the text you've written so far, run a command using an LLM, and have the rest of the sentence or paragraph automatically generated for you.
+You could even use an LLM to help finish a sentence or paragraph that you're struggling with live inside your text editor. Simply select the text you've written so far, run a command using an LLM, and have the rest of the sentence or paragraph automatically generated for you. Naturally with all of these, there is a bit of latency for the calls to the llm.
 
 <video width="700" controls>
     <source src="/assets/vimcomment.mov" type="video/mp4">
@@ -46,9 +46,9 @@ You could even use an LLM to help finish a sentence or paragraph that you're str
 
 ## Caveats
 
-There are a few caveats, which are totally solvable. Vim doesn't load .bashrc/.zshrc or .bash_profile/.zsh_profile for its command execution. It _does_ however, load the env file. So you will need to put your functions in `.zshenv`. 
+There are a few caveats. Vim doesn't load .bashrc/.zshrc or .bash_profile/.zsh_profile for its command execution. It _does_ however, load the env file. So you will need to put your functions in `.zshenv`. 
 
-You will need to download the command line tool `llm` by Simon Willison. Here is a link to the github repo: https://github.com/simonw/llm/
+You will also have to install the command line tool `llm` by Simon Willison if you don't have it. Here is a link to the github repo: https://github.com/simonw/llm/
 
 Also, llms don't always reflect the entire input into the response (and they may include some preamble about their response) so your llm calls will need to account for that. To make it easy to understand and replicate, I've put my `.zshenv` here:
 
