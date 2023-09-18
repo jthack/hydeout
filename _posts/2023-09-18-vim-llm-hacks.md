@@ -8,15 +8,19 @@ tags:
   - personal
 ---
 
-![](https://i.imgur.com/C6uGNdw.png){: width="400" }
-
+![](https://i.imgur.com/C6uGNdw.png){: width="450" }
 If you don't use vi/vim, you might not find this post that practical, but it also might convince you to try it!
 
 ## Leveraging vim's 'Visual Mode'
 
 For those unfamiliar, vim has a feature calle 'visual mode'. This allows you to select some text, which can then be manipulated in various ways. One such way is hitting the colon key, followed by an exclamation point. This allows you to run a shell command using the selected text as input from stdin. Then the output from the command is written directly into the file, replacing the selected text right before your eyes. Here's a simple sort example.
 
-![](/assets/vimvisualexample.mov)
+<video width="600" controls>
+  <source src="/assets/vimvisualexample.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+*Using llm to sort lines in vim*
+
 
 ## Applying llm to this feature
 
@@ -27,6 +31,18 @@ Imagine, for instance, that you've written a piece of text with some typos in it
 Or perhaps you've written a piece of code, but forgot to add comments explaining what it does. Again, you could select the code in vim, run a command using an LLM, and have comments automatically generated and inserted into your code.
 
 You could even use an LLM to help finish a sentence or paragraph that you're struggling with live inside your text editor. Simply select the text you've written so far, run a command using an LLM, and have the rest of the sentence or paragraph automatically generated for you.
+
+<video width="600" controls>
+    <source src="/assets/vimcomment.mov" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+*Using llm to comment some code*
+
+<video width="600" controls>
+    <source src="/assets/vimfinish.mov" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+*Using llm to finish a paragraph*
 
 ## Caveats
 
