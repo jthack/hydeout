@@ -50,7 +50,7 @@ There are a few caveats. Vim doesn't load .bashrc/.zshrc or .bash_profile/.zsh_p
 
 You will also have to install the command line tool `llm` by Simon Willison if you don't have it. Here is a link to the github repo: https://github.com/simonw/llm/
 
-Also, llms don't always reflect the entire input into the response (and they may include some preamble about their response) so your llm calls will need to account for that. To make it easy to understand and replicate, I've put my `.zshenv` here:
+Also, llms don't always reflect the entire input into the response (and they may include some preamble about their response) so your llm calls will need to account for that. To make it easy to understand and replicate, I've put my `.zshenv` functions below. Simple add these to your `.zshenv` and they'll start working in vim:
 
 ```bash
 comment(){
