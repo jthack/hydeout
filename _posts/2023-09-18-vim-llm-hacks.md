@@ -16,7 +16,7 @@ I have been a vim fan for a long time, but a few years ago I watched [this video
 echo "helly world" | vim -
 ``` 
 
-It's also where I learned that you could be inside vim, but manipulate the entire file as if you were piping the contents of the file into a command the doing in-line replacement of the entire file. That sounds confusing, but it just means you can be inside a vim file and do `:%!grep test` and it'll remove all lines that don't contain `test`, for example.
+It's also where I learned that you could be inside vim, but manipulate the entire file as if you were piping the contents of the file into a command. The output of the command does in-line replacement of the entire file with those changes. That sounds confusing, but it just means you can be inside a vim file and do `:%!grep test` and it'll remove all lines that don't contain `test`, for example.
 
 This post is a simple showcase of taking that concept, but throwing an llm into the mix to add more dynamic functionality.
 
