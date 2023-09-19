@@ -9,11 +9,15 @@ tags:
 ---
 
 ![](https://i.imgur.com/C6uGNdw.png){: width="450"}
-If you don't use vi/vim, you might not find this post that practical, but it also might convince you to try it!
+If you don't use vi/vim, you might not find this post very practical, but maybe it'll convince you to try it out! 
+
+I have been a vim fan for a long time, but a few years ago I watched [this video](https://www.youtube.com/watch?v=l8iXMgk2nnY) from Tomnomnom and Stok. It taught be how to pipe `stdin` into a vim buffer like `echo "helly world" | vim -`. It also was where I learned that you could be inside vim, but manipulate the entire file as if you were piping the contents of the file into a command the doing in-line replacement of the entire file. That sounds confusing, but it just means you can be inside a vim file and do `:%!grep test` and it'll remove all lines that don't contain `test`, for example.
+
+This post is a simple showcase of taking that concept, but throwing an llm into the mix to add more dynamic functionality.
 
 ## Leveraging vim's Visual Mode
 
-For those unfamiliar, vim has a feature calle 'visual mode'. This allows you to select some text, which can then be manipulated in various ways. One such way is hitting the colon key, followed by an exclamation point. This allows you to run a shell command using the selected text as input from stdin. Then the output from the command is written directly into the file, replacing the selected text right before your eyes. Here's a simple sort example.
+For those unfamiliar, vim has a feature called 'visual mode'. This allows you to select some text, which can then be manipulated in various ways. One such way is hitting the colon key, followed by an exclamation point. This allows you to run a shell command using the selected text as input from stdin. Then the output from the command is written directly into the file, replacing the selected text right before your eyes. Here's a simple sort example.
 
 <video width="700" controls>
   <source src="/assets/vimvisualexample.mov" type="video/mp4">
@@ -79,6 +83,8 @@ finish(){
   echo -n $message | llm -s 'Finish this input. Respond with only the completion text. Do not respond with the input. Do not preamble or say anything before or after the completion. For example: If the user sent "The sky  is", you would simply reply " blue." If the input is code, write quality code that is syntactically correct. If the input is text, respond as a wise, succinct writer such as Paul Graham or Tyler Cowen, but only use high   school term paper vocabulary or lower.' -o temperature .4 -o presence_penalty .2 -m gpt-4
 }
 ```
+
+Obviously, there are many more ways to use this functionality. I just wanted to share how I'm using it. If you set this up, let me know what you come up with.
 
 ## Peace
 
