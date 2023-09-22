@@ -4,6 +4,7 @@ layout: post
 categories:
   - hacking
 tags:
+  - ai
   - hacking
   - personal
 ---
