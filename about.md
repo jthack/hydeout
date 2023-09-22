@@ -5,9 +5,7 @@ sidebar_link: true
 ---
 
 ![](/assets/images/headshot.jpg){: width="200" }
-
-
-Hey! I'm Joseph Thacker, but I often go by rez0. Thanks for checking out the site. 
+Joseph Thacker (rez0)
 
 I'm a Christian, husband, father, hacker, and cybersecurity professional.
 I love most things in life, but I'm particularly fond of hacking, ai-art, running, podcasts, and keylime pie.
