@@ -2,11 +2,12 @@
 title: "vim + llm = 🔥"
 layout: post
 categories:
-  - hacking
+  - ai
 tags:
   - ai
   - hacking
   - personal
+redirect_from: /hacking/2023/09/18/vim-llm-hacks.html
 ---
 
 ![](https://i.imgur.com/C6uGNdw.png){: width="450"}

@@ -2,11 +2,12 @@
 title: "Announcing PIPE: The Prompt Injection Primer"
 layout: post
 categories:
-  - cybersecurity
+  - ai
 tags:
   - cybersecurity
   - hacking
   - ai
+redirect_from: /cybersecurity/2023/08/25/prompt-injection-primer.html
 ---
 
 ![](https://i.imgur.com/FnpQXha.png){: width="400" }

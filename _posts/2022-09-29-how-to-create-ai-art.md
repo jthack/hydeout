@@ -2,10 +2,12 @@
 title: "How to get setup to create awesome AI art"
 layout: post
 categories:
-  - art
+  - ai
 tags:
   - art
   - personal
+  - ai
+redirect_from: /art/2022/09/29/how-to-create-ai-art.html
 ---
 
 ![](https://i.imgur.com/4yAgZMY.jpg){: width="300" }

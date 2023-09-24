@@ -2,10 +2,12 @@
 title: "Turbocharge ChatGPT With A Metaprompter"
 layout: post
 categories:
-  - personal
+  - ai
 tags:
   - personal
+  - ai
   - productivity
+redirect_from: /personal/2023/04/17/turbocharge-chatgpt-with-metaprompter.html
 ---
 
 ![](https://i.imgur.com/txOGLHt.png){: width="400" }

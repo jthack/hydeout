@@ -1,7 +1,7 @@
 ---
 layout: category
-title: art
+title: ai
 ---
 
 ![](/assets/images/wizard.png){: width="500"}
-AI Art or posts about AI art
+All things AI

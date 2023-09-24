@@ -2,11 +2,12 @@
 title: "Prompt Injection Attacks and Mitigations"
 layout: post
 categories:
-  - hacking
+  - ai
 tags:
   - hacking
   - cybersecurity
   - ai
+redirect_from: /hacking/2023/04/19/prompt-injection-and-mitigations.html
 ---
 
 ![](https://i.imgur.com/m9MdyJx.png){: width="400" }

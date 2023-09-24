@@ -2,9 +2,10 @@
 title: "Yes. LLMs can create convincingly human output."
 layout: post
 categories:
- - personal
+ - ai
 tags:
  - ai
+redirect_from: /personal/2023/08/30/humanlike-llm-ouput.html
 ---
 
 ![](https://i.imgur.com/lkOv3iR.png){: width="400" }

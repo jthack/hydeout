@@ -2,10 +2,11 @@
 title: "AI Creativity: Can LLMs Create New Things?"
 layout: post
 categories:
-  - personal
+  - ai
 tags:
   - ai
   - personal
+redirect_from: /personal/2023/07/31/ai-creativity.html
 ---
 
 ![](https://i.imgur.com/5JwxDjF.png){: width="400" }

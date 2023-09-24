@@ -2,10 +2,12 @@
 title: "Hacking with ChatGPT: Ideal Tasks and Use-Cases"
 layout: post
 categories:
-  - hacking
+  - ai
 tags:
+  - ai
   - hacking
   - cybersecurity
+redirect_from: /hacking/2023/02/21/hacking-with-chatgpt.html
 ---
 
 ![](https://i.imgur.com/ciblWMD.png){: width="400" }

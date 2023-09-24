@@ -2,11 +2,12 @@
 title: "From Theory to Reality: Explaining the Best Prompt Injection Proof of Concept"
 layout: post
 categories:
-  - hacking
+  - ai
 tags:
   - cybersecurity
   - hacking
   - ai
+redirect_from: /hacking/2023/05/19/prompt-injection-poc.html
 ---
 
 ![](https://i.imgur.com/qGOyKc8.png){: width="400" }
