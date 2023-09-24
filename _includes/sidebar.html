@@ -1,6 +1,10 @@
 <div id="sidebar">
   <header>
-    <img src="/assets/images/joseph_circle.png" alt="" width="200">
+    <div style="display: flex; justify-content: center; width: 100%;">
+      <img src="/assets/images/joseph_circle.png" alt="" width="200">
+    </div>
+
+
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
       <a href="{{ site.baseurl }}/">
         {% unless page.url == "/" %}
