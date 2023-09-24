@@ -4,7 +4,7 @@ title: whoami
 sidebar_link: true
 ---
 
-![](/assets/images/headshot.jpg){: width="200" }
+![](/assets/images/joseph_speaking.jpg){: width="450" }
 Joseph Thacker (rez0)
 
 I'm a Christian, husband, father, hacker, and cybersecurity professional.
