@@ -11,9 +11,12 @@ tags:
 ![](/assets/images/evolution.png){: width="400" }
 _How and why I moved rez0.blog to josephthacker.com_
 
-Let me tell you a story: Back in college, I bought the domain josephthacker.com for something like 20 dollars. However, as a cash-strapped college student, I let it lapse at some point. When I wanted it back a few years later, I found out that a domain squatter was asking for a ridiculous 2,000 dollars for it. Fast forward to last year, I managed to reclaim it for a few hundred dollars.
+### The story of josephthacker.com
+Back in college, I bought the domain josephthacker.com for something like 20 dollars. However, as a cash-strapped college student, I let it lapse at some point. 
 
-Today, I am excited to announce a domain change for the blog. Since you're here, you know this, but it's now josephthacker.com. 
+When I wanted it back a few years later, I found out that a domain squatter was asking for a ridiculous 2,000 dollars. Needless to say, I didn't get it. Fast forward to last year, I managed to reclaim it for a few hundred dollars. 
+
+Today, I am excited to announce the domain change from [rez0.blog](rez0.blog) to [josephthacker.com](josephthacker.com).
 
 ### Why change it?
 I've been reading a fantastic book called "Key Person of Influence." This book has a lot of great ideas, and you should read it, but one of them rang true for my situation. It suggests making yourself easy to find online for your industry in order to increase opportunities. It got me thinking about how people might search for me. If they Google "Joseph Thacker," having my website under the same name will likely give it a better search ranking. Plus, it's pretty cool that my name includes the word "hacker."
