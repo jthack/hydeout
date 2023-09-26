@@ -8,8 +8,8 @@ tags:
   - personal
 ---
 
-![](https://rez0.blog/assets/parenting2.png){: width="400" }
-As I mentioned in [my last parenting post](https://rez0.blog/personal/2023/01/25/simple-parenting-hacks.html), I'm a hacker and bug bounty hunter. So, I spend a lot of my time improving myself and looking for an edge. As a dad of three, that means learning scripts and tricks that get the desired outcome. 
+![](/assets/parenting2.png){: width="400" }
+As I mentioned in [my last parenting post](/personal/2023/01/25/simple-parenting-hacks.html), I'm a hacker and bug bounty hunter. So, I spend a lot of my time improving myself and looking for an edge. As a dad of three, that means learning scripts and tricks that get the desired outcome. 
 
 ## Parenting with a Vision
 
