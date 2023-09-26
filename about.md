@@ -14,10 +14,6 @@ Through the transition from software engineer to security analyst to security en
 
 I love helping solve those issues whether it's via hacking, teaching, and consulting. Reach out to my email down below anytime if you'd like my help!
 
-<p class="message">
-  "As water reflects the face, so one's life reflects the heart." Proverbs 27:19
-</p>
-
 ## whereami
 
 - newsletter: [Thacker Thoughts](https://thacker.beehiiv.com/subscribe)
@@ -26,3 +22,8 @@ I love helping solve those issues whether it's via hacking, teaching, and consul
 - linkedin: [rez0](https://www.linkedin.com/in/josephthacker/)
 - hackerone: [rez0](https://hackerone.com/rez0)
 - bugcrowd: [rez0](https://bugcrowd.com/rez0)
+
+<p class="message">
+  "As water reflects the face, so one's life reflects the heart." Proverbs 27:19
+</p>
+
