@@ -21,7 +21,7 @@ Today, I am excited to announce the domain change from [rez0.blog](https://rez0.
 ### Why change it?
 I've been reading a fantastic book called "Key Person of Influence." This book has a lot of great ideas, and you should read it, but one of them rang true for my situation. It suggests making yourself easy to find online for your industry in order to increase opportunities. It got me thinking about how people might search for me. If they Google "Joseph Thacker," having my website under the same name will likely give it a better search ranking. Plus, it's pretty cool that my name includes the word "hacker."
 
-With this change, and with Elon considering charging for twitter, I also thought it would be the good time to launch a newsletter so that people can find my content even if my twitter following goes away. 
+With this change, and with Elon considering charging for twitter, I also thought it would be a good time to launch a newsletter so that people can find my content even if my twitter following goes away. 
 
 Don't worry, I'm not starting another InfoSec newsletter. There are already some incredible ones out there. Instead, it will be an occasional email when I post something of high value on here. So I'd love it if you [subscribed to the newsletter](https://thacker.beehiiv.com/subscribe) so that I can let you know when that happens.
 
