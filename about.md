@@ -14,7 +14,7 @@ I'm a security researcher who specializes in application security and AI. I’ve
 
 ## whereami
 
-- email: me@josephthacker.com
+- email: [me@josephthacker.com](mailto:me@josephthacker.com)
 - newsletter: [Thacker Thoughts](https://thacker.beehiiv.com/subscribe)
 - twitter: [rez0\_\_](https://twitter.com/rez0__)
 - linkedin: [rez0](https://www.linkedin.com/in/josephthacker/)
