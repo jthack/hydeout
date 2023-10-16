@@ -35,11 +35,11 @@ There are my proposed sub-categories that we start using for more clarity:
 
 So I'd like to suggest we start using these terms. It's a useful way to clarify what people are actually talking about.
 
-Note: The terms are not set in stone. And, if the way they are used were to change, I'll do my best to come back and update this piece.
+**Note**: The terms are not set in stone. And, if the way they are used were to change, I'll do my best to come back and update this piece.
 
 \- Joseph
 
-To know when I drop a new post, [subscribe to the newsletter](https://thacker.beehiiv.com/subscribe). No spam, just an update when I drop a good blog post.
+To know when I drop a new post, [subscribe to the newsletter](https://thacker.beehiiv.com/subscribe). No spam, just an update when I put out a new piece of content.
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@rez0__" />
