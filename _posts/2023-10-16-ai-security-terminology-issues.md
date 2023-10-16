@@ -30,7 +30,7 @@ These are the most commonly used terms at the moment, as well as simple explanat
 - **AI Safety (Trust and Bias)**: Prevent AI from saying harmful things like how to make bombs, being racist, or promoting violence.
 - **AI Red Teaming**: Testing AI Models in regards to their Safety.
 
-There are my proposed sub-categories that we start using for more clarity:
+These are my proposed sub-categories that we start using for more clarity:
 - **AI (or LLM) Application Security**: Prevent security vulnerabilities in AI applications (often introduced when functionality is bolted on to AI/LLMs).
 - **AI Model Security**: Prevent model theft, data poisoning, and supply chain attacks.
 - **AI Project Security**: Prevent security vulnerabilities in AI-based frameworks such as the opensource repos and projects which deploy or implement AI models like LLMs. (such as the [LangChain RCE](https://github.com/langchain-ai/langchain/issues/4849))
