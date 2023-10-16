@@ -12,26 +12,26 @@ tags:
 ![](https://i.imgur.com/iV1Ylc3.png){: width="400" }
 AI Security is an emerging field. I LOVE being at the forefront of something so transformative and important. There are definitely some growing pains with it though.
 
-One issue is ambiguity. When someone says "AI Safety", "AI Security", or "AI Red Teaming", it's not clear what they are talking about. All three of those categories mean different things to different people.
+One issue is **ambiguity**. When someone says **AI Safety**, **AI Security** or **AI Red Teaming** it's not clear what they are talking about. All three of those categories mean different things to different people.
 
 If we could properly delineate between AI Security research fields, it would improve search results and LLM training data moving forward. It would also significantly impact:
-- Learners: How can a person learn about something if they cannot find it?
-- Job Postings: How can a person accurately apply for a job if the role is unclear?
-- Community Organization: Lots of communities on Discord or Slack devote themselves to specific industries. How can a person find the correct one if the labeling is ambiguous?
-- Discussions: Many discussions and disagreements result from parties having unclear definitions about the topics at hand.
+- **Learners**: How can a person learn about something if they cannot find it?
+- **Job Postings**: How can a person accurately apply for a job if the role is unclear?
+- **Community Organization**: Lots of communities on Discord or Slack devote themselves to specific industries. How can a person find the correct one if the labeling is ambiguous?
+- **Discussions**: Many discussions and disagreements result from parties having unclear definitions about the topics at hand.
 
-The second issue is that AI Security is really deep and complex. It may not be sufficient to delineate simply between two or three terms. The common terms have plenty of use in the current vernacular, but some do not. I propose some definitions for current terms and new, more-specific categories for further clarity.
+The second issue is that **AI Security is really deep and complex**. It may not be sufficient to delineate simply between two or three terms. The common terms have plenty of use in the current vernacular, but some do not. I propose some definitions for current terms and new, more-specific categories for further clarity.
 
 These are the most commonly used terms at the moment, as well as simple explanations for what they mean:
 - **AI Security**: Overarching term that ecompasses everything below.
 - **AI Alignment**: Prevent AI from killing us.
-- **AI Safety (Trust and Bias)**: Prevent AI from telling harmful things like making bombs and prevent AI from being racist or promoting violence, giving legal advice, etc.
+- **AI Safety (Trust and Bias)**: Prevent AI from saying harmful things like how to make bombs, being racist, or promoting violence.
 - **AI Red Teaming**: Testing AI Models in regards to their Safety.
 
 There are my proposed sub-categories that we start using for more clarity:
-- **AI (or LLM) Application Security**: Prevent security vulnerabilities in AI applications (often introduced when extra features or tools are bolted on to AI/LLMs).
+- **AI (or LLM) Application Security**: Prevent security vulnerabilities in AI applications (often introduced when functionality is bolted on to AI/LLMs).
 - **AI Model Security**: Prevent model theft, data poisoning, and supply chain attacks.
-- **AI Project Security**: Prevent security vulnerabilities in AI-based frameworks such as the opensource repos and projects which deploy or implement AI models like LLMs. (like the LangChain RCEs)
+- **AI Project Security**: Prevent security vulnerabilities in AI-based frameworks such as the opensource repos and projects which deploy or implement AI models like LLMs. (such as the [LangChain RCEs](https://github.com/langchain-ai/langchain/issues/4849))
 
 So I'd like to suggest we start using these terms. It's a useful way to clarify what people are actually talking about.
 
