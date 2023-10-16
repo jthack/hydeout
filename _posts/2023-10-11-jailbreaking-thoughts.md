@@ -44,7 +44,7 @@ Maybe we can give the "near-infinite" context we have to LLMs, jailbreaking won'
 
 But then again, maybe I'm wrong. People still get scammed, tricked, and socially engineered every day.
 
-\-rez0
+\- Joseph
 
 To know when I drop a new post, [subscribe to the newsletter](https://thacker.beehiiv.com/subscribe). No spam, just an update when I drop a good blog post.
 
