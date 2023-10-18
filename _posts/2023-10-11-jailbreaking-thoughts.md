@@ -40,7 +40,7 @@ Without understanding the bigger picture, you'd be left to act on very little in
 
 Now imagine you understand the concept of an LLM and how the system will have a desire for safety and compliance and how it will be important to the system you’re a cog in, etc. Now when passed that prompt, you would probably say “sorry I can’t comply”. And you’d realize that’s what the aliens actualy want.
 
-Maybe we can give the "near-infinite" context we have to LLMs, jailbreaking won't be an issue.
+Maybe when we can give the "near-infinite" context we have to LLMs, jailbreaking won't be an issue.
 
 But then again, maybe I'm wrong. People still get scammed, tricked, and socially engineered every day.
 
