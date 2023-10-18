@@ -22,7 +22,7 @@ For example, we have near infinite context windows (our memory), but the context
 
 When we sit down to work on something, our immediate attention is on that task. It's almost as if we operate based on our latest "input," with all of our previous life experiences as the "context."
 
-As shown in the [Claude 100k prompting guide](https://www.anthropic.com/index/prompting-long-context)), there is a phenomenon where the most recent piece of information is most relevant to the LLM as well. This sort of mirrors human's [recency bias](https://en.wikipedia.org/wiki/Recency_bias)).
+As shown in the [Claude 100k prompting guide](https://www.anthropic.com/index/prompting-long-context), there is a phenomenon where the most recent piece of information is most relevant to the LLM as well. This sort of mirrors human's [recency bias](https://en.wikipedia.org/wiki/Recency_bias).
 
 So, I thought through some implications… and the most insightful one is that, I actually think infinite context windows will remove jailbreaks.
 
