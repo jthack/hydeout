@@ -15,11 +15,11 @@ I'm a security researcher who specializes in application security and AI. I’ve
 ## whereami
 
 - email: [me@josephthacker.com](mailto:me@josephthacker.com)
-- newsletter: [Thacker Thoughts](https://thacker.beehiiv.com/subscribe)
 - twitter: [rez0\_\_](https://twitter.com/rez0__)
 - linkedin: [Joseph Thacker](https://www.linkedin.com/in/josephthacker/)
 - hackerone: [rez0](https://hackerone.com/rez0)
 - bugcrowd: [rez0](https://bugcrowd.com/rez0)
+- list to join if you want to get an email when I publish a post: [Thacker Thoughts](https://thacker.beehiiv.com/subscribe)
 
 <p class="message">
   "As water reflects the face, so one's life reflects the heart." Proverbs 27:19
