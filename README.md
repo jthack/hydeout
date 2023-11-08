@@ -1,1 +1,1 @@
-# rez0.blog
+# josephthacker.com
