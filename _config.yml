@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            Joseph Thacker
 tagline:          'aka rez0s blog'
 description:      'My thoughts on hacking, ai, faith, and more.'
-host:             rez0.blog
+host:             josephthacker.com
 port:             443
 #url:              http://localhost:4000
 #baseurl:          '/blog'
