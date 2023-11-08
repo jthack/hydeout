@@ -30,18 +30,16 @@ Agents can be scaled much wider than human hackers as there's practically infini
 Models are improving at an alarming rate. I mean we've only had the tech to build decent agents for less than a year, and the tools being developed are already insane.
 
 ### This is just the beginning
-Sure, the first phase of hacking agents will only be able to find a small percent of all vulnerabilities in an app (such as 2%). Let's make up a number and imagine that a new program launch on a bug bounty platform for the same app would find about 70% of all vulnerabilities. Here's the thing. 
-
-**They will improve.**
+Sure, the first phase of hacking agents will only be able to find a small percent of all vulnerabilities in an app (such as 2%). Let's make up a number and imagine that a new program launch on a bug bounty platform for the same app would find about 70% of all vulnerabilities. Here's the thing: **They will improve.**
 
 They'll get better through:   
-\- Better models   
-\- Larger context windows   
-\- Improved prompts   
-\- Fine-tuning for hacking-specific tasks   
-\- Getting built on better agent frameworks   
-\- Better state management   
-\- Other improvements we don't know about yet   
+\- **Better models**   
+\- **Larger context windows**   
+\- **Improved prompts**   
+\- **Fine-tuning** for hacking-specific tasks   
+\- Getting built on **better agent frameworks**   
+\- Better **state management**   
+\- **Other improvements** we don't know about yet   
 
 Maybe they'll be able to find 5% of all bugs in an app within a year, or maybe it'll be 10%. In 3 years, that percentage will go up more. In 5 years, it'll go up even more.
 
@@ -65,7 +63,7 @@ One major reason I believe the arguments in this post is that there is a massive
 
 The future is going to be wild, but, in many ways, it's already here. In other ways, it's rapidly approaching. 
 
-Thanks,
+Thanks,  
 Joseph
 
 [Sign up for my email list](https://thacker.beehiiv.com/subscribe) to know when I post more content like this.
