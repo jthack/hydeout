@@ -19,7 +19,7 @@ After a specific passage in the book, I had an answer to one of the great questi
 
 I had held a strong opinion that people today are smarter than nearly everyone who has ever lived. This book changed my mind.
 
-It got me to rethink my opinion by explaining how the average person in the early days of America was extremely literate, consumed nearly ever novel that came out, and was well known for getting into verbose lengthy debates with people from other countries. I break down the "why" in the example below, but the tldr is the "medium" of the written word as primary content consumption leads to this behavior.
+It got me to rethink my opinion by explaining how the average person in the early days of America was extremely literate, consumed nearly ever novel that came out, and was well known for getting into verbose lengthy debates with people from other countries. I break down the "why" in the example below, but the tldr is the "medium" of the written word as the primary way people consumed content led to much strong minds.
 
 I still believe we're smarter in regards to the total knowledge that smart people today have. However, when it comes to our ability to logic, reason, philosophize, and perform similar deep thinking tasks, the average person back then was significantly brighter than the average person in the US today.
 
