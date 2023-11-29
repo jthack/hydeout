@@ -29,7 +29,8 @@ I still believe we're smarter in regards to the total knowledge that smart peopl
 For example, consuming content from books requires deeper focus, slower thinking, and logical thought. We scrutinize the written word by its content alone. It's hard for text on a page to trick or convince us of something unless the argument is rational. This is likely why early Americans were so smart in regards to reason and rationality.
 
 ![](https://i.imgur.com/fAwA3V6.png){: width="400" }
-_Coca Cola isn't an example in the book_   
+_Coca Cola isn't an example in the book_    
+     
 Let's use **Coca Cola** as another example. If you want to convince someone that Coke is good to drink through a letter, you must create a coherent reason for why.
 
 Now compare that to a video advertisement. There needs to be no logical flow. It can be a simple illustration of an emotion--a smiling person enraptured by the sound of a can opening and the flavor of it. En masse, the former leads to a brain well-tested.
