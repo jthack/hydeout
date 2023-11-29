@@ -9,12 +9,12 @@ tags:
 ---
 
 ![](https://i.imgur.com/H4DwaKP.png){: width="400" }
-A look into how technological breakthroughs change our behavior, the ways AI will do so, and how to mitigate it.
 
 I recently read Amusing Ourselves to death. It was a fantastic book; way ahead of its time. It's almost prophetic.
 
 ### Historical Wisdom vs. Modern Intelligence
-After a specific passage in the book, I had an answer to one of the great questions that Tim Ferris often asks his guests: **"What have you changed your mind about recently?"**
+After a specific passage in the book, I had an answer to one of the great questions that Tim Ferris often asks his guests:   
+**"What have you changed your mind about recently?"**
 
 I had held a strong opinion that people today are smarter than nearly everyone who has ever lived. This book changed my mind.
 
@@ -22,12 +22,13 @@ It got me to rethink my opinion by explaining how the average person in the earl
 
 I still believe we're smarter in regards to the total knowledge that smart people today have. However, when it comes to our ability to logic, reason, philosophize, and perform similar deep thinking tasks, the average person back then was significantly brighter than the average person in the US today.
 
-### Examples From the Book
-Neil Postman, the author, foresaw the way that the medium of television (but we can extrapolate out to things like Youtube as well) actually affected the content. The medium by which we consume information significantly affects the way we process the information.
+### Examples From "Amusing Ourselves To Death"
+**Neil Postman**, the author, foresaw the way that the medium of television (but we can extrapolate out to things like Youtube as well) actually affect the content. The medium by which we consume information significantly affects the way we understand and digest the information.
 
 For example, consuming content from books require deeper focus, slower thinking, and logical thought. We scrutinize the written word by its content alone. It's hard for text on a page to trick or convince us of something unless the argument is rational. This is likely why early Americans were so smart in regards to reason and rationality.
 
 ![](https://i.imgur.com/fAwA3V6.png){: width="400" }
+_Coca Cola isn't an example in the book__
 Let's use **Coca Cola** as another example. If you want to convince someone that Coke is good to drink through a letter, you must create a coherent reason for why.
 
 Now compare that to a video advertisement. There needs to be no logical flow. It can be a simple illustration of an emotion--a smiling person enraptured by the sound of a can opening and the flavor of it. En masse, the former leads to a brain well-tested.
@@ -39,14 +40,15 @@ All of the above is interesting, but I thought of a really practical take-away a
 ### Breakthrough, Cost, Mitigation
 There's always a cost to new technology. That doesn't mean it's not worth paying, but we should try to mitigate the downside.
 
-**Breakthroughs and Costs**
-The **car** removed the need to walk, so we walk less.
-The **TV** removed the need to entertain ourselves, so we are less creative. (see also: **games, social media, messaging**)
-The **internet** removed the need to remember, so we don't remember as well.
-The **GPS** removed the need for a sense of direction, so less people can navigate.
+**Breakthroughs and Costs**   
+- The **car** removed the need to walk, so we walk less.
+- The **TV** removed the need to entertain ourselves, so we are less creative. (see also: **games, social media, messaging**)
+- The **internet** removed the need to remember, so we don't remember as well.
+- The **GPS** removed the need for a sense of direction, so less people can navigate.
+
 On and on it goes...
 
-But here's the point I've been building to:
+But here's the point I've been building to:  
 **AI agents will remove the need to _do things_.**
 
 Digital assistants will manage our calendars, reply to emails, handle our to-do lists, order our groceries, and more.
