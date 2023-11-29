@@ -14,6 +14,7 @@ I recently read Amusing Ourselves to death. It was a fantastic book; way ahead o
 
 ## Historical Wisdom vs. Modern Intelligence
 After a specific passage in the book, I had an answer to one of the great questions that Tim Ferris often asks his guests:   
+   
 **"What have you changed your mind about recently?"**
 
 I had held a strong opinion that people today are smarter than nearly everyone who has ever lived. This book changed my mind.
