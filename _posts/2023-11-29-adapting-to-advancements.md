@@ -51,6 +51,7 @@ There's always a cost to new technology. That doesn't mean it's not worth paying
 On and on it goes...
 
 But here's the point I've been building to:  
+   
 **AI agents will remove the need to _do things_.**
 
 Digital assistants will manage our calendars, reply to emails, handle our to-do lists, order our groceries, and more.
