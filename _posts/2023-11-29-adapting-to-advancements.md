@@ -12,7 +12,7 @@ tags:
 
 I recently read Amusing Ourselves to death. It was a fantastic book; way ahead of its time. It's almost prophetic.
 
-### Historical Wisdom vs. Modern Intelligence
+## Historical Wisdom vs. Modern Intelligence
 After a specific passage in the book, I had an answer to one of the great questions that Tim Ferris often asks his guests:   
 **"What have you changed your mind about recently?"**
 
@@ -22,13 +22,13 @@ It got me to rethink my opinion by explaining how the average person in the earl
 
 I still believe we're smarter in regards to the total knowledge that smart people today have. However, when it comes to our ability to logic, reason, philosophize, and perform similar deep thinking tasks, the average person back then was significantly brighter than the average person in the US today.
 
-### Examples From "Amusing Ourselves To Death"
+## Examples From "Amusing Ourselves To Death"
 **Neil Postman**, the author, foresaw the way that the medium of television (but we can extrapolate out to things like Youtube as well) actually affect the content. The medium by which we consume information significantly affects the way we understand and digest the information.
 
 For example, consuming content from books require deeper focus, slower thinking, and logical thought. We scrutinize the written word by its content alone. It's hard for text on a page to trick or convince us of something unless the argument is rational. This is likely why early Americans were so smart in regards to reason and rationality.
 
 ![](https://i.imgur.com/fAwA3V6.png){: width="400" }
-_Coca Cola isn't an example in the book__
+_Coca Cola isn't an example in the book_
 Let's use **Coca Cola** as another example. If you want to convince someone that Coke is good to drink through a letter, you must create a coherent reason for why.
 
 Now compare that to a video advertisement. There needs to be no logical flow. It can be a simple illustration of an emotion--a smiling person enraptured by the sound of a can opening and the flavor of it. En masse, the former leads to a brain well-tested.
@@ -37,7 +37,7 @@ Another astute example in the book was how our mental image of Presidential cand
 
 All of the above is interesting, but I thought of a really practical take-away as well.
 
-### Breakthrough, Cost, Mitigation
+## Breakthrough, Cost, Mitigation
 There's always a cost to new technology. That doesn't mean it's not worth paying, but we should try to mitigate the downside.
 
 **Breakthroughs and Costs**   
@@ -71,7 +71,7 @@ I'm a hacker. I'm practical. I love tips and take-aways. So here are tips to mys
 
 It's clear to me that some people will do these things, but most won't. Daniel Miessler nailed it in his post about [The Great Bifurcation](https://danielmiessler.com/p/great-bifurcation). A small number of people will do what's required to stay healthy, sharp, well-founded, and versatile. Most people will atrophy or never evolve.
 
-Thanks,
+Thanks,  
 \- Joseph
 
 To know when I drop a new post, [join my email list](https://thacker.beehiiv.com/subscribe). 
