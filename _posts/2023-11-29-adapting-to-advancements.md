@@ -10,7 +10,7 @@ tags:
 
 ![](https://i.imgur.com/H4DwaKP.png){: width="400" }
 
-I recently read Amusing Ourselves to death. It was a fantastic book; way ahead of its time. It's almost prophetic.
+I recently read [Amusing Ourselves to Death](https://www.amazon.com/Amusing-Ourselves-Death-Discourse-Business/dp/014303653X). It was a fantastic book; way ahead of its time. It's almost prophetic.
 
 ## Historical Wisdom vs. Modern Intelligence
 After a specific passage in the book, I had an answer to one of the great questions that Tim Ferris often asks his guests:   
