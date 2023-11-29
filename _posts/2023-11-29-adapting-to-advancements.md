@@ -33,7 +33,7 @@ _Coca Cola isn't an example in the book_
      
 Let's use **Coca Cola** as another example. If you want to convince someone that Coke is good to drink through a letter, you must create a coherent reason for why.
 
-Now compare that to a video advertisement. There needs to be no logical flow. It can be a simple illustration of an emotion--a smiling person enraptured by the sound of a can opening and the flavor of it. En masse, the former leads to a brain well-tested.
+Now compare that to a video advertisement. There needs to be no logical flow. It can be a simple illustration of an emotion--a smiling person enraptured by the sound of a can opening and the flavor of it. En masse, the former leads to a brain well-tested. The latter leads to an emotional decision to chase a feeling.
 
 Another astute example in the book was how our mental image of Presidential candidates has shifted. In early America, most people wouldn't have seen presidential candidates. So when they thought about a candidate, the person's ideas and stances on different topics would have been evoked in their mind. Nowadays, when we think of a Presidential candidate, the person's face comes to our mind.
 
