@@ -61,10 +61,10 @@ There needs to be a balance. We must find a way to keep our basic abilities shar
 
 I'm a hacker. I'm practical. I love tips and take-aways. So here are tips to myself (and to you) for combating the downsides of the tech we use everyday as well as the AI tools we'll use tomorrow:
 - Read more books
-- Walk, run, lift, or play a sport most days
-- Practice loving doing hard things
+- Either walk, run, lift, or play a sport on most days
+- Learn to enjoy doing hard things
 - Take extended time off social media
-- When you're going somewhere for the first time, try and remember your way back home
+- When go somewhere for the first time, try to remember your way back home
 - Block time on your calendar for deep work
 - Write at least a little bit each week
 - Let kids experience and deal with a healthy amount of boredom and hardship
