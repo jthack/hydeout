@@ -24,9 +24,9 @@ It got me to rethink my opinion by explaining how the average person in the earl
 I still believe we're smarter in regards to the total knowledge that smart people today have. However, when it comes to our ability to logic, reason, philosophize, and perform similar deep thinking tasks, the average person back then was significantly brighter than the average person in the US today.
 
 ## Examples From "Amusing Ourselves To Death"
-**Neil Postman**, the author, foresaw the way that the medium of television (but we can extrapolate out to things like Youtube as well) actually affect the content. The medium by which we consume information significantly affects the way we understand and digest the information.
+**Neil Postman**, the author, foresaw the way that the medium of television (but we can extrapolate out to things like Youtube as well) actually affects the meaning and viewers. The medium by which we consume information significantly affects the way we understand and digest the information.
 
-For example, consuming content from books require deeper focus, slower thinking, and logical thought. We scrutinize the written word by its content alone. It's hard for text on a page to trick or convince us of something unless the argument is rational. This is likely why early Americans were so smart in regards to reason and rationality.
+For example, consuming content from books requires deeper focus, slower thinking, and logical thought. We scrutinize the written word by its content alone. It's hard for text on a page to trick or convince us of something unless the argument is rational. This is likely why early Americans were so smart in regards to reason and rationality.
 
 ![](https://i.imgur.com/fAwA3V6.png){: width="400" }
 _Coca Cola isn't an example in the book_   
