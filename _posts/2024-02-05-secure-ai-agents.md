@@ -39,10 +39,10 @@ Here's how I think we could solve each of the limiting factors for good and secu
 
 ### Credentialed UI Access
 So let's assume the agent needs access to a service without a functional API. To securely give the agent credentialed access, it requires a few things:
-- A Hardened Sandbox: No one wants an attacker to get access to a VM which is logged into every service.
-- Delegated Accounts: A way to give agents their own accounts for services. This will often require the next bullet.
-- AI-Specific Phone Numbers and Emails: In order for agents to be able to verify MFA and access confirmation emails, they'll need their own number and email. This doubles as a safety barrier since granting an agent access to one's personal email is unwise.
-- Step-up Approval Features: Critical actions where the agent is spending money or changing settings should initially require user approval until extremely high accuracy is achieved.
+- **A Hardened Sandbox**: No one wants an attacker to get access to a VM which is logged into every service.
+- **Delegated Accounts**: A way to give agents their own accounts for services. This will often require the next bullet.
+- **AI-Specific Phone Numbers and Emails**: In order for agents to be able to verify MFA and access confirmation emails, they'll need their own number and email. This doubles as a safety barrier since granting an agent access to one's personal email is unwise.
+- **Step-up Approval Features**: Critical actions where the agent is spending money or changing settings should initially require user approval until extremely high accuracy is achieved.
 
 ### Authentication for Agents
 We need to find a way to grant an AI agent authorized access to various services. Traditional authentication methods are not well-suited for agents as it would require using your own personal information for the agent's account on the service if you decided it was unsafe to use your own. At that point, you're creating two accounts on every service with your own data or fake data, which will often break the terms of service. Even if it doesn't, you're managing multiple email addresses or
@@ -50,9 +50,9 @@ something else weird.
 
 To address this issue, I think a new authentication framework is needed (or something built on top of OAuth, etc). The framework could include some or all of the following components:
 
-1. Agent Identity Verification: Each AI agent should have a unique identifier that can be verified by the services it interacts with. This identifier could be a digital certificate or a token issued by a trusted authority.
-2. Delegated Authorization: Users should be able to grant specific permissions to AI agents, allowing them to perform certain actions on their behalf. This can be achieved through a mechanism similar to OAuth (or just OAuth), where users authorize agents to access specific resources or perform specific tasks without sharing their credentials through the use of scopes.
-3. Audit Logging: All actions performed by AI agents should be logged for user review at any time. This will help to debug and ensure quality, allowing users to review and change permissions if necessary.
+1. **Agent Identity Verification**: Each AI agent should have a unique identifier that can be verified by the services it interacts with. This identifier could be a digital certificate or a token issued by a trusted authority.
+2. **Delegated Authorization**: Users should be able to grant specific permissions to AI agents, allowing them to perform certain actions on their behalf. This can be achieved through a mechanism similar to OAuth (or just OAuth), where users authorize agents to access specific resources or perform specific tasks without sharing their credentials through the use of scopes.
+3. **Audit Logging**: All actions performed by AI agents should be logged for user review at any time. This will help to debug and ensure quality, allowing users to review and change permissions if necessary.
 
 ### API-ification
 One of my favorite ideas for enabling AI agents to perform more complex tasks is through automated API-ification of services that currently lack one. A good example of this is the restaurant industry, where menus and prices change, and every restaurant isn't going to develop and maintain their own API. However, there is an opportunity for a third-party to come in and do it.
