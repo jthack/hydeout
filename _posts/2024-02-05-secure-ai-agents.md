@@ -29,7 +29,7 @@ For the **AWS example**, the AI needs:
 - A way to navigate through the console if APIs don't exist for desired functionality. 
 - A way to look up the open-source project and install it on the virtual machine.
 
-I think the most secure, efficicent, and accurate infrastructure would be entirely API-based, but I don't see us getting there soon. And AI agents are too valuable for us to "just wait" for the API-ification to be better. So what do we do? We build both. 
+I think the most secure, efficient, and accurate infrastructure would be entirely API-based, but I don't see us getting there soon. And AI agents are too valuable for us to "just wait" for the API-ification to be better. So what do we do? We build both. 
 
 The most popular stand-alone "AI Device" was recently launched. It's called the Rabbit R1. [In the Rabbit R1 keynote](https://www.rabbit.tech/keynote), the founder reveals that they have made a credentialed sandbox virtual machine for the AI to use to accomplish tasks. He says you'll sign in to your personal accounts during an onboarding flow, and it'll be stored securely. Personally I find it quite unsafe to grant an AI agent access to my services. Prompt injection in that setup would grant an attacker full control of all the credentialed applications.
 
