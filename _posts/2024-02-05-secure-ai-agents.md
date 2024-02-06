@@ -13,7 +13,7 @@ Capable and secure AI agents will require new technologies. In order to expedite
 
 The libraries and frameworks for AI systems are pretty immature right now. Most applications are simple chatbots or forms of retrieval. But as we increase the complexity of the use-cases, the current architecture won't be sufficent. Anyone who has spent a few minutes thinking about AI has considered how useful it would be to have a cheap personal assistant that could tackle complex tasks or how much money it would save businesses if they were able to replace significant headcount with AI agents.
 
-_Note: Much of this post is influenced and inspired by content from my friend [Daniel Miessler](https://twitter.com/DanielMiessler). The most recent post on this topic, which likely inspired my thinking on this topic [is here](https://danielmiessler.com/p/ai-predictable-path-7-components-2024)!_
+_Note: Much of this post is influenced and inspired by content from my friend [Daniel Miessler](https://twitter.com/DanielMiessler). His most recent piece on AI agents, which likely inspired my thinking on all this [is here](https://danielmiessler.com/p/ai-predictable-path-7-components-2024)!_
 
 ## Example Tasks
 For a personal use case, we can imagine the task of ordering some food for pickup from a restaurant. A workplace example might be: Go into the AWS console, spin up a virtual machine, and install a specific opensource project in it. These are real tasks that someone would want to give to a real assistant.  
