@@ -13,17 +13,18 @@ Capable AI agents will require new infrastructure. In order to expedite the util
 
 The libraries and frameworks for AI systems are pretty immature right now. Most applications are simple chatbots or forms of retrieval. But as we increase the complexity of the use-cases, the current architecture won't be sufficent. Anyone who has spent a few minutes thinking about AI has considered how useful it would be to have a cheap personal assistant that could tackle complex tasks or how much money it would save businesses if they were able to replace significant headcount with AI agents.
 
+## Example Tasks
 For a pesonal use case, we can imagine the task of ordering some food for pickup from a restaurant. A workplace example might be: Go into the AWS console, spin up a virtual machine, and install a specific opensource project in it. These are real tasks that someone would want to give to a real assistant.  
 
 For nearly every system that an agent would need to interact with to accomplish a task, there has to be an API or credentialed UI access (the capability to browse to the application with those credentials similar to how a human would). The infrastructure to do most of that doesn't exist right now. Let's showcase that through the examples above. 
 
-For the food example, the AI needs:
+For the **food example**, the AI needs:
 - The interests of the user. This can be solved with current memory systems, the prompt itself, or personal API.
 - A way to list the restaurants. I'm not sure if Google has an API for this. They probably do. 
 - A way to list the menu items. There's no API right now, but I think this would be a fantastic start-up idea. Scrape all restaurants websites for menus and build an always updating third-party menu API that agents can hit when trying to order food or answer users' queries about menus. 
 - A way to hire someone to pick up and drop off the food. I doubt this exists currently, but DoorDash and UberEats should add it. The agent would need credentials.
 
-For the AWS example, the AI needs:
+For the **AWS example**, the AI needs:
 - Credentials to access AWS, either an API token or login creds.
 - A way to navigate through the console if APIs don't exist for desired functionality. 
 - A way to look up the open-source project and install it on the virtual machine.
@@ -32,6 +33,7 @@ I think the most secure, efficicent, and accurate infrastructure would be entire
 
 The most popular "AI Device" stand-alone device was recently launched. It's called the Rabbit R1. [In the Rabbit R1 keynote](https://www.rabbit.tech/keynote), they reveal that they have made a credentialed sandbox virtual machine for the AI to use to accomplish tasks. In the keynote, he says you'll just sign in to your personal accounts during an onboarding flow, and it'll be stored securely, etc. Personally I find it quite unsafe to grant an AI agent access to my services. Prompt injection in that setup would grant an attacker full control of all the credentialed applications.
 
+![](https://i.imgur.com/6nPI4eB.png){: width="400" }
 ## Solutions
 Here's how I think we could solve each of the limiting factors for good and secure AI agents.
 
