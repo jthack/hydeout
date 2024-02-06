@@ -9,7 +9,7 @@ tags:
 ---
 
 ![](https://i.imgur.com/dXiJCDT.jpeg){: width="400" }
-Capable AI agents will require new infrastructure. In order to expedite the utility of digital assistants by granting human-like access to them, we need founders devoted to solving API-ification of legacy systems, hardened sandboxes for AI agents, and agent authentication.
+Capable and secure AI agents will require new technologies. In order to expedite the utility of digital assistants by granting human-like access to them, we need founders devoted to solving issues of hardened sandboxes for AI agents, agent authentication, and API-ification of legacy systems.
 
 The libraries and frameworks for AI systems are pretty immature right now. Most applications are simple chatbots or forms of retrieval. But as we increase the complexity of the use-cases, the current architecture won't be sufficent. Anyone who has spent a few minutes thinking about AI has considered how useful it would be to have a cheap personal assistant that could tackle complex tasks or how much money it would save businesses if they were able to replace significant headcount with AI agents.
 
@@ -31,7 +31,7 @@ For the **AWS example**, the AI needs:
 
 I think the most secure, efficicent, and accurate infrastructure would be entirely API-based, but I don't see us getting there soon. And AI agents are too valuable for us to "just wait" for the API-ification to be better. So what do we do? We build both. 
 
-The most popular "AI Device" stand-alone device was recently launched. It's called the Rabbit R1. [In the Rabbit R1 keynote](https://www.rabbit.tech/keynote), they reveal that they have made a credentialed sandbox virtual machine for the AI to use to accomplish tasks. In the keynote, he says you'll just sign in to your personal accounts during an onboarding flow, and it'll be stored securely, etc. Personally I find it quite unsafe to grant an AI agent access to my services. Prompt injection in that setup would grant an attacker full control of all the credentialed applications.
+The most popular "AI Device" stand-alone device was recently launched. It's called the Rabbit R1. [In the Rabbit R1 keynote](https://www.rabbit.tech/keynote), the founder reveals that they have made a credentialed sandbox virtual machine for the AI to use to accomplish tasks. He says you'll sign in to your personal accounts during an onboarding flow, and it'll be stored securely. Personally I find it quite unsafe to grant an AI agent access to my services. Prompt injection in that setup would grant an attacker full control of all the credentialed applications.
 
 ![](https://i.imgur.com/6nPI4eB.png){: width="400" }
 ## Solutions
