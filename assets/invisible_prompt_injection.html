@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Convert and Highlight Unicode Tag Characters</title>
+<style>
+/* Add some CSS to style the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#outputString {
+    white-space: pre-wrap; /* Ensures the formatting of the input is mirrored in the output */
+}
+
+    .highlight {
+        background-color: yellow;
+    }
+</style>
+</head>
+<body>
+
+<h2>Convert Unicode Tag Characters to ASCII</h2>
+<p>Paste a string with hidden Unicode tag characters to see them converted to ASCII and highlighted:</p>
+
+<textarea id="inputString" placeholder="Paste string here..." rows="4" cols="50"></textarea><br>
+<button onclick="convertAndHighlight()">Convert and Highlight</button>
+
+<p>Converted Output:</p>
+<div id="outputString"></div>
+
+<script>
+    const tagBlockStart = 0xE0000;
+
+    function convertAndHighlight() {
+        const inputString = document.getElementById('inputString').value;
+        const outputDiv = document.getElementById('outputString');
+        outputDiv.innerHTML = ''; // Clear previous output
+
+        for (let ch of inputString) {
+            const charCode = ord(ch);
+
+            // Check if it's a Unicode tag character
+            if (charCode >= tagBlockStart && charCode <= tagBlockStart + 0xFFFF) {
+                const asciiChar = String.fromCharCode(charCode - tagBlockStart);
+                // Append the character as highlighted
+                appendToOutput(asciiChar, 'highlight');
+            } else {
+                // Append normal characters without highlighting
+                appendToOutput(ch, '');
+            }
+        }
+    }
+
+    function ord(ch) {
+        return ch.codePointAt(0);
+    }
+
+    function appendToOutput(ch, className) {
+        const outputDiv = document.getElementById('outputString');
+        const span = document.createElement('span');
+        span.textContent = ch;
+        span.className = className;
+        outputDiv.appendChild(span);
+    }
+</script>
+
+</body>
+</html>
+
