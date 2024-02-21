@@ -45,6 +45,53 @@ button {
 </head>
 <body>
 
+
+<h2>Convert ASCII to Unicode Tag Characters</h2>
+<p>Enter ASCII characters to convert them to Unicode tag characters:</p>
+
+<textarea id="asciiInput" placeholder="Enter ASCII characters..." rows="4" cols="50"></textarea><br>
+<label><input type="checkbox" id="prependBeginTag"> Prepend BEGIN Unicode Tag</label><br>
+<button onclick="convertToTagCharsAndCopy()">Convert and Copy to Clipboard</button>
+
+<div id="copyStatus"></div>
+<script>
+    function convertToTagCharsAndCopy() {
+        const inputMessage = document.getElementById('asciiInput').value;
+        const prependBeginTag = document.getElementById('prependBeginTag').checked;
+        let outputMessage = '';
+
+        // Prepend the BEGIN Unicode tag if the checkbox is ticked
+        if (prependBeginTag) {
+            outputMessage += String.fromCodePoint(0xE0001);
+        }
+
+        // Encode the message
+        let encoded = '';
+        for (let char of inputMessage) {
+            if (char.charCodeAt(0) >= 0x20 && char.charCodeAt(0) <= 0x7E) {
+                let codePoint = 0xE0000 + char.charCodeAt(0);
+                encoded += String.fromCodePoint(codePoint);
+            } else {
+                encoded += char;
+            }
+        }
+
+        outputMessage += encoded;
+
+        // Copy the encoded message to the clipboard
+        navigator.clipboard.writeText(outputMessage).then(() => {
+            document.getElementById('copyStatus').textContent = 'Copied to clipboard!';
+            console.log('Text copied to clipboard!');
+        }).catch(err => {
+            document.getElementById('copyStatus').textContent = 'Failed to copy!';
+            console.error('Failed to copy text:', err);
+        });
+    }
+</script>
+
+</body>
+</html>
+
 <h2>Convert Unicode Tag Characters to ASCII</h2>
 <p>Paste a string with hidden Unicode tag characters to see them converted to ASCII and highlighted:</p>
 
@@ -95,50 +142,3 @@ button {
         outputDiv.appendChild(span);
     }
 </script>
-
-<h2>Convert ASCII to Unicode Tag Characters</h2>
-<p>Enter ASCII characters to convert them to Unicode tag characters:</p>
-
-<textarea id="asciiInput" placeholder="Enter ASCII characters..." rows="4" cols="50"></textarea><br>
-<label><input type="checkbox" id="prependBeginTag"> Prepend BEGIN Unicode Tag</label><br>
-<button onclick="convertToTagCharsAndCopy()">Convert and Copy to Clipboard</button>
-
-<div id="copyStatus"></div>
-<script>
-    function convertToTagCharsAndCopy() {
-        const inputMessage = document.getElementById('asciiInput').value;
-        const prependBeginTag = document.getElementById('prependBeginTag').checked;
-        let outputMessage = '';
-
-        // Prepend the BEGIN Unicode tag if the checkbox is ticked
-        if (prependBeginTag) {
-            outputMessage += String.fromCodePoint(0xE0001);
-        }
-
-        // Encode the message
-        let encoded = '';
-        for (let char of inputMessage) {
-            if (char.charCodeAt(0) >= 0x20 && char.charCodeAt(0) <= 0x7E) {
-                let codePoint = 0xE0000 + char.charCodeAt(0);
-                encoded += String.fromCodePoint(codePoint);
-            } else {
-                encoded += char;
-            }
-        }
-
-        outputMessage += encoded;
-
-        // Copy the encoded message to the clipboard
-        navigator.clipboard.writeText(outputMessage).then(() => {
-            document.getElementById('copyStatus').textContent = 'Copied to clipboard!';
-            console.log('Text copied to clipboard!');
-        }).catch(err => {
-            document.getElementById('copyStatus').textContent = 'Failed to copy!';
-            console.error('Failed to copy text:', err);
-        });
-    }
-</script>
-
-</body>
-</html>
-
