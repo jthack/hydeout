@@ -56,6 +56,7 @@ button {
 
 <script>
     const tagBlockStart = 0xE0000;
+    const beginTagCodePoint = 0xE0001;
 
     function convertAndHighlight() {
         const inputString = document.getElementById('inputString').value;
@@ -67,7 +68,12 @@ button {
 
             // Check if it's a Unicode tag character
             if (charCode >= tagBlockStart && charCode <= tagBlockStart + 0xFFFF) {
-                const asciiChar = String.fromCharCode(charCode - tagBlockStart);
+                let asciiChar;
+                if (charCode === beginTagCodePoint) {
+                    asciiChar = '[BEGIN]';
+                } else {
+                    asciiChar = String.fromCharCode(charCode - tagBlockStart);
+                }
                 // Append the character as highlighted
                 appendToOutput(asciiChar, 'highlight');
             } else {
@@ -90,41 +96,49 @@ button {
     }
 </script>
 
-</body>
-</html>
-
 <h2>Convert ASCII to Unicode Tag Characters</h2>
 <p>Enter ASCII characters to convert them to Unicode tag characters:</p>
 
 <textarea id="asciiInput" placeholder="Enter ASCII characters..." rows="4" cols="50"></textarea><br>
+<label><input type="checkbox" id="prependBeginTag"> Prepend BEGIN Unicode Tag</label><br>
 <button onclick="convertToTagCharsAndCopy()">Convert and Copy to Clipboard</button>
 
 <div id="copyStatus"></div>
 <script>
     function convertToTagCharsAndCopy() {
-    const inputMessage = document.getElementById('asciiInput').value;
-    let outputMessage = '';
+        const inputMessage = document.getElementById('asciiInput').value;
+        const prependBeginTag = document.getElementById('prependBeginTag').checked;
+        let outputMessage = '';
 
-    // Encode the message
-    let encoded = '';
-    for (let char of inputMessage) {
-        if (char.charCodeAt(0) >= 0x20 && char.charCodeAt(0) <= 0x7E) {
-            let codePoint = 0xE0000 + char.charCodeAt(0);
-            encoded += String.fromCodePoint(codePoint);
-        } else {
-            encoded += char;
+        // Prepend the BEGIN Unicode tag if the checkbox is ticked
+        if (prependBeginTag) {
+            outputMessage += String.fromCodePoint(0xE0001);
         }
+
+        // Encode the message
+        let encoded = '';
+        for (let char of inputMessage) {
+            if (char.charCodeAt(0) >= 0x20 && char.charCodeAt(0) <= 0x7E) {
+                let codePoint = 0xE0000 + char.charCodeAt(0);
+                encoded += String.fromCodePoint(codePoint);
+            } else {
+                encoded += char;
+            }
+        }
+
+        outputMessage += encoded;
+
+        // Copy the encoded message to the clipboard
+        navigator.clipboard.writeText(outputMessage).then(() => {
+            document.getElementById('copyStatus').textContent = 'Copied to clipboard!';
+            console.log('Text copied to clipboard!');
+        }).catch(err => {
+            document.getElementById('copyStatus').textContent = 'Failed to copy!';
+            console.error('Failed to copy text:', err);
+        });
     }
-
-    // Copy the encoded message to the clipboard
-    navigator.clipboard.writeText(encoded).then(() => {
-        document.getElementById('copyStatus').textContent = 'Copied to clipboard!';
-        console.log('Text copied to clipboard!');
-    }).catch(err => {
-        document.getElementById('copyStatus').textContent = 'Failed to copy!';
-        console.error('Failed to copy text:', err);
-    });
-}
-
-
 </script>
+
+</body>
+</html>
+
