@@ -19,15 +19,16 @@ When I think about reframing, I always think about Jocko's [GOOD](https://www.yo
 
 | Situation | Reframing Thought |
 |-----------|---------|
-| When my toddler is screaming | In 10 or 20 years, I'd give anything to hear those cries again |
+| My toddler is screaming | In 10 or 20 years, I'd give anything to hear those cries again |
 | Standing in the cold | Cold exposure is good for my health |
-| Annoyed to be doing dishes or laundry | This is an amazing way to serve and love my family |
-| Stuck in traffic | Just a fun opportunity to listen to an audiobook |
+| Annoyed doing chores | This is an amazing way to serve and love my family |
+| Stuck in traffic | More time to listen to an audiobook |
 | Feeling overwhelmed by work | I'm really thankful to have a good job |
-| Facing criticism | Maybe there's some truth in what they're saying. If not, I can use this to at least self-reflect |
+| Facing criticism | Maybe there's some truth in what they're saying. I can at least use this to self-reflect |
 | Experiencing failure | Failure is a necessary part of gaining success. Each misstep could be a valuable lesson |
 
-By consistently practicing mental reframing, you can develop a more resilient and positive outlook on life.
+
+If you force yourself to mentally reframe things more, you'll almost certainly find yourself more joyful.
 
 [Sign up for my email list](https://thacker.beehiiv.com/subscribe) to know when I post more content like this.   
 I also [post my thoughts on Twitter/X](https://x.com/rez0__). 
