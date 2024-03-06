@@ -13,7 +13,7 @@ Mental framing can be powerful. Framing is the way you percieve a situation and 
 
 This post is inspired by Daniel Miessler's [recent post on Framing](https://danielmiessler.com/p/framing-is-everything). It's basically required reading, and this post can be seen as a follow-up to it.
 
-When I think about reframing, I always think about Jocko's [GOOD](https://www.youtube.com/watch?v=IdTMDpizis8), which is simi
+When I think about reframing, I always think about Jocko's [GOOD](https://www.youtube.com/watch?v=IdTMDpizis8), which is similar to the list below.
 
 ## List of Reframes
 
