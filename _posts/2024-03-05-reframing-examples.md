@@ -30,6 +30,8 @@ When I think about reframing, I always think about Jocko's [GOOD](https://www.yo
 
 If you force yourself to mentally reframe things more, you'll almost certainly find yourself more joyful.
 
+\- Joseph
+
 [Sign up for my email list](https://thacker.beehiiv.com/subscribe) to know when I post more content like this.   
 I also [post my thoughts on Twitter/X](https://x.com/rez0__). 
 
