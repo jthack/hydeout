@@ -25,7 +25,7 @@ But wait, there's a more powerful idea here, in my opinion! This pattern of an A
 
 Imagine feeding the system a series of disparate articles and posts about the same incident. It could compile a full timeline and detailed list. Or if you had it process live audio or video, where it would be a necessity to ingest the content bit-by-bit, it would be able to update a timeline or key points in real-time. 
 
-I view it like the difference between cramming for a test by reading a textbook cover to cover and actually learning the material over time. The latter approach leads to a deeper, more "human" understanding because it can be saved with time-based context or ordering and LLMs are generally able to be more verbose and detailed with a higher ratio of output tokens to input content.
+I view it like the difference between cramming for a test by reading a textbook cover to cover and actually learning the material over time. The latter approach leads to a deeper, more "human" understanding because it can be saved with time-based context or ordering, and LLMs are generally able to be more verbose and detailed with a higher ratio of output tokens to input content.
 
 ## Some Ideas 
 The applications for this type of incremental learning AI are endless. It could be used to:
