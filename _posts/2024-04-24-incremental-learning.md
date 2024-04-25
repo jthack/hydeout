@@ -18,10 +18,10 @@ For example, let's say you feed it the Lord of the Rings series. You could ask i
 This could be super powerful for generating and updating wikis, tracking character arcs, or even analyzing D&D campaign recordings! 
 
 ## The Abstract Pattern
-But wait, there's a more powerful idea here, I think! This idea of an AI system with incremental learning and updating could be applied to all kinds of content, not just books.
+But wait, there's a more powerful idea here, in my opinion! This pattern of an AI system with incremental learning and updating could be applied to all kinds of content, not just books.
 
 ![](https://i.imgur.com/E9ed76j.gif){: width="500" }
-*Example of an LLM generating a timeline*
+*Example of an LLM generating a timeline*  
 Imagine feeding the system a series of disparate articles and posts about the same incident. It could compile a full timeline and detailed list. Or if you had it process live audio or video, where it would be a necessity to ingest the content bit-by-bit, it would be able to update a timeline or key points in real-time. 
 
 I view it like the difference between cramming for a test by reading a textbook cover to cover and actually learning the material over time. The latter approach leads to a deeper, more "human" understanding because it can be saved with time-based context or ordering and LLMs are generally able to be more verbose and detailed with a higher ratio of output tokens to input content.
