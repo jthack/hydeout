@@ -2,7 +2,7 @@
 title: "Rabbit r1: Innovative Device, Security Concerns"
 layout: post
 categories:
-  - cybersecurity
+  - ai
 tags:
   - cybersecurity
   - hacking
@@ -39,7 +39,7 @@ Let me know by [hitting me up on X/Twitter](https://x.com/rez0__).
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@rez0__" />
 <meta name="twitter:creator" content="@rez0__" />
-<meta property="og:url" content="https://josephthacker.com/cybersecurity/2024/04/26/rabbit-r1-innovative-device-security-concerns.html" />
+<meta property="og:url" content="https://josephthacker.com/ai/2024/04/26/rabbit-r1-innovative-device-security-concerns.html" />
 <meta property="og:title" content="Rabbit's New r1 Device: Cool Tech, But Is It Secure?" />
 <meta property="og:description" content="A blog post exploring the potential security risks of Rabbit's new r1 device and its reliance on a VNC remote desktop portal for account authentication." />
 <meta property="og:image" content="https://josephthacker.com/assets/images/rabbit-r1-security-concerns.png" />
