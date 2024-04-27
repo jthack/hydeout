@@ -11,7 +11,7 @@ tags:
 ![](/assets/images/rabbit-r1-security-concerns.png){: width="400" }
 Hey friends, let me start by saying - I'm actually really excited about Rabbit's new r1 device. The idea of having an AI assistant and image analyzer in a portable little "Pokedex" is extremely cool. And being able to connect it to services like Midjourney for AI art generation and Spotify for music? Awesome!
 
-But here's the thing that has me a bit concerned. Instead of using a nice secure method like OAuth to link accounts, the r1 has you log into services through a VNC in their portal.
+But here's the thing that has me a bit concerned. Instead of using a nice secure method like OAuth to link accounts, the r1 has you log into services through VNC in their portal.
 
 Don't get me wrong, I love the convenience of being able to connect applications to an AI device. But having it snapshot your credentials or session data is... not great from a security standpoint. 
 
