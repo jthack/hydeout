@@ -7,7 +7,7 @@ tags:
   - ai
 ---
 ![](/assets/images/assumptions_made_standard.png){: width="400" }
-_Introducing the `assumptions_made` field for AI Agents_
+_Pitching the `assumptions_made` metadata field for AI Agents_
 
 I've been thinking a lot lately about the current state of AI and large language models (LLMs). People are building really cool stuff with AI agents and chatbots that can call tools or use plugins, but there's clearly room for growth and innovation.
 
