@@ -20,7 +20,7 @@ Another cool feature is that it's really hard to tell that they're even smart gl
 
 And all of this is working quite well when powered by only Llama 2. I can't wait until they update to Llama 3.
 
-Anyways, I'm not sponsored by them or anything, but I just think they're awesome and wanted to share :)
+Anyways, I'm not sponsored by them or anything, but I just think they're awesome and wanted to share :)  
 \- Joseph
 
 [Sign up for my email list](https://thacker.beehiiv.com/subscribe) to know when I post more content like this.

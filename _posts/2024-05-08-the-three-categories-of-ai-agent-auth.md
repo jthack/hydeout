@@ -8,11 +8,11 @@ tags:
   - cybersecurity
 ---
 ![](/assets/images/ai-agent-ecosystem.png){: width="400" }
-As I've been discussing AI agent authentication with some brilliant people in San Fran this week, it's become clear to me that there will likely be various solutions based on different use cases and risk tolerance levels. By imaging what a mature AI agent ecosystem might look like, I've come to the conclusion that the industry will essentially be divided into three main categories.
+As I've been discussing AI agent authentication with some brilliant people in San Fran this week, it's become clear to me that there will likely be various solutions based on different use cases and risk tolerance levels. By imagining what a mature AI agent ecosystem might look like, I've come to the conclusion that the industry will essentially be divided into three main categories.
 
 ## 1. B2C AI Agents
 
-Talking with Paul Klein, the founder of BrowserBaseHQ, he explained how it seems inevitable that Apple and Google will dominate the B2C market. I agree. Most people will expect their digital assistant to handle tasks like emailing, texting, and calling people, as well as booking Ubers or ordering from DoorDash. Phones are perfectly suited for this, as they can seamlessly integrate with the apps already installed on our phones.
+Talking with Paul Klein, the founder of BrowserBase, he explained how it seems inevitable that Apple and Google will dominate the B2C market. I agree. Most people will expect their digital assistant to handle tasks like emailing, texting, and calling people, as well as booking Ubers or ordering from DoorDash. Phones are perfectly suited for this, as they can seamlessly integrate with the apps already installed on our phones.
 
 ## 2. B2B AI Agents
 
@@ -24,7 +24,7 @@ The third and most intriguing segment, which I haven't yet figured out a good na
 
 As the AI agent ecosystem matures, it's going to be really interesting to see how these different categories evolve and what new use cases emerge. There's a lot of potential for AI agents to enhance all our lives if they can be accurate and secure.
 
-- Joseph
+\- Joseph
 
 [Sign up for my email list](https://thacker.beehiiv.com/subscribe) to know when I post more content like this.
 I also [post my thoughts on Twitter/X](https://x.com/rez0__).
