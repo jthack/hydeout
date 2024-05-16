@@ -14,7 +14,7 @@ That's where things can start to go off the rails. The AI might start hallucinat
 
 However, current AI models seem to really shine when given a narrow focus. So how do we leverage this strength while tackling longer, multi-step tasks? 
 
-## Introducing the AI Snooze Button
+### Introducing the AI Snooze Button
 
 What if we gave the model the ability to "sleep" and set a wake-up timer for itself? I imagine it being a tool that is exposed to the agent where it can pick and choose the next time it "wakes" to accomplish a task.
 
@@ -24,7 +24,7 @@ Instead of having it generate all the posts at once and then twiddling its digit
 
 It's like giving the AI a snooze button that it can manage itself. It wakes up, does a quick burst of focused work, and then goes back to sleep until the next scheduled task. This way, it's not running constantly in the background, potentially going off course or wasting resources. 
 
-## The Benefits of AI Power Naps
+### The Benefits of AI Power Naps
 
 This approach could have a few key benefits:
 
@@ -34,7 +34,7 @@ This approach could have a few key benefits:
 
 3. **Enhanced coherence**: With a narrow, timely focus for each work sprint, the output and is likely to be more coherent and on-topic. 
 
-## The Future of AI Productivity
+### The Future of AI Productivity
 
 This was just one potential idea I had for tackling the challenge of long-running AI agents. But I think it's an intriguing concept to try. As these models become increasingly sophisticated, finding ways to harness their strengths and mitigate their weaknesses will be a huge market
 
