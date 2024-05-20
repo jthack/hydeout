@@ -9,7 +9,7 @@ tags:
   - ai
 ---
 ![](/assets/images/robot_mech.png){: width="400" }
-Yann LeCun is making the same mistake Marc Andreesen makes when considering AI risk. They don't understand how powerful a system can be which incorporates generative AI with other code, tools, and features.
+Yann LeCun is making the same mistake Marc Andreesen makes about AI risk. They aren't considering how powerful a system can be which incorporates generative AI with other code, tools, and features. LLMs can't cause massively bad outcomes, but it's not absurd to think human-directed LLM applications with powerful tools _could_ cause large-scale harm.
 
 With the alignment team leaving OpenAI, lots of people are discussing the safety risks not being taken seriously internally at OpenAI. [Yann LeCun and others have basically made fun of these opinions, and even went so far as to consider it idiotic to worry about it](https://x.com/ylecun/status/1791890883425570823). I'm e/acc for the most part. I believe we should continue accelerating AI development and growth, but I think he's wrong to dismiss the risks out of hand. 
 
