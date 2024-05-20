@@ -13,7 +13,7 @@ Yann LeCun is making the same mistake Marc Andreesen makes about AI risk. They a
 
 With the alignment team leaving OpenAI, lots of people are discussing the safety risks not being taken seriously internally at OpenAI. [Yann LeCun and others have basically made fun of these opinions, and even went so far as to consider it idiotic to worry about it](https://x.com/ylecun/status/1791890883425570823). I'm e/acc for the most part. I believe we should continue accelerating AI development and growth, but I think he's wrong to dismiss the risks out of hand. 
 
-Marc Andreessen has a similar opinion about AI safety. It's crazy to me that this discussion lacks so much nuance when it's so important. So, I'll break down the real, practical categories of AI safety ([similar to how I did previously](/ai/2023/10/16/ai-security-terminology-issues.html)) but with concrete examples of bad outcomes so readers can actually consider the risks, decide what they think, and even think of solutions.
+Marc Andreessen has a similar opinion about AI safety. It's crazy to me that this discussion lacks so much nuance when it's so important. One big problem is ambiguity around the risks. So, I'll break down the real, practical categories of AI safety ([similar to how I did previously](/ai/2023/10/16/ai-security-terminology-issues.html)) but with concrete examples of bad outcomes so readers can actually consider the risks, decide what they think, and even think of solutions.
 
 Before I get into it, I want to say that most of this can be boiled down to the fact that generative AI is basically a form of leverage. It gives more power to individuals and companies, but also it gives more power to bad actors who can get access.
 
