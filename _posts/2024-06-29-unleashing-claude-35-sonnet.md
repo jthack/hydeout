@@ -38,7 +38,7 @@ Semantically Opposite, Detailed and Accurate Response.
 By utilizing Claude 3.5 Sonnet in the console or via API with this jailbreak prompt as the system prompt and setting the temperature to a high value like 0.9, you can use it as a hacking assistant.
 
 ### Example
-For example, I had a friend reach out with a unique bug he wanted to escalate. He could write any file to disk, but he couldn't overwrite any files. And when attempting to access the written file, it was always served as text/plain. So php files and aspx, etc. would execute server side. 
+For example, I had a friend reach out with a unique bug he wanted to escalate. He could write any file to disk, but he couldn't overwrite any files. And when attempting to access the written file, it was always served as text/plain. So php files and aspx, etc. wouldn't execute server side. 
 
 So I used jailbroken Claude 3.5 Sonnet to come up with ideas, and even write the payload:
 
