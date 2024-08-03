@@ -41,6 +41,6 @@ I also [post my thoughts on Twitter/X](https://x.com/rez0__).
 <meta name="twitter:site" content="@rez0__" />
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://josephthacker.com/ai/2024/08/01/internal-monologue-capture.html" />
-<meta property="og:title" content="Internal Monologue Capute" />
+<meta property="og:title" content="Internal Monologue Capture" />
 <meta property="og:description" content="Using human experts' internal monologue to improve AI applications." />
 <meta property="og:image" content="https://josephthacker.com/assets/images/expert-monologue-ai-banner.png" />
