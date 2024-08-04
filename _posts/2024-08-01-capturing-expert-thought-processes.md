@@ -10,7 +10,7 @@ tags:
   - productivity
 ---
 ![](/assets/images/expert-monologue-ai-banner.png){: width="400" }
-I can't stop thinking about a new concept that AI applications could hugely benefit from. I'm calling it **internal monologue capture**. When [Daniel Miessler](https://x.com/danielmiessler) and I were hanging out a few months ago, I had told him a huge thing that AI applications need is the **internal monologue** from experts. I'm pumped to finally write a blog about it.
+I can't stop thinking about a new concept that AI applications could benefit from. I'm calling it **internal monologue capture**. When [Daniel Miessler](https://x.com/danielmiessler) and I were hanging out a few months ago, I told him a huge level-up that AI applications need is the **internal monologue** from experts. I'm pumped to finally write a blog about it.
 
 ### Examples and explanation
 Here's the best way to explain it. Imagine if an AI hacking system had the internal monologue of the best XSS exploiter when attempting to exploit XSS. We can literally _give it_ that if you have that expert write down their thoughts as they exploit an XSS. 
