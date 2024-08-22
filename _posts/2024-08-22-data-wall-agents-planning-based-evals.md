@@ -52,4 +52,4 @@ I also [post my thoughts on Twitter/X](https://x.com/rez0__).
 <meta property="og:url" content="https://josephthacker.com/ai/2024/08/22/data-wall-agents-planning-based-evals.html" />
 <meta property="og:title" content="The Data Wall, Agents, and Planning-based Evals" />
 <meta property="og:description" content="My thoughts on the data wall and how we're moving from factual knowledge to action-based planning and evaluation." />
-<meta property="og:image" content="https://josephthacker.com/assets/images/ai_crossroads.png" />
+<meta property="og:image" content="https://josephthacker.com/assets/images/ai_crossroads.jpeg" />
