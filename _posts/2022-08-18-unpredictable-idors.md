@@ -21,7 +21,7 @@ If you're not sure what an IDOR with an unpredictable ID is, I'll tell you. Firs
 
 A predictable ID would be where the ID in those requests—and the corresponding backend database—is sequential (like  `467` for one object and `468` for another) or predictable (like if the username is being used as the ID).
 
-So an "unpredictable ID" is anything used as an ID that isn't able to be predicted. It's most often a UUID, such as `0e925156-1dce-11ed-861d-0242ac120002`. But it could also be a concatenation of a random value and a unix timestamp or any other number of things.
+So an "unpredictable ID" is anything used as an ID that isn't able to be predicted. It's most often a UUID, such as `a9f84602-bcca-4dc2-8be4-4ea0b21fd41e`. But it could also be a concatenation of a random value and a unix timestamp or any other number of things.
 
 ### The debate
 IDORs are a common bug. They can be any severity. For example, read-only IDORs to leak email addresses of other users might be a low. Read/write IDORs on user objects for other organizations would be a Critical on most programs.
