@@ -14,8 +14,8 @@ I love most things in life, but I'm particularly fond of hacking, ai-art, runnin
 
 ## whereami
 
-- email: [me@josephthacker.com](mailto:me@josephthacker.com)
-- twitter: [rez0\_\_](https://twitter.com/rez0__)
+- email: [joseph@rez0corp.com](mailto:joseph@rez0corp.com)
+- twitter/x: [rez0\_\_](https://x.com/rez0__)
 - linkedin: [Joseph Thacker](https://www.linkedin.com/in/josephthacker/)
 - hackerone: [rez0](https://hackerone.com/rez0)
 - bugcrowd: [rez0](https://bugcrowd.com/rez0)
