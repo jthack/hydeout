@@ -1,1 +1,10 @@
 <!-- Optional footer content -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Wait much longer before adding the animated class
+    setTimeout(function() {
+      document.querySelector('.site-title').classList.add('animated');
+    }, 5000); // Increased from 2000 to 5000ms to let animation complete
+  });
+</script>

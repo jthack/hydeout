@@ -1,0 +1,207 @@
+---
+layout: default
+---
+
+<header>
+  <h1 class="page-title">{{ page.title }}</h1>
+</header>
+<div class="content">
+  {{ content }}
+
+  <style>
+    textarea {
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+        border: 1px solid #000000;
+        background-color: #ffffff;
+        font-size: 14px;
+        resize: vertical;
+    }
+
+    button {
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        color: #000000;
+        padding: 0.75rem 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 0.5rem 0;
+        cursor: pointer;
+        font-family: inherit;
+        transition: all 0.2s ease;
+    }
+
+    button:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    .output-area {
+        white-space: pre-wrap;
+        padding: 1rem;
+        border: 1px solid #000000;
+        margin-top: 1rem;
+        font-family: inherit;
+        line-height: 1.5;
+        background-color: #ffffff;
+    }
+
+    #copyStatus {
+        margin-top: 0.5rem;
+        font-style: italic;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #copyStatus.show {
+        opacity: 1;
+    }
+
+    .tool-divider {
+        border-top: 1px solid #000000;
+        margin: 2rem 0;
+    }
+
+    .highlight {
+        background-color: #00ffef;
+        display: inline;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .emoji-select {
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+    }
+  </style>
+
+  <div class="playground-container">
+    <h3>Hide Data</h3>
+    <textarea id="messageInput" placeholder="Enter text to hide..." rows="4"></textarea><br>
+    <select id="baseChar" class="emoji-select">
+        <option value="😊">😊 Smiling Face</option>
+        <option value="🌟">🌟 Star</option>
+        <option value="🎨">🎨 Palette</option>
+        <option value="🌈">🌈 Rainbow</option>
+        <option value="g">g (Regular Character)</option>
+    </select>
+    <button onclick="hideData()">Make Emoji With Hidden Data</button>
+    <div id="hideOutput" class="output-area">Output will appear here.</div>
+    <div id="copyStatus"></div>
+    <button onclick="copyToClipboard()">Copy Hidden Data</button>
+
+    <div class="tool-divider"></div>
+
+    <h3>Extract Hidden Data</h3>
+    <p>Paste text containing hidden data to extract it:</p>
+    <textarea id="hiddenInput" placeholder="Paste text with hidden data..." rows="4"></textarea><br>
+    <button onclick="extractData()">Extract Data</button>
+    <div id="extractOutput" class="output-area">Output will appear here.</div>
+  </div>
+
+  <script>
+    function byteToVariationSelector(byte) {
+        if (byte < 16) {
+            return String.fromCodePoint(0xFE00 + byte);
+        } else {
+            return String.fromCodePoint(0xE0100 + (byte - 16));
+        }
+    }
+
+    function variationSelectorToByte(variationSelector) {
+        const codePoint = variationSelector.codePointAt(0);
+        if (codePoint >= 0xFE00 && codePoint <= 0xFE0F) {
+            return codePoint - 0xFE00;
+        } else if (codePoint >= 0xE0100 && codePoint <= 0xE01EF) {
+            return (codePoint - 0xE0100) + 16;
+        }
+        return null;
+    }
+
+    function hideData() {
+        const message = document.getElementById('messageInput').value;
+        const baseChar = document.getElementById('baseChar').value;
+        const outputArea = document.getElementById('hideOutput');
+        
+        if (!message) {
+            outputArea.textContent = 'Please enter text to hide.';
+            return;
+        }
+
+        let hidden = baseChar;
+        for (let i = 0; i < message.length; i++) {
+            const byte = message.charCodeAt(i);
+            hidden += byteToVariationSelector(byte);
+        }
+
+        outputArea.textContent = `Here's your hidden result (click the Copy button above to copy it):\n${hidden}`;
+    }
+
+    function extractData() {
+        const input = document.getElementById('hiddenInput').value;
+        const outputArea = document.getElementById('extractOutput');
+        
+        if (!input) {
+            outputArea.textContent = 'Please paste text with hidden data.';
+            return;
+        }
+
+        let revealed = '';
+        let foundFirst = false;
+        
+        for (const char of input) {
+            const byte = variationSelectorToByte(char);
+            if (byte !== null) {
+                foundFirst = true;
+                revealed += String.fromCharCode(byte);
+            } else if (!foundFirst) {
+                // Skip characters until we find our first variation selector
+                continue;
+            }
+        }
+
+        if (!revealed) {
+            outputArea.innerHTML = 'No hidden data found.';
+        } else {
+            outputArea.innerHTML = `Original: ${input}\nExtracted data: <span class="highlight">${revealed}</span>`;
+        }
+    }
+
+    function copyToClipboard() {
+        const outputArea = document.getElementById('hideOutput');
+        const copyStatus = document.getElementById('copyStatus');
+        
+        if (!outputArea.textContent) {
+            copyStatus.textContent = 'Nothing to copy!';
+            copyStatus.classList.add('show');
+            setTimeout(() => copyStatus.classList.remove('show'), 2000);
+            return;
+        }
+
+        // Extract the hidden text from the output area
+        const match = outputArea.textContent.match(/Hidden result.*?\n(.*)/s);
+        if (!match) {
+            copyStatus.textContent = 'No hidden text to copy!';
+            copyStatus.classList.add('show');
+            setTimeout(() => copyStatus.classList.remove('show'), 2000);
+            return;
+        }
+
+        navigator.clipboard.writeText(match[1]).then(() => {
+            copyStatus.textContent = 'Copied to clipboard!';
+            copyStatus.classList.add('show');
+            setTimeout(() => copyStatus.classList.remove('show'), 2000);
+        }).catch(err => {
+            copyStatus.textContent = 'Failed to copy!';
+            copyStatus.classList.add('show');
+            setTimeout(() => copyStatus.classList.remove('show'), 2000);
+        });
+    }
+  </script>
+</div> 

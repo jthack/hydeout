@@ -1,26 +1,25 @@
 <div id="sidebar">
   <header>
-    <div style="display: flex; justify-content: center; width: 100%;">
+    <div class="profile-image">
       <img src="/assets/images/joseph_circle.png" alt="" width="180">
     </div>
-
 
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
       <a href="{{ site.baseurl }}/">
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
-        {{ site.title }}
+        <span class="typing-line line1">
+          <span>J</span><span>o</span><span>s</span><span>e</span><span>p</span><span>h</span>
+        </span>
+        <span class="typing-line line2"
+        ><span>T</span><span>h</span><span>a</span><span>c</span><span>k</span><span>e</span><span>r</span></span>
       </a>
     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
     <p class="lead">{{ site.description }}</p>
   </header>
+
   {% include sidebar-nav-links.html %}
-
-  {% if site.version %}
-    <span class="site-version">Currently v{{ site.version }}</span>
-  {% endif %}
-
   {% include sidebar-icon-links.html %}
   {% include copyright.html %}
 </div>

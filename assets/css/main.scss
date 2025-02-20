@@ -3,4 +3,287 @@
 # only main files contain this front matter, not partials.
 ---
 
+$sidebar-bg-color: #ffffff;
+$sidebar-fg-color: #000000;
+$sidebar-width: 18rem;
+$border-color: #000000;
+$border-width: 1px;
+
 @import "hydeout";
+
+// Override default styles
+#sidebar {
+  background-color: $sidebar-bg-color;
+  color: $sidebar-fg-color;
+  border-right: $border-width solid $border-color;
+
+  .site-title {
+    color: $sidebar-fg-color;
+    margin-top: 0.1rem;
+    
+    a {
+      color: inherit;
+      
+      &:hover {
+        color: rgba(0,0,0,0.7);
+      }
+    }
+  }
+
+  .back-arrow {
+    color: $sidebar-fg-color;
+  }
+
+  .profile-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0 0.1rem 0;
+
+    img {
+      border: 3px solid $border-color;
+      border-radius: 50%;  // Keep it circular
+    }
+  }
+}
+
+// Add divider lines in sidebar
+#sidebar {
+  .lead {
+    border-bottom: $border-width solid $border-color;
+    margin: 0 -2rem 1rem -2rem;
+    padding: 0 2rem 1rem 2rem;
+  }
+  
+  #sidebar-nav-links {
+    border-bottom: $border-width solid $border-color;
+    margin: 0 -2rem 1rem -2rem;
+    padding: 0 2rem 1rem 2rem;
+  }
+
+  #sidebar-icon-links {
+    .tool-link {
+      display: block;
+      margin-bottom: 1rem;
+      padding: 0 0.5rem;
+      
+      a {
+        color: $sidebar-fg-color;
+        font-size: 0.85rem;
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+// Style adjustments for main content
+.container {
+  background: #ffffff;
+  color: #000000;
+}
+
+// Modern link styling
+a {
+  color: #000000;
+  text-decoration: none !important;
+  
+  &:hover {
+    color: rgba(0,0,0,0.7);
+  }
+}
+
+// Only underline links in paragraphs
+p > a:not(.no-underline) {
+  text-decoration: underline !important;
+  
+  &:hover {
+    color: rgba(0,0,0,0.7);
+  }
+}
+
+// Make tag icons and counts black
+span.icon svg {
+  fill: #000000;
+}
+
+.tags-list a .tag-count {
+  background: #000000;
+  color: #ffffff;
+  margin-left: 0.25em;
+  border-radius: 1000px;
+  font-size: 0.75em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
+
+// Clean post styling
+.post-title, .page-title {
+  margin-top: 2rem;
+}
+
+// Modern button styling
+.pagination-item {
+  border: $border-width solid $border-color;
+  border-radius: 0;
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+}
+
+// Search form modernization
+.search-row {
+  input[type="search"] {
+    border: $border-width solid $border-color;
+    border-radius: 0;
+  }
+  
+  input[type="submit"] {
+    border: $border-width solid $border-color;
+    border-radius: 0;
+    background: #ffffff;
+    color: #000000;
+    
+    &:hover {
+      background-color: rgba(0,0,0,0.05);
+    }
+  }
+}
+
+@media (max-width: 49rem) {
+  #sidebar {
+    p:last-child {
+      display: none;
+    }
+  }
+}
+
+// Add this to your existing CSS
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+#sidebar {
+  .site-title {
+    a {
+      text-decoration: none;
+    }
+
+    .typing-line {
+      display: block;
+      white-space: nowrap;
+      
+      span {
+        visibility: hidden;
+        display: inline-block;
+      }
+    }
+
+    // Add cursor to second line
+    .typing-line.line2 {
+      font-size: inherit;  // Changed from 0 to inherit to match parent
+      
+      span {
+        font-size: inherit;  // Changed from 1rem to inherit
+      }
+      
+      &::after {
+        content: '|';
+        font-size: inherit;  // Changed from 1rem to inherit
+        animation: blink 1s step-end infinite;
+        opacity: 0;
+        animation-delay: 1.4s;
+      }
+    }
+  }
+}
+
+// Animation for each letter
+.typing-line.line1 {
+  span:nth-child(1) { animation: fadeIn 0.1s 0.1s forwards; }
+  span:nth-child(2) { animation: fadeIn 0.1s 0.2s forwards; }
+  span:nth-child(3) { animation: fadeIn 0.1s 0.3s forwards; }
+  span:nth-child(4) { animation: fadeIn 0.1s 0.4s forwards; }
+  span:nth-child(5) { animation: fadeIn 0.1s 0.5s forwards; }
+  span:nth-child(6) { animation: fadeIn 0.1s 0.6s forwards; }
+}
+
+.typing-line.line2 {
+  span:nth-child(1) { animation: fadeIn 0.1s 0.8s forwards; }
+  span:nth-child(2) { animation: fadeIn 0.1s 0.9s forwards; }
+  span:nth-child(3) { animation: fadeIn 0.1s 1.0s forwards; }
+  span:nth-child(4) { animation: fadeIn 0.1s 1.1s forwards; }
+  span:nth-child(5) { animation: fadeIn 0.1s 1.2s forwards; }
+  span:nth-child(6) { animation: fadeIn 0.1s 1.3s forwards; }
+  span:nth-child(7) { animation: fadeIn 0.1s 1.4s forwards; }
+}
+
+@keyframes fadeIn {
+  from { 
+    visibility: hidden;
+    opacity: 0;
+  }
+  to { 
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+// Ensure visibility in animated state
+.site-title.animated {
+  .typing-line span {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  .typing-line.line2::after {
+    animation: blink 1s step-end infinite !important;
+  }
+}
+
+// Tags page styling
+.tags-list {
+  .tag-link {
+    display: block;
+    margin: 0.5rem 0;
+    text-decoration: none;
+    
+    .tag-name {
+      color: $sidebar-fg-color;
+      font-size: 1.1rem;
+    }
+    
+    .tag-count {
+      background: $sidebar-fg-color;
+      color: $sidebar-bg-color;
+      margin-left: 0.5rem;
+      padding: 0.1rem 0.5rem;
+      font-size: 0.8rem;
+      vertical-align: middle;
+    }
+    
+    &:hover {
+      .tag-name {
+        text-decoration: underline;
+      }
+    }
+  }
+}

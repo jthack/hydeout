@@ -33,6 +33,25 @@ body {
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(#{$sidebar-width} + 45rem + 8rem);
+    border-right: 1px solid #000;
+    min-height: 100vh;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  > * {
+    max-height: 100vh; 
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 #sidebar {
@@ -42,6 +61,8 @@ body {
   .site-title {
     font-family: "Courier New", monospace;
     font-weight: normal;
+    // center the text
+    // text-align: center;
     font-size: $large-font-size;
     margin-top: 0;
     margin-bottom: $heading-spacing;
@@ -184,7 +205,8 @@ body {
     padding: $section-spacing * 2
              $section-spacing * 2
              0;
-    height: 100vh;
+    min-height: 100vh;
+    position: relative;
 
     > header {
       color: $heading-color;
@@ -199,7 +221,7 @@ body {
     }
 
     > * {
-      max-width: 38rem;
+      max-width: 45rem;
       padding: 0;
     }
   }

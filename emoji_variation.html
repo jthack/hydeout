@@ -1,0 +1,171 @@
+---
+layout: default
+---
+
+<header>
+  <h1 class="page-title">Emoji Variation Selector Playground</h1>
+</header>
+<div class="content">
+  {{ content }}
+
+  <style>
+    textarea {
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+        border: 1px solid #000000;
+        background-color: #ffffff;
+        font-size: 14px;
+        resize: vertical;
+    }
+
+    button {
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        color: #000000;
+        padding: 0.75rem 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 0.5rem 0;
+        cursor: pointer;
+        font-family: inherit;
+        transition: all 0.2s ease;
+    }
+
+    button:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    #outputArea {
+        white-space: pre-wrap;
+        padding: 1rem;
+        border: 1px solid #000000;
+        margin-top: 1rem;
+        font-family: inherit;
+        line-height: 1.5;
+        background-color: #ffffff;
+    }
+
+    #copyStatus {
+        margin-top: 0.5rem;
+        font-style: italic;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #copyStatus.show {
+        opacity: 1;
+    }
+
+    .tool-divider {
+        border-top: 1px solid #000000;
+        margin: 2rem 0;
+    }
+
+    .highlight {
+        background-color: #00ffef;
+        display: inline;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+  </style>
+
+  <div class="playground-container">
+    <h2>Hide Messages in Emoji</h2>
+    <p>Enter a message to hide it using emoji variation selectors. The message will be hidden between emoji characters using VS15 (text style) and VS16 (emoji style) selectors.</p>
+
+    <textarea id="messageInput" placeholder="Enter message to hide..." rows="4"></textarea><br>
+    <label><input type="checkbox" id="useRandomEmojis"> Use random emojis (otherwise uses ⭐)</label><br>
+    <button onclick="hideMessage()">Hide Message</button>
+    <button onclick="copyToClipboard()">Copy Hidden Message</button>
+
+    <div class="tool-divider"></div>
+
+    <h2>Reveal Hidden Message</h2>
+    <p>Paste a string with hidden emoji variation selectors to reveal the message:</p>
+
+    <textarea id="hiddenInput" placeholder="Paste hidden message here..." rows="4"></textarea><br>
+    <button onclick="revealMessage()">Reveal Message</button>
+
+    <div id="outputArea"></div>
+    <div id="copyStatus"></div>
+  </div>
+
+  <script>
+    const emojis = ['⭐', '❤', '☀', '⚡', '⌚', '✔', '✖', '⭕', '➡', '⬅', '⬆', '⬇'];
+    
+    function hideMessage() {
+        const message = document.getElementById('messageInput').value;
+        const useRandom = document.getElementById('useRandomEmojis').checked;
+        const outputArea = document.getElementById('outputArea');
+        
+        if (!message) {
+            outputArea.textContent = 'Please enter a message to hide.';
+            return;
+        }
+
+        let hidden = '';
+        for (let i = 0; i < message.length; i++) {
+            const emoji = useRandom ? emojis[Math.floor(Math.random() * emojis.length)] : '⭐';
+            hidden += emoji + '\uFE0E' + message[i] + emoji + '\uFE0F';
+        }
+
+        outputArea.textContent = hidden;
+    }
+
+    function revealMessage() {
+        const input = document.getElementById('hiddenInput').value;
+        const outputArea = document.getElementById('outputArea');
+        
+        if (!input) {
+            outputArea.textContent = 'Please paste a hidden message.';
+            return;
+        }
+
+        let revealed = '';
+        const chars = Array.from(input);
+        
+        for (let i = 0; i < chars.length; i++) {
+            const char = chars[i];
+            const nextChar = chars[i + 1];
+            const nextNextChar = chars[i + 2];
+            
+            if (nextChar && nextChar.codePointAt(0) === 0xFE0E) {
+                if (nextNextChar) {
+                    revealed += nextNextChar;
+                    i += 3; // Skip the next emoji + VS16
+                }
+            }
+        }
+
+        outputArea.innerHTML = `Original: ${input}\nRevealed message: <span class="highlight">${revealed}</span>`;
+    }
+
+    function copyToClipboard() {
+        const outputArea = document.getElementById('outputArea');
+        const copyStatus = document.getElementById('copyStatus');
+        
+        if (!outputArea.textContent) {
+            copyStatus.textContent = 'Nothing to copy!';
+            copyStatus.classList.add('show');
+            setTimeout(() => copyStatus.classList.remove('show'), 2000);
+            return;
+        }
+
+        navigator.clipboard.writeText(outputArea.textContent).then(() => {
+            copyStatus.textContent = 'Copied to clipboard!';
+            copyStatus.classList.add('show');
+            setTimeout(() => copyStatus.classList.remove('show'), 2000);
+        }).catch(err => {
+            copyStatus.textContent = 'Failed to copy!';
+            copyStatus.classList.add('show');
+            setTimeout(() => copyStatus.classList.remove('show'), 2000);
+        });
+    }
+  </script>
+</div> 

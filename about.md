@@ -5,7 +5,8 @@ sidebar_link: true
 ---
 
 ![](/assets/images/joseph_speaking.jpg){: width="450" }
-**Joseph Thacker (rez0)**
+
+### Joseph Thacker (rez0)
 
 I'm a Solo Founder and Bug Bounty Hunter who specializes in application security and AI. I’ve helped Fortune 500 companies find vulnerabilities that could have cost them millions, and I've submitted over 1,000 vulnerabilities across Hackerone and Bugcrowd. I love helping secure the planet by building and breaking systems.  Reach out if you'd like to know more.
    

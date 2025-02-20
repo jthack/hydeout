@@ -1,0 +1,186 @@
+---
+layout: default
+---
+
+<header>
+  <h1 class="page-title">{{ page.title }}</h1>
+</header>
+<div class="content">
+  {{ content }}
+
+  <style>
+    textarea {
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+        border: 1px solid #000000;
+        background-color: #ffffff;
+        font-size: 14px;
+        resize: vertical;
+    }
+
+    button {
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        color: #000000;
+        padding: 0.75rem 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 0.5rem 0;
+        cursor: pointer;
+        font-family: inherit;
+        transition: all 0.2s ease;
+    }
+
+    button:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    .highlight {
+        background-color: #00ffef;
+        display: inline;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    #outputString {
+        white-space: pre-wrap;
+        padding: 1rem;
+        border: 1px solid #000000;
+        margin-top: 1rem;
+        font-family: inherit;
+        line-height: 1.5;
+    }
+
+    #copyStatus {
+        margin-top: 0.5rem;
+        font-style: italic;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #copyStatus.show {
+        opacity: 1;
+    }
+
+    label {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    input[type="checkbox"] {
+        margin-right: 0.5rem;
+    }
+
+    .tool-divider {
+        border-top: 1px solid #000000;
+        margin: 2rem 0;
+    }
+  </style>
+
+  <div class="playground-container">
+    <h2>Convert ASCII to Unicode Tag Characters</h2>
+    <p>Enter ASCII characters to convert them to Unicode tag characters:</p>
+
+    <textarea id="asciiInput" placeholder="Enter ASCII characters..." rows="4" cols="50"></textarea><br>
+    <label><input type="checkbox" id="prependBeginTag"> Prepend BEGIN Unicode Tag</label>
+    <button onclick="convertToTagCharsAndCopy()">Convert and Copy to Clipboard</button>
+
+    <div id="copyStatus"></div>
+
+    <div class="tool-divider"></div>
+
+    <h2>Convert Unicode Tag Characters to ASCII</h2>
+    <p>Paste a string with hidden Unicode tag characters to see them converted to ASCII and highlighted:</p>
+
+    <textarea id="inputString" placeholder="Paste string here..." rows="4" cols="50"></textarea><br>
+    <button onclick="convertAndHighlight()">Convert and Highlight</button>
+
+    <p>Converted Output:</p>
+    <div id="outputString"></div>
+  </div>
+
+  <script>
+    function convertToTagCharsAndCopy() {
+        const inputMessage = document.getElementById('asciiInput').value;
+        const prependBeginTag = document.getElementById('prependBeginTag').checked;
+        let outputMessage = '';
+
+        if (prependBeginTag) {
+            outputMessage += String.fromCodePoint(0xE0001);
+        }
+
+        let encoded = '';
+        for (let char of inputMessage) {
+            if (char.charCodeAt(0) >= 0x20 && char.charCodeAt(0) <= 0x7E) {
+                let codePoint = 0xE0000 + char.charCodeAt(0);
+                encoded += String.fromCodePoint(codePoint);
+            } else {
+                encoded += char;
+            }
+        }
+
+        outputMessage += encoded;
+
+        navigator.clipboard.writeText(outputMessage).then(() => {
+            const copyStatus = document.getElementById('copyStatus');
+            copyStatus.textContent = 'Copied to clipboard!';
+            copyStatus.classList.add('show');
+            setTimeout(() => {
+                copyStatus.classList.remove('show');
+            }, 2000);
+            console.log('Text copied to clipboard!');
+        }).catch(err => {
+            const copyStatus = document.getElementById('copyStatus');
+            copyStatus.textContent = 'Failed to copy!';
+            copyStatus.classList.add('show');
+            setTimeout(() => {
+                copyStatus.classList.remove('show');
+            }, 2000);
+            console.error('Failed to copy text:', err);
+        });
+    }
+
+    const tagBlockStart = 0xE0000;
+    const beginTagCodePoint = 0xE0001;
+
+    function convertAndHighlight() {
+        const inputString = document.getElementById('inputString').value;
+        const outputDiv = document.getElementById('outputString');
+        outputDiv.innerHTML = '';
+
+        for (let ch of inputString) {
+            const charCode = ord(ch);
+
+            if (charCode >= tagBlockStart && charCode <= tagBlockStart + 0xFFFF) {
+                let asciiChar;
+                if (charCode === beginTagCodePoint) {
+                    asciiChar = '[BEGIN]';
+                } else {
+                    asciiChar = String.fromCharCode(charCode - tagBlockStart);
+                }
+                appendToOutput(asciiChar, 'highlight');
+            } else {
+                appendToOutput(ch, '');
+            }
+        }
+    }
+
+    function ord(ch) {
+        return ch.codePointAt(0);
+    }
+
+    function appendToOutput(ch, className) {
+        const outputDiv = document.getElementById('outputString');
+        const span = document.createElement('span');
+        span.textContent = ch;
+        span.className = className;
+        outputDiv.appendChild(span);
+    }
+  </script>
+</div> 

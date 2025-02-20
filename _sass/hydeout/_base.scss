@@ -34,16 +34,28 @@ main, article, section { display: block; }
 // No `:visited` state is required by default (browsers will use `a`)
 a {
   color: $link-color;
-  text-decoration: none;
+  text-decoration: underline !important;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    text-decoration: underline;
+    text-decoration: underline !important;
+    font-weight: bold;
   }
 
   strong {
     color: inherit;
+  }
+}
+
+// Exception for sidebar links - keep them without underline
+#sidebar a {
+  text-decoration: none !important;
+  
+  &:hover,
+  &:focus {
+    text-decoration: underline !important;
+    font-weight: normal;
   }
 }
 
