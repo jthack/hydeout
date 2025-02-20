@@ -4,6 +4,8 @@ title: tools
 sidebar_link: true
 ---
 
+![](/assets/images/tools.png){: width="450" }
+
 This is a page where I'll share some of the tools I've built.
 
 ---
@@ -29,12 +31,14 @@ Link: [Shift](https://shiftplugin.com)
 
 ---
 
-## github projects
+# github projects
 
 #### [cewlai](https://github.com/jthack/cewlai)
 CewlAI is a domain generation tool that uses Google's Gemini AI to create potential domain variations based on seed domains. It's inspired by dnscewl which was inspired by CeWL, but this tool focuses on domain name pattern recognition and generation.
 
 Link: [cewlai](https://github.com/jthack/cewlai)
+
+---
 
 #### [ffufai](https://github.com/jthack/ffufai)
 ffufai is an AI-powered wrapper for the popular web fuzzer ffuf. It automatically suggests file extensions for fuzzing based on the target URL and its headers, using either OpenAI's GPT or Anthropic's Claude AI models.
