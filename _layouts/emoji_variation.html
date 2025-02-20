@@ -29,7 +29,7 @@ layout: default
         text-decoration: none;
         display: inline-block;
         font-size: 14px;
-        margin: 0.5rem 0;
+        margin: 1rem 0;
         cursor: pointer;
         font-family: inherit;
         transition: all 0.2s ease;
@@ -76,8 +76,8 @@ layout: default
 
     .emoji-select {
         padding: 0.5rem;
-        font-size: 1.2rem;
-        margin: 0.5rem 0;
+        font-size: 0.9rem;
+        margin: 0.5rem 1rem 0.5rem 0;
     }
   </style>
 
@@ -184,16 +184,18 @@ layout: default
             return;
         }
 
-        // Extract the hidden text from the output area
-        const match = outputArea.textContent.match(/Hidden result.*?\n(.*)/s);
-        if (!match) {
+        // Extract the hidden text from the output area (everything after the newline)
+        const text = outputArea.textContent;
+        const newlineIndex = text.indexOf('\n');
+        if (newlineIndex === -1) {
             copyStatus.textContent = 'No hidden text to copy!';
             copyStatus.classList.add('show');
             setTimeout(() => copyStatus.classList.remove('show'), 2000);
             return;
         }
 
-        navigator.clipboard.writeText(match[1]).then(() => {
+        const hiddenText = text.substring(newlineIndex + 1);
+        navigator.clipboard.writeText(hiddenText).then(() => {
             copyStatus.textContent = 'Copied to clipboard!';
             copyStatus.classList.add('show');
             setTimeout(() => copyStatus.classList.remove('show'), 2000);

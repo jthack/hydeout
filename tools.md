@@ -18,7 +18,7 @@ Link: [Invisible Unicode Tags Playground](/invisible_prompt_injection)
 ---
 
 **Emoji Variation Selector Playground**  
-A tool for experimenting with emoji variation selectors (VS15 and VS16). See how emojis appear with text-style versus emoji-style variation selectors, and test emoji compatibility across platforms.  
+A tool for hiding arbitrary data within Unicode characters using variation selectors (VS1-VS256). Based on Paul Butler’s technique, this tool allows you to encode any data into invisible variation selectors attached to a visible character. The data becomes completely invisible when rendered but can be extracted later.
   
 Link: [Emoji Variation Selector Playground](/emoji_variation)
 
