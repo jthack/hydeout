@@ -22,6 +22,13 @@ Link: [Emoji Variation Selector Playground](/emoji_variation)
 
 ---
 
+**Shift: The Cursor of Hacking**
+Shift is a tool that allows you to control Caido, the web proxy, with simple English commands. No more memorizing complex syntax or digging through documentation.
+
+Link: [Shift](https://shiftplugin.com)
+
+---
+
 ## github projects
 
 #### [cewlai](https://github.com/jthack/cewlai)
