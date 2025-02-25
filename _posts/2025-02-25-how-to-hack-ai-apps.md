@@ -49,10 +49,10 @@ If you want to move as quickly as possible, you could just watch [this Karpathy 
 
 Once you've got the basics down, it's time to use these models as much as possible. Play around with them as often as possible. Try using them in some small way for every task throughout the day. This will get you much more comfortable with them, while also helping you understand their limitations.
 
-There are free tiers for almost all the providers:  
-[OpenAI's ChatGPT](https://chatgpt.com)  
-[Anthropic's Claude](https://claude.ai)  
-[Google's Gemini](https://gemini.google.com/app) & [AIStudio](https://aistudio.google.com/)  
+There are free tiers for almost all the providers:   
+\- [OpenAI's ChatGPT](https://chatgpt.com)   
+\- [Anthropic's Claude](https://claude.ai)   
+\- [Google's Gemini](https://gemini.google.com/app) & [AIStudio](https://aistudio.google.com/)   
 
 Try breaking and using them in interesting ways - get them to output weird unicode characters, make them contradict themselves, or even put a secret in the system prompt and try to extract it. The more you experiment, the more you'll learn about how these models work. This will be super useful when exploiting them because you'll often need to steer them towards doing what you want. 
 
@@ -165,16 +165,16 @@ Let's break down the responsibilities, drawing parallels to the familiar cloud m
 * **Understand the Vulnerability Yourself:**  Recognize that some issues, like jailbreaking (and some forms of prompt injection), are inherent risks in the current state of LLM technology and might not be considered a vulnerability.  If you want to report a jailbreak, look into AI Safety challenges put on by the model providers.
    
 **A Note onApplication Security** . 
-Much of the content below assumes a basic level of application security knowledge. Becoming a web application tester isn't something you can do overnight. If you're reading this and don't have any hacking background, you might need to start with some of the basics. Here's how I recommend starting:
-- [Hacker101](https://www.hacker101.com/)
-- [Portswigger's Web Security Academy](https://portswigger.net/web-security) and the accompanying labs
-- Join some discord communities for bug bounty hunters. I recommend:
-  - [Critical Thinking Bug Bounty Podcast](https://ctbb.show)
-  - [Hacker101](https://discord.gg/hacker101)
-  - [Portswigger Discord](https://discord.gg/portswigger)
-  - [Bugcrowd Discord](https://discord.gg/bugcrowd)
-  - [HackerOne Discord](https://discord.gg/hackerone)
-  - [Bug Bounty Hunters Discord](https://discord.gg/bugbounty)
+Much of the content below assumes a basic level of application security knowledge. Becoming a web application tester isn't something you can do overnight. If you're reading this and don't have any hacking background, you might need to start with some of the basics. Here's how I recommend starting:  
+\- [Hacker101](https://www.hacker101.com/)  
+\- [Portswigger's Web Security Academy](https://portswigger.net/web-security) and the accompanying labs  
+\- Join some discord communities for bug bounty hunters. I recommend:  
+  \- [Critical Thinking Bug Bounty Podcast](https://ctbb.show)  
+  \- [Hacker101](https://discord.gg/hacker101)  
+  \- [Portswigger Discord](https://discord.gg/portswigger)  
+  \- [Bugcrowd Discord](https://discord.gg/bugcrowd)  
+  \- [HackerOne Discord](https://discord.gg/hackerone)  
+  \- [Bug Bounty Hunters Discord](https://discord.gg/bugbounty)  
 
 If you're interested in bug bounty, I recommend checking out the podcast I co-host: [Critical Thinking Bug Bounty Podcast](https://ctbb.show).
 
