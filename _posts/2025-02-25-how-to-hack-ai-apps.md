@@ -348,7 +348,7 @@ Many AI applications render user inputs or LLM outputs as markdown, which gets t
 
 Putting this guide together took a lot of time, and it is the culmination of my experience as a Bug Bounty Hunter and former Principal AI Engineer. So, if you found this useful, follow me and share this with others. IF there are significant breakthroughs or new findings, I'll update this post.
 
-If you'd like to attend a live masterclass on the content covered in this post, I'm hosting one on March 11th. You can sign up [for the masterclass here](https://buy.stripe.com/fZebLub8d26dcVObII).
+If you'd like to attend a live masterclass on the content covered in this post, I'm hosting a 3 hour one on March 11th at 12pm EST (9am PST). You can sign up [for the masterclass here](https://buy.stripe.com/fZebLub8d26dcVObII).
 
 Also, I've written about AI before on the blog, if you're wanting to read more:  
 \- [Defining Real AI Risks](https://josephthacker.com/ai/2024/05/19/defining-real-ai-risks.html)  
