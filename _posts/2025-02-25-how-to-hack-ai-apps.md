@@ -168,13 +168,14 @@ Let's break down the responsibilities, drawing parallels to the familiar cloud m
 Much of the content below assumes a basic level of application security knowledge. Becoming a web application tester isn't something you can do overnight. If you're reading this and don't have any hacking background, you might need to start with some of the basics. Here's how I recommend starting:  
 \- [Hacker101](https://www.hacker101.com/)  
 \- [Portswigger's Web Security Academy](https://portswigger.net/web-security) and the accompanying labs  
-\- Join some discord communities for bug bounty hunters. I recommend:  
-  \- [Critical Thinking Bug Bounty Podcast](https://ctbb.show)  
-  \- [Hacker101](https://discord.gg/hacker101)  
-  \- [Portswigger Discord](https://discord.gg/portswigger)  
-  \- [Bugcrowd Discord](https://discord.gg/bugcrowd)  
-  \- [HackerOne Discord](https://discord.gg/hackerone)  
-  \- [Bug Bounty Hunters Discord](https://discord.gg/bugbounty)  
+
+Also, you should join some discord communities for bug bounty hunters. I recommend:  
+\- [Critical Thinking Bug Bounty Podcast](https://ctbb.show)  
+\- [Hacker101](https://discord.gg/hacker101)  
+\- [Portswigger Discord](https://discord.gg/portswigger)  
+\- [Bugcrowd Discord](https://discord.gg/bugcrowd)  
+\- [HackerOne Discord](https://discord.gg/hackerone)  
+\- [Bug Bounty Hunters Discord](https://discord.gg/bugbounty)  
 
 If you're interested in bug bounty, I recommend checking out the podcast I co-host: [Critical Thinking Bug Bounty Podcast](https://ctbb.show).
 
