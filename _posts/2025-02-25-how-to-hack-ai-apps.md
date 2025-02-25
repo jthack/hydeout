@@ -9,7 +9,7 @@ tags:
   - cybersecurity
 ---
 ![](/assets/images/ai_hacker.jpg){: width="400" }
-I often get asked how to hack AI applications. There hasn't been a single guide that I could reference **until now**.
+I often get asked how to hack AI applications. There hadn't been a single full guide that I could reference **until now**.
 
 The following is my attempt to make the best and most comprehensive guide to hacking AI applications. It's quite large, but if you take the time to go through it all, you will be extremely well prepared.
 
