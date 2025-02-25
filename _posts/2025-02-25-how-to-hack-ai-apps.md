@@ -163,8 +163,8 @@ Let's break down the responsibilities, drawing parallels to the familiar cloud m
 
 * **You Should Write Clear Reports:** When reporting vulnerabilities, clearly articulate *why* it's the company's responsibility to fix the issue, and consider giving them ways to fix it from the Mitigations section near the end of this post. Explaining *why* a vulnerability exists will help them understand it..
 * **Understand the Vulnerability Yourself:**  Recognize that some issues, like jailbreaking (and some forms of prompt injection), are inherent risks in the current state of LLM technology and might not be considered a vulnerability.  If you want to report a jailbreak, look into AI Safety challenges put on by the model providers.
-
-#### A Note onApplication Security
+   
+**A Note onApplication Security** . 
 Much of the content below assumes a basic level of application security knowledge. Becoming a web application tester isn't something you can do overnight. If you're reading this and don't have any hacking background, you might need to start with some of the basics. Here's how I recommend starting:
 - [Hacker101](https://www.hacker101.com/)
 - [Portswigger's Web Security Academy](https://portswigger.net/web-security) and the accompanying labs
