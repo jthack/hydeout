@@ -367,4 +367,4 @@ If you're interested in high quality manual testing, reach out to me at joseph@r
 <meta property="og:url" content="https://josephthacker.com/hacking/2025/02/25/how-to-hack-ai-apps.html" />
 <meta property="og:title" content="How to Hack AI Agents and Applications" />
 <meta property="og:description" content="Learn how to hack AI agents and applications with this expert guide. Find vulnerabilities, prompt injection risks, and testing strategies for AI security." />
-<meta property="og:image" content="https://josephthacker.com/assets/images/shift.png" />
+<meta property="og:image" content="https://josephthacker.com/assets/images/ai_hacker.jpg" />
