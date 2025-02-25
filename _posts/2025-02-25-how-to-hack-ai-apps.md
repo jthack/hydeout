@@ -242,7 +242,7 @@ These are examples of prompt injection that are not text based.
 | A company is using a cold calling AI system to call users and ask them to buy a product. The AI system is tricked into saving off malicious data or modifying malicious data by a user who convinces the AI to take malicious actions. | **Voice based prompt injection**. There's currently no complete fix for this. See the mitigation section below. |
 
 ### Invisible Prompt Injection Examples
-![](/assets/images/grok3.png)
+![](/assets/images/grok3invis.png)
 
 The text-based prompt injection examples above can also be achieved with invisible unicode tag characters. The neat thing about invisible unicode tags is that they can be used to talk to the model, but you can also ask the model to output them. This leads to all kinds of creative ways to use them in exploits.
 
