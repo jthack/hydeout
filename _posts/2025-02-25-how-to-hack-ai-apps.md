@@ -124,7 +124,10 @@ For example, introducing a markdown renderer for the LLM output often increases 
 
 **A Key Prompt Injection Nuance**
 
-There is one fairly confusing thing about prompt injection, which is why this section had to come before the attack scenarios below. **Prompt Injection can be a vulnerability itself OR it can simply be the "delivery mechanism" for more traditional web application vulnerabilities**. Keep an eye out for this below, and I'll make it clear when it comes up.
+There is one fairly confusing thing about prompt injection, which is why this section had to come before the attack scenarios below. 
+> "Prompt Injection can be a vulnerability itself, or it can simply be the delivery mechanism for more traditional web application vulnerabilities."  
+
+Keep an eye out for this below, and I'll make it clear when it comes up.
 
 ### AI App Responsibility Model
 
@@ -165,7 +168,9 @@ Let's break down the responsibilities, drawing parallels to the familiar cloud m
 * **Understand the Vulnerability Yourself:**  Recognize that some issues, like jailbreaking (and some forms of prompt injection), are inherent risks in the current state of LLM technology and might not be considered a vulnerability.  If you want to report a jailbreak, look into AI Safety challenges put on by the model providers.
    
 **A Note onApplication Security** . 
-Much of the content below assumes a basic level of application security knowledge. Becoming a web application tester isn't something you can do overnight. If you're reading this and don't have any hacking background, you might need to start with some of the basics. Here's how I recommend starting:  
+Much of the content below assumes a basic level of application security knowledge. Becoming a web application tester isn't something you can do overnight. If you're reading this and don't have any hacking background, you might need to start with some of the basics. 
+  
+Here's how I recommend starting:   
 \- [Hacker101](https://www.hacker101.com/)  
 \- [Portswigger's Web Security Academy](https://portswigger.net/web-security) and the accompanying labs  
 
