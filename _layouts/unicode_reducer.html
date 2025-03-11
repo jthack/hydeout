@@ -1,0 +1,471 @@
+---
+layout: default
+---
+
+<header>
+  <h1 class="page-title">{{ page.title }}</h1>
+</header>
+<div class="content">
+  {{ content }}
+
+  <style>
+    textarea {
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+        border: 1px solid #000000;
+        background-color: #ffffff;
+        font-size: 14px;
+        resize: vertical;
+    }
+
+    button {
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        color: #000000;
+        padding: 0.75rem 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 0.5rem 0;
+        cursor: pointer;
+        font-family: inherit;
+        transition: all 0.2s ease;
+    }
+
+    button:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    .tool-divider {
+        border-top: 1px solid #000000;
+        margin: 2rem 0;
+    }
+
+    #outputResult {
+        white-space: pre-wrap;
+        padding: 1rem;
+        border: 1px solid #000000;
+        margin-top: 1rem;
+        font-family: inherit;
+        line-height: 1.5;
+        min-height: 3rem;
+    }
+
+    #copyStatus {
+        margin-top: 0.5rem;
+        font-style: italic;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #copyStatus.show {
+        opacity: 1;
+    }
+
+    .info-panel {
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .unicode-char {
+        color: #0066cc;
+        font-weight: bold;
+    }
+
+    .options-container {
+        margin: 1rem 0;
+    }
+
+    .options-container label {
+        margin-right: 1rem;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .options-container input {
+        margin-right: 0.5rem;
+    }
+  </style>
+
+  <div class="playground-container">
+    <h2>Convert ASCII to Unicode Characters</h2>
+    <p>Enter ASCII text to convert compatible sequences to Unicode characters:</p>
+
+    <textarea id="asciiInput" placeholder="Enter text like 'rad.pw' to convert to '㎭.㎺'..." rows="4" cols="50"></textarea><br>
+    
+    <button onclick="convertToUnicode()">Convert to Unicode</button>
+    <button onclick="copyToClipboard()">Copy Result to Clipboard</button>
+
+    <div id="copyStatus"></div>
+
+    <h3>Result:</h3>
+    <div id="outputResult"></div>
+
+    <div class="tool-divider"></div>
+
+    <div class="info-panel">
+      <h3>About This Tool</h3>
+      <p>This tool converts ASCII text to special Unicode characters that represent the same text but in a more compact form. These characters are derived from Unicode's compatibility characters, which normalize back to ASCII when processed with Unicode normalization.</p>
+      <p>Examples:</p>
+      <ul>
+        <li>"rad" → "㎭" (SQUARE RAD)</li>
+        <li>"pw" → "㎺" (SQUARE PW)</li>
+        <li>"km" → "㎞" (SQUARE KM)</li>
+        <li>"log" → "㏒" (SQUARE LOG)</li>
+      </ul>
+      <p>Note: Not all ASCII text can be converted. This tool works best with short sequences of 2-4 characters that have Unicode equivalents.</p>
+    </div>
+  </div>
+
+  <script>
+    // Mapping of ASCII strings to their Unicode equivalents
+    const unicodeMap = {
+      // 2-character mappings
+      "IJ": "Ĳ", 
+      "ij": "ĳ", 
+      "LJ": "Ǉ", 
+      "Lj": "ǈ", 
+      "lj": "ǉ", 
+      "NJ": "Ǌ", 
+      "Nj": "ǋ", 
+      "nj": "ǌ", 
+      "DZ": "Ǳ", 
+      "Dz": "ǲ", 
+      "dz": "ǳ", 
+      "..": "‥", 
+      "!!": "‼", 
+      "??": "⁇", 
+      "?!": "⁈", 
+      "!?": "⁉", 
+      "Rs": "₨", 
+      "No": "№", 
+      "SM": "℠", 
+      "TM": "™", 
+      "II": "Ⅱ", 
+      "IV": "Ⅳ", 
+      "VI": "Ⅵ", 
+      "IX": "Ⅸ", 
+      "XI": "Ⅺ", 
+      "ii": "ⅱ", 
+      "iv": "ⅳ", 
+      "vi": "ⅵ", 
+      "ix": "ⅸ", 
+      "xi": "ⅺ", 
+      "10": "⑩", 
+      "11": "⑪", 
+      "12": "⑫", 
+      "13": "⑬", 
+      "14": "⑭", 
+      "15": "⑮", 
+      "16": "⑯", 
+      "17": "⑰", 
+      "18": "⑱", 
+      "19": "⑲", 
+      "20": "⑳", 
+      "1.": "⒈", 
+      "2.": "⒉", 
+      "3.": "⒊", 
+      "4.": "⒋", 
+      "5.": "⒌", 
+      "6.": "⒍", 
+      "7.": "⒎", 
+      "8.": "⒏", 
+      "9.": "⒐", 
+      "AU": "㍳", 
+      "dm": "㍷", 
+      "pA": "㎀", 
+      "nA": "㎁", 
+      "mA": "㎃", 
+      "kA": "㎄", 
+      "KB": "㎅", 
+      "MB": "㎆", 
+      "GB": "㎇", 
+      "pF": "㎊", 
+      "nF": "㎋", 
+      "mg": "㎎", 
+      "kg": "㎏", 
+      "Hz": "㎐", 
+      "ml": "㎖", 
+      "dl": "㎗", 
+      "kl": "㎘", 
+      "fm": "㎙", 
+      "nm": "㎚", 
+      "mm": "㎜", 
+      "cm": "㎝", 
+      "km": "㎞", 
+      "m2": "㎡", 
+      "m3": "㎥", 
+      "Pa": "㎩", 
+      "ps": "㎰", 
+      "ns": "㎱", 
+      "ms": "㎳", 
+      "pV": "㎴", 
+      "nV": "㎵", 
+      "mV": "㎷", 
+      "kV": "㎸", 
+      "MV": "㎹", 
+      "pW": "㎺", 
+      "nW": "㎻", 
+      "mW": "㎽", 
+      "kW": "㎾", 
+      "MW": "㎿", 
+      "Bq": "㏃", 
+      "cc": "㏄", 
+      "cd": "㏅", 
+      "dB": "㏈", 
+      "Gy": "㏉", 
+      "ha": "㏊", 
+      "HP": "㏋", 
+      "in": "㏌", 
+      "KK": "㏍", 
+      "KM": "㏎", 
+      "kt": "㏏", 
+      "lm": "㏐", 
+      "ln": "㏑", 
+      "lx": "㏓", 
+      "mb": "㏔", 
+      "PH": "㏗", 
+      "PR": "㏚", 
+      "sr": "㏛", 
+      "Sv": "㏜", 
+      "Wb": "㏝", 
+      "ff": "ﬀ", 
+      "fi": "ﬁ", 
+      "fl": "ﬂ", 
+      "st": "ﬆ", 
+      "0.": "🄀", 
+      "0,": "🄁", 
+      "1,": "🄂", 
+      "2,": "🄃", 
+      "3,": "🄄", 
+      "4,": "🄅", 
+      "5,": "🄆", 
+      "6,": "🄇", 
+      "7,": "🄈", 
+      "8,": "🄉", 
+      "9,": "🄊", 
+      "CD": "🄭", 
+      "WZ": "🄮", 
+      "HV": "🅊", 
+      "SD": "🅌", 
+      "SS": "🅍", 
+      "MC": "🅪", 
+      "MD": "🅫", 
+      "MR": "🅬", 
+      "DJ": "🆐",
+      "==": "⩵",
+      
+      // 3-character mappings
+      "...": "…", 
+      "a/c": "℀", 
+      "a/s": "℁", 
+      "c/o": "℅", 
+      "c/u": "℆", 
+      "TEL": "℡", 
+      "FAX": "℻", 
+      "III": "Ⅲ", 
+      "VII": "Ⅶ", 
+      "XII": "Ⅻ", 
+      "iii": "ⅲ", 
+      "vii": "ⅶ", 
+      "xii": "ⅻ", 
+      "(1)": "⑴", 
+      "(2)": "⑵", 
+      "(3)": "⑶", 
+      "(4)": "⑷", 
+      "(5)": "⑸", 
+      "(6)": "⑹", 
+      "(7)": "⑺", 
+      "(8)": "⑻", 
+      "(9)": "⑼", 
+      "10.": "⒑", 
+      "11.": "⒒", 
+      "12.": "⒓", 
+      "13.": "⒔", 
+      "14.": "⒕", 
+      "15.": "⒖", 
+      "16.": "⒗", 
+      "17.": "⒘", 
+      "18.": "⒙", 
+      "19.": "⒚", 
+      "20.": "⒛", 
+      "(a)": "⒜", 
+      "(b)": "⒝", 
+      "(c)": "⒞", 
+      "(d)": "⒟", 
+      "(e)": "⒠", 
+      "(f)": "⒡", 
+      "(g)": "⒢", 
+      "(h)": "⒣", 
+      "(i)": "⒤", 
+      "(j)": "⒥", 
+      "(k)": "⒦", 
+      "(l)": "⒧", 
+      "(m)": "⒨", 
+      "(n)": "⒩", 
+      "(o)": "⒪", 
+      "(p)": "⒫", 
+      "(q)": "⒬", 
+      "(r)": "⒭", 
+      "(s)": "⒮", 
+      "(t)": "⒯", 
+      "(u)": "⒰", 
+      "(v)": "⒱", 
+      "(w)": "⒲", 
+      "(x)": "⒳", 
+      "(y)": "⒴", 
+      "(z)": "⒵", 
+      "::=": "⩴", 
+      "===": "⩶", 
+      "PTE": "㉐", 
+      "erg": "㋍", 
+      "eV": "㋎", 
+      "LTD": "㋏", 
+      "hPa": "㍱", 
+      "bar": "㍴", 
+      "oV": "㍵", 
+      "pc": "㍶", 
+      "dm2": "㍸", 
+      "dm3": "㍹", 
+      "IU": "㍺", 
+      "cal": "㎈", 
+      "kHz": "㎑", 
+      "MHz": "㎒", 
+      "GHz": "㎓", 
+      "THz": "㎔", 
+      "mm2": "㎟", 
+      "cm2": "㎠", 
+      "km2": "㎢", 
+      "mm3": "㎣", 
+      "cm3": "㎤", 
+      "km3": "㎦", 
+      "kPa": "㎪", 
+      "MPa": "㎫", 
+      "GPa": "㎬", 
+      "rad": "㎭", 
+      "Co.": "㏇", 
+      "log": "㏒", 
+      "mil": "㏕", 
+      "mol": "㏖", 
+      "PPM": "㏙", 
+      "gal": "㏿", 
+      "ffi": "ﬃ", 
+      "ffl": "ﬄ", 
+      "(A)": "🄐", 
+      "(B)": "🄑", 
+      "(C)": "🄒", 
+      "(D)": "🄓", 
+      "(E)": "🄔", 
+      "(F)": "🄕", 
+      "(G)": "🄖", 
+      "(H)": "🄗", 
+      "(I)": "🄘", 
+      "(J)": "🄙", 
+      "(K)": "🄚", 
+      "(L)": "🄛", 
+      "(M)": "🄜", 
+      "(N)": "🄝", 
+      "(O)": "🄞", 
+      "(P)": "🄟", 
+      "(Q)": "🄠", 
+      "(R)": "🄡", 
+      "(S)": "🄢", 
+      "(T)": "🄣", 
+      "(U)": "🄤", 
+      "(V)": "🄥", 
+      "(W)": "🄦", 
+      "(X)": "🄧", 
+      "(Y)": "🄨", 
+      "(Z)": "🄩", 
+      "PPV": "🅎", 
+      "WC": "🅏",
+      
+      // 4-character mappings
+      "(10)": "⑽", 
+      "(11)": "⑾", 
+      "(12)": "⑿", 
+      "(13)": "⒀", 
+      "(14)": "⒁", 
+      "(15)": "⒂", 
+      "(16)": "⒃", 
+      "(17)": "⒄", 
+      "(18)": "⒅", 
+      "(19)": "⒆", 
+      "(20)": "⒇", 
+      "VIII": "Ⅷ", 
+      "viii": "ⅷ", 
+      "kcal": "㎉", 
+      "a.m.": "㏂", 
+      "p.m.": "㏘"
+    };
+
+    // Sort keys by length (longer first to prevent partial matches)
+    const sortedKeys = Object.keys(unicodeMap).sort((a, b) => b.length - a.length);
+
+    function convertToUnicode() {
+        const input = document.getElementById('asciiInput').value;
+        const outputDiv = document.getElementById('outputResult');
+        
+        // Process the entire string for any matching sequences
+        const output = replaceWithUnicode(input);
+        outputDiv.textContent = output;
+    }
+
+    function replaceWithUnicode(text) {
+        let result = text;
+        
+        // Try to replace each known sequence with its Unicode character
+        for (const sequence of sortedKeys) {
+            // Global replace all occurrences, case-insensitive
+            const regex = new RegExp(escapeRegExp(sequence), 'gi');
+            result = result.replace(regex, unicodeMap[sequence]);
+        }
+        
+        return result;
+    }
+
+    function escapeRegExp(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function getUnicodeInfo(char) {
+        const codePoint = char.codePointAt(0);
+        return `U+${codePoint.toString(16).toUpperCase().padStart(4, '0')}`;
+    }
+
+    function copyToClipboard() {
+        const outputText = document.getElementById('outputResult').textContent;
+        
+        navigator.clipboard.writeText(outputText).then(() => {
+            const copyStatus = document.getElementById('copyStatus');
+            copyStatus.textContent = 'Copied to clipboard!';
+            copyStatus.classList.add('show');
+            setTimeout(() => {
+                copyStatus.classList.remove('show');
+            }, 2000);
+        }).catch(err => {
+            const copyStatus = document.getElementById('copyStatus');
+            copyStatus.textContent = 'Failed to copy: ' + err;
+            copyStatus.classList.add('show');
+            setTimeout(() => {
+                copyStatus.classList.remove('show');
+            }, 2000);
+        });
+    }
+
+    // Auto-convert when typing after a short delay
+    let typingTimer;
+    const doneTypingInterval = 500; // ms
+    
+    document.getElementById('asciiInput').addEventListener('input', function() {
+        clearTimeout(typingTimer);
+        typingTimer = setTimeout(convertToUnicode, doneTypingInterval);
+    });
+  </script>
+</div>

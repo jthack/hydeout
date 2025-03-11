@@ -14,8 +14,10 @@ This is a page where I'll share some of the tools I've built.
   
 [Emoji Variation Selector Playground](/emoji_variation): Hide arbitrary data within Unicode characters using variation selectors.
 
+[ASCII to Unicode Character Reducer](/unicode_reducer): Convert ASCII text strings to their compact Unicode character equivalents where possible.
+
 ### github projects
-[Shift](https://shiftplugin.com): Control Caido web proxy with simple English commands.  
+[shift](https://shiftplugin.com): Control Caido web proxy with simple English commands.  
   
 [cewlai](https://github.com/jthack/cewlai): AI-powered domain name generator using Google's Gemini to create variations based on seed domains.  
   
