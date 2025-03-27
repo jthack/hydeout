@@ -9,7 +9,7 @@ tags:
 ---
 ![](/assets/images/guidedcapture_banner.png){: width="400" }
 
-🎉 I just released my first Python package, [guided-capture](https://github.com/jthack/guided-capture), a cool new Python package that's designed to automate structured interviews using AI in order to gather the right context for your AI use-cases.
+🎉 I just released my first Python package, [guided-capture](https://github.com/jthack/guided-capture), a cool new Python package that automates structured interviews using AI in order to gather the right context for your AI applications.
 
 ### Why guided-capture is Needed in the Current Market
 
