@@ -12,15 +12,15 @@ George Mack just released a new essay called [High Agency](https://highagency.co
 
 In bug bounty, high agency is a super powerful weapon. Bug bounty is not just about finding vulnerabilities. It's also about navigating the entire process with a high agency mindset. 
 
-#### High Agency Recon
+### High Agency Recon
 
-1. **Ask for More Scope:** Maybe you don't settle for the initial scope provided. Reach out to program owners and ask if there are additional areas you can explore. More scope means more opportunities.
+1. **Ask for More Scope:** Sometimes you might be able to get access to more scope than the initial scope provided. Reach out to program owners and ask if there are additional areas you can explore. More scope means more opportunities.
 
 2. **Request Additional Credentials:** Oftentimes, having more access can lead to discovering more bugs. Politely ask if you can get additional credentials to other systems when you get the chance.
 
 3. **Read the docs:** Most hunters are not reading the docs. But if you do, you'll have a huge advantage.
 
-#### High Agency Reporting
+### High Agency Reporting
 
 1. **Tactful Pushback:** If you receive a lower payout than expected, calmly ask for clarification on the severity. Understanding their perspective can help you make a case for a higher reward or at least feel less upset about the payout. If you believe your finding deserves more, present additional evidence or comparisons to similar bugs that received higher payouts. Be respectful but firm.
 
