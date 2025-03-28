@@ -30,6 +30,8 @@ In bug bounty, high agency is a super powerful weapon. Bug bounty is not just ab
 
 #### High Agency Networking
 
+1. **Collaborate:** I believe that every bug hunter should be sending 5 times more leads/ideas to other hackers than they currently do. Bug bounty isn't zero-sum. Your leads will often NOT result in bounties. But if you share many of your leads, you'll find that you get more total bounties as a result.
+
 1. **Ask for +1s:** Don't hesitate to ask your hacker friends for +1s to events. 
 
 2. **Request Invites from Program Owners:** If there's a live hacking event being held by a company you hack on a lot, reach out to the program owners in one of your reports. Express your interest and ask if they can extend an invitation.
