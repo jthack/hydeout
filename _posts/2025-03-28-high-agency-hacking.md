@@ -32,7 +32,7 @@ In bug bounty, high agency is a super powerful weapon. Bug bounty is not just ab
 
 1. **Ask for +1s:** Don't hesitate to ask your hacker friends for +1s to events. 
 
-2. **Request Invites from Program Owners:** If there's a live hacking event being held by a company you hack on a lot, reach out to the program owners. Express your interest and ask if they can extend an invitation.
+2. **Request Invites from Program Owners:** If there's a live hacking event being held by a company you hack on a lot, reach out to the program owners in one of your reports. Express your interest and ask if they can extend an invitation.
 
 ### Wrapping Up
 
