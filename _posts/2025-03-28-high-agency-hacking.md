@@ -8,7 +8,7 @@ tags:
   - cybersecurity
 ---
 ![](/assets/images/high_agency_hacker.png){: width="400" }
-George Mack just released a new essay called [High Agency](https://highagency.com). I had seen him on the Chris Williamson podcast before, but he's went deeper and released this nice essay about it. Shout out to [archangel](https://x.com/archangel) for the recommendation. 
+George Mack just released a new essay called [High Agency](https://highagency.com). I had seen him on the Chris Williamson podcast before, but he's went deeper and released this nice essay about it. Shout out to [archangel](https://x.com/ArchAngelDDay) for the recommendation. 
 
 In bug bounty, high agency is a super powerful weapon. Bug bounty is not just about finding vulnerabilities. It's also about navigating the entire process with a high agency mindset. 
 
