@@ -9,7 +9,7 @@ description:      'My thoughts on hacking, ai, faith, and more.'
 host:             josephthacker.com
 port:             443
 #url:              http://localhost:4000
-#baseurl:          '/blog'
+baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
