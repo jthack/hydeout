@@ -28,7 +28,7 @@ In bug bounty, high agency is a super powerful weapon. Bug bounty is mostly abou
 
 3. **Seek Feedback:** On your first few submitted reports, ask for feedback on how you can improve your reports in the future.
 
-#### High Agency Networking
+### High Agency Networking
 
 1. **Collaborate:** I believe that every bug hunter should be sending 5 times more leads/ideas to other hackers than they currently do. Bug bounty isn't zero-sum. Your leads will often NOT result in bounties. But if you share many of your leads, you'll find that you get more total bounties as a result.
 
