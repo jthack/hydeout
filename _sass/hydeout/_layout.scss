@@ -46,12 +46,6 @@ body {
     height: 100%;
     pointer-events: none;
   }
-
-  > * {
-    max-height: 100vh; 
-    overflow-y: auto; 
-    -webkit-overflow-scrolling: touch;
-  }
 }
 
 #sidebar {
@@ -179,9 +173,10 @@ body {
     height: 100vh;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+
     > * {
-      max-height: 100vh; 
-      overflow-y: auto; 
+      max-height: 100vh;
+      overflow-y: auto;
       -webkit-overflow-scrolling: touch;
     }
   }
