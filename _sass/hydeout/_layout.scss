@@ -69,6 +69,32 @@ body {
 
     .back-arrow { margin-right: 0.5rem; }
   }
+
+  // Add more spacing in navigation
+  nav {
+    margin: $element-spacing 0;
+    
+    a {
+      display: block;
+      padding: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+  }
+
+  /* Mobile profile image fix */
+  .profile-image img {
+    max-width: 120px; /* Smaller size for mobile */
+    height: auto;
+    margin: 0 auto; /* Center the image */
+    display: block; /* Needed for margin: auto to center */
+  }
+
+  /* Preserve the desktop size */
+  @media (min-width: $large-breakpoint) {
+    .profile-image img {
+      max-width: 180px; /* Original desktop size */
+    }
+  }
 }
 
 // Container is flexbox as well -- we want content div to stretch and fill
