@@ -70,16 +70,6 @@ body {
     .back-arrow { margin-right: 0.5rem; }
   }
 
-  // Add more spacing in navigation
-  nav {
-    margin: $element-spacing 0;
-    
-    a {
-      display: block;
-      padding: 0.5rem 0;
-      font-size: 1.1rem;
-    }
-  }
 
   /* Mobile profile image fix */
   .profile-image img {
