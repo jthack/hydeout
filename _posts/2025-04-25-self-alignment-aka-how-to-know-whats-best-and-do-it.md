@@ -14,6 +14,8 @@ This morning I tweeted: "Most people don't actually know what's 'best' for thems
 
 And [atomiczsec](https://x.com/atomiczsec/status/1915776863777022086) replied and said "How do you find what is best and align with it?"
 
+As an aside, I feel like this post could be titled "How to maximize your happiness and satisfaction at a meta level" because I don't get into the nitty gritty of what an individual should do, but rather how to optomize the high level factors.
+
 ### The Question
 
 That's a philosophical question, to be honest. But I _LOVE_ practical information much more than philosohpy. So here's my framework for answering it practically. 
