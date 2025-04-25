@@ -10,16 +10,15 @@ tags:
 ---
 
 ![](/assets/images/self-alignment.png){: width="400" }
-
 This morning I tweeted: "Most people don't actually know what's 'best' for themselves."
 
 And [atomiczsec](https://x.com/atomiczsec/status/1915776863777022086) replied and said "How do you find what is best and align with it?"
 
 ### The Question
 
-That's a philosophical question, to be honest. But I _LOVE_ practical information. So here's my framework for answering it practically. 
+That's a philosophical question, to be honest. But I _LOVE_ practical information much more than philosohpy. So here's my framework for answering it practically. 
 
-Religious beliefs would naturally play a big role in aligning your actions with your beliefs. For example, I personally think the best thing a person can do is love Jesus. But let's put that aside for a second.
+Religious beliefs naturally play a big role in aligning your actions with your beliefs. For example, I personally think the best thing a person can do is love Jesus. But let's put that aside for a second.
 
 Most people, regardless of religious beliefs, come to the conclusion that they want to maximize happiness and satisfaction. 
 
@@ -27,9 +26,9 @@ Most people, regardless of religious beliefs, come to the conclusion that they w
 
 The main 3 factors that determine the joy and satisfaction you can generate are:
 
-1. **How much time you get to experience joy/satisfaction** (longevity, basically—but optimizing for quality of life instead of just length of life)  
-2. **How you perceive your circumstances**  
-3. **Your actual circumstances**
+1. How much time you get to experience joy/satisfaction: **longevity**, basically—but optimizing for quality of life instead of just length of life
+2. How you **perceive** your circumstances
+3. Your actual **circumstances**
 
 ### Knowing vs. Doing
 
