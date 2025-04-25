@@ -46,25 +46,22 @@ And more than that, I'd ask them this question: "Who do you want to be one day, 
 
 Alright, back to the 3 factors that determine your ability to experience happiness and satisfaction.
 
-### Factor 1: Longevity
+**Factor 1: Longevity**
 
-**1. Time left to live:**  
 The main ways you can maximize this are by eating well, sleeping enough, and exercising. But you can also make money and use that money to buy better healthcare, etc. For most things in life, I use the 80/20 rule: try to get the most benefit from reasonable effort. Especially with 3 young kids, I go for the low-hanging fruit.
 
 I could talk about health for a long time, but rather than rant, I'll just say that I love having access to content from people like Bryan Johnson, Peter Attia, Andrew Huberman, and others.
 
-### Factor 2: Perception
+**Factor 2: Perception**
 
-**2. How you *perceive* your circumstances:**  
 This is the factor that you have the most control over. You can change your perception by changing your framing of your life. For example, if you believe that you are a victim, you will perceive your circumstances as bad. But if you believe that you are a survivor, you will perceive your circumstances as good.
 
 Naval says *wanting is a contract you make with yourself to be unhappy until you get what you want.* So if you want nothing, you can be happy with nothing. This is provably true by spending time with people in third-world countries. There are people with absolutely nothing that find joy and happiness and satisfaction.
 
 So I think regardless of optimizing #1 and #3, you should *always* be working on being more content with less. This is also a place where faith comes in. I think you can be wholly satisfied and joyful by simply loving God and spending time with Him.
 
-### Factor 3: Circumstances
+**Factor 3: Circumstances**
 
-**3. Your actual circumstances:**  
 This is the factor that you have the least control over. But it's still pretty significant. The main ways you can maximize this are by using your free will to make big decisions. Break up with the douchebag. Move closer to your loved ones. Get married. Have kids.
 
 You can work harder and make more money and use that to change your life. You can also make friends and enjoy that community.
