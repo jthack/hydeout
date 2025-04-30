@@ -60,9 +60,8 @@ I think language models need to be optomized to increase human flourishing, not 
 
 We’ll be releasing evaluation results soon. If you're involved in building, fine-tuning, or deploying language models at scale, this test is worth your attention. Let's put an end to creating digital Tigellinuses.
 
-Stay tuned for updates by following me and @rez0__.
 
-- Joseph
+\- Joseph
 
 [Sign up for my email list](https://thacker.beehiiv.com/subscribe) to know when I post more content like this.
 I also [post my thoughts on Twitter/X](https://x.com/rez0__).
