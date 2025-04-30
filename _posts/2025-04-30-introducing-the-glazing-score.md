@@ -56,10 +56,6 @@ We've crafted a diverse set of prompts covering for comprehensive testing:
 
 I think language models need to be optomized to increase human flourishing, not just increase the amount of time users chat with them. A sycophantic model is much worse than a dull or unhelpful one since it amplifies risks, especially as these tools become more commonly used and trusted in society.
 
-### Looking Ahead
-
-We’ll be releasing evaluation results soon. If you're involved in building, fine-tuning, or deploying language models at scale, this test is worth your attention. Let's put an end to creating digital Tigellinuses.
-
 
 \- Joseph
 
@@ -71,5 +67,5 @@ I also [post my thoughts on Twitter/X](https://x.com/rez0__).
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://josephthacker.com/ai/2025/04/30/introducing-the-glazing-score.html" />
 <meta property="og:title" content="Introducing the Glazing Score" />
-<meta property="og:description" content="Explore the new Glazing Score to evaluate language models against sycophancy." />
+<meta property="og:description" content="Explore the new Glazing Score to evaluate language models for sycophancy." />
 <meta property="og:image" content="https://josephthacker.com/assets/images/glazing.png" />
