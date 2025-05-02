@@ -1,10 +1,58 @@
 <!-- Optional footer content -->
 
+<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/search.json'
+  });
+</script>
+
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     // Wait much longer before adding the animated class
     setTimeout(function() {
       document.querySelector('.site-title').classList.add('animated');
     }, 5000); // Increased from 2000 to 5000ms to let animation complete
+  });
+</script>
+
+<!-- Lightbox2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Wait for lightbox to load
+    setTimeout(function() {
+      if (typeof lightbox !== 'undefined') {
+        // Initialize lightbox
+        lightbox.option({
+          'resizeDuration': 200,
+          'wrapAround': true,
+          'albumLabel': "Image %1 of %2"
+        });
+
+        // Make all post content images use lightbox by default
+        const contentImages = document.querySelectorAll('.post-body img, .page-content img, article img');
+        contentImages.forEach(function(img) {
+          if (!img.closest('a')) { // Only if image is not already wrapped in a link
+            const src = img.getAttribute('src');
+            const alt = img.getAttribute('alt') || '';
+            
+            // Create link wrapper
+            const link = document.createElement('a');
+            link.href = src;
+            link.setAttribute('data-lightbox', 'post-images');
+            link.setAttribute('data-title', alt);
+            
+            // Replace image with wrapped version
+            img.parentNode.insertBefore(link, img);
+            link.appendChild(img);
+          }
+        });
+      } else {
+        console.log("Lightbox not available");
+      }
+    }, 1000); // Wait for 1 second to ensure library is loaded
   });
 </script>
