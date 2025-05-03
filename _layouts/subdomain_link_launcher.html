@@ -18,6 +18,7 @@ layout: page
       <li>Shodan (exposed services)</li>
       <li>SecurityTrails (DNS history and subdomains)</li>
       <li>Censys (certificates and infrastructure)</li>
+      <li>crt.sh (certificates)</li>
     </ul>
     <p><strong>Note:</strong> Your browser may block pop-ups the first time you use this tool. You'll need to allow pop-ups for this site for the tool to work properly. Also, shodan won't work unless you're logged in due to filter restrictions.</p>
   </div>
@@ -59,6 +60,9 @@ layout: page
         
         // Censys
         `https://search.censys.io/search?resource=hosts&q=${cleanDomain}`
+
+        // crt.sh
+        `https://crt.sh/?q=${cleanDomain}`
       ];
       
       // Open all tabs
