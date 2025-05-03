@@ -1,0 +1,136 @@
+---
+layout: page
+---
+
+  {{ content }}
+  
+    <input type="text" id="domain-input" placeholder="Enter domain name (e.g., example.com)" />
+    
+    <button id="recon-button">Launch Domain Links</button>
+  
+  <div class="tool-info">
+    <h2>What this tool does</h2>
+    <p>When you enter a domain and click "Launch Domain Links", this tool will open multiple tabs with searches across various platforms:</p>
+    <ul>
+      <li>Google site search</li>
+      <li>GitHub domain search</li>
+      <li>Wayback Machine (historical snapshots)</li>
+      <li>Shodan (exposed services)</li>
+      <li>SecurityTrails (DNS history and subdomains)</li>
+      <li>Censys (certificates and infrastructure)</li>
+    </ul>
+    <p><strong>Note:</strong> Your browser may block pop-ups the first time you use this tool. You'll need to allow pop-ups for this site for the tool to work properly. Also, shodan won't work unless you're logged in due to filter restrictions.</p>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const reconButton = document.getElementById('recon-button');
+    const domainInput = document.getElementById('domain-input');
+    
+    function launchRecon() {
+      const domain = domainInput.value.trim();
+      if (!domain) {
+        alert('Please enter a domain name');
+        return;
+      }
+      
+      // Remove any protocol prefix if present
+      const cleanDomain = domain.replace(/^https?:\/\//i, '').replace(/\/.*$/, '');
+      
+      // Define search URLs
+      const searchUrls = [
+        // Google
+        `https://www.google.com/search?q=site:${cleanDomain}`,
+        
+        // GitHub
+        `https://github.com/search?q=${cleanDomain}&type=code`,
+        
+        // Wayback Machine
+        `https://web.archive.org/web/20250000000000*/${cleanDomain}`,
+        
+        // Shodan
+        `https://www.shodan.io/search?query=hostname:${cleanDomain}`,
+        
+        // DNS Dumpster
+        // `https://dnsdumpster.com/?q=${cleanDomain}`,
+        
+        // SecurityTrails
+        `https://securitytrails.com/domain/${cleanDomain}/dns`,
+        
+        // Censys
+        `https://search.censys.io/search?resource=hosts&q=${cleanDomain}`
+      ];
+      
+      // Open all tabs
+      searchUrls.forEach(url => {
+        window.open(url, '_blank');
+      });
+    }
+    
+    // Add event listeners
+    reconButton.addEventListener('click', launchRecon);
+    domainInput.addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        launchRecon();
+      }
+    });
+  });
+</script>
+
+<style>
+  .tool-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .tool-container > p {
+    margin: 0 0 1rem 0;
+    padding: 0;
+  }
+  
+  .tool-input {
+    margin: 1rem 0;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  #domain-input {
+    flex: 1;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #recon-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #505050;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #recon-button:hover {
+    background-color: #303030;
+  }
+  
+  .tool-info {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  .tool-info h2 {
+    margin-top: 0;
+  }
+  
+  .tool-info ul {
+    padding-left: 1.5rem;
+  }
+</style> 
