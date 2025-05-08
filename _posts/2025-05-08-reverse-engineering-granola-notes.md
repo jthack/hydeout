@@ -24,7 +24,7 @@ I actually never found the notes on disk, but I _did_ find what I was looking fo
 
 So, being the hackerman that I am, I decided to proxy the Granola API and see if I could reverse engineer the way _the desktop app_ gets the notes. So I set my system proxy to point to [Caido](https://caido.io/) and started using Granola. Voila:
 
-![[Pasted image 20250508155200.png]]
+![](/assets/images/Pasted%20image%2020250508155200.png)
 
 #### Figuring out Auth
 
