@@ -26,6 +26,8 @@ So, being the hackerman that I am, I decided to proxy the Granola API and see if
 
 ![](/assets/images/Pasted%20image%2020250508155200.png)
 
+The `get-documents` endpoint is the one that holds the notes! 😊
+
 #### Figuring out Auth
 
 I knew the API had to require credentials. It uses a Bearer token. So I grepped through my filesystem and found the supabase.json credential file on my disk at `Library/Application Support/Granola/supabase.json`. With these credentials, I knew I could pull the notes from the API.
