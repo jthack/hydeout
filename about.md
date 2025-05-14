@@ -8,7 +8,7 @@ sidebar_link: true
 
 ### Joseph Thacker (rez0)
 
-I'm a Solo Founder and Bug Bounty Hunter who specializes in application security and AI. I’ve helped Fortune 500 companies find vulnerabilities that could have cost them millions, and I've submitted over 1,000 vulnerabilities across Hackerone and Bugcrowd. I love helping secure the planet by building and breaking systems.  Reach out if you'd like to know more.
+I'm a Solo Founder and Bug Bounty Hunter who hacks websites and AI systems. I’ve helped Fortune 500 companies find vulnerabilities that could have cost them millions, and I've submitted over 1,000 vulnerabilities across Hackerone and Bugcrowd. I love helping secure the planet by building, breaking, and teaching.  Reach out if you'd like to know more.
    
 On a more personal level, I'm a Christian, husband, father, and hacker.
 I love most things in life, but I'm particularly fond of hacking, ai-art, running, podcasts, and keylime pie.
