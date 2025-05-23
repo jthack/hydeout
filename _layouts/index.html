@@ -8,7 +8,7 @@ layout: default
   {{ content }}
 
   {% assign featured_posts = site.posts | where: "featured", true | sort: "featured_order" %}
-  {% if featured_posts.size > 0 %}
+  {% if featured_posts.size > 0 and paginator.page == 1 %}
   <section class="featured-posts">
     <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">Top Posts</h2>
     <p style="color: #666; font-size: 0.9rem; margin-top: -1rem; margin-bottom: 1.5rem;">Here you will find evergreen essays or posts that were particularly well received.</p>
