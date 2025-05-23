@@ -121,9 +121,13 @@ span.icon svg {
   padding-right: 0.6em;
 }
 
-// Clean post styling
-.post-title, .page-title {
-  margin-top: 2rem;
+// Context-specific post title styling
+body.index .post-title {
+  margin-top: 2rem !important;  // Homepage/index pages
+}
+
+body.post .post-title {
+  margin-top: 1rem !important;  // Individual post pages
 }
 
 // Modern button styling

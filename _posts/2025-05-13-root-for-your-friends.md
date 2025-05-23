@@ -1,6 +1,8 @@
 ---
 title: "Root for Your Friends"
 layout: post
+featured: true
+featured_order: 2
 categories:
   - personal
 tags:

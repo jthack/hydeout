@@ -1,6 +1,8 @@
 ---
 title: "How to Hack AI Agents and Applications"
 layout: post
+featured: true
+featured_order: 1
 categories:
   - hacking
 tags:
