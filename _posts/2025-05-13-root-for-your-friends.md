@@ -36,7 +36,7 @@ It's understanding that most games in life aren't zero‑sum; they're wildly *po
 
 The most underrated part of rooting for you friends is that it benefits everyone. A **flywheel** is a concept where each input creates a positive feedback loop that improves the next loop. 
 
-A good example of a flywheel in business is where a company collectus and utilizes user analytics such that their improvement of the product means more people use the product, which creates more data for what's working, which creates a better product, which drives morepeople to use the product, etc.
+A good example of a flywheel in business is where a company collects and utilizes user analytics such that their improvement of the product means more people use the product, which creates more data for what's working, which creates a better product, which drives morepeople to use the product, etc.
 
 The **friend flywheel** is similar. It's a positive feedback loop where you root for your friends, building them up and sharing info with them which creates good will and levels them up, and now they're slightly more successful and informed and they often share info and deals back with you due to feeling closer with you. Then you level up and get access to more info and better deals and you share with them, and the flywheel keeps going.
 
