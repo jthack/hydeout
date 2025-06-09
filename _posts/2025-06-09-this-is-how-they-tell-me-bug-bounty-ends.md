@@ -65,7 +65,7 @@ I think the first team to do this well will report more than 500 real bugs on pr
 
 ---
 
-Before I share why I'm optimistic for hackers, let me tell you why I'm optimistic for the systems. The ideal numbers of bugs in an app is zero. The ideal number of "required testers" is zero. In a perfect world, everything would be 100% secure.   
+Before I share why I'm optimistic for hackers, let me tell you why I'm optimistic for the systems. The ideal numbers of bugs in an app is zero. The ideal number of "required testers" is zero. In a perfect world, everything would be 100% secure. This super similar to how [Daniel Miessler says the ideal number of workers in a company is zero.](https://danielmiessler.com/blog/ai-founder-augmentation)
 
 This is all one massive step in that direction.  
 
