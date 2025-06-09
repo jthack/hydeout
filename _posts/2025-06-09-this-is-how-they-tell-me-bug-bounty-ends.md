@@ -27,7 +27,7 @@ It'll be a slow handoff.
 
 First, a few vulnerability classes will get harder to find. Then a category or two will get "solved". Eventually, it will start to feel like a hopeless battle against ghosts in the machine that never sleep, never eat, and never lose context or focus.  
 
-But here's my honest opinion: This isn't going to be a funeral. It's going to be a slow transformation for both the systems and the people.  
+But here's my honest opinion: **This isn't going to be a funeral. It's going to be a slow transformation for both the systems and the people.**  
 
 ---
 
