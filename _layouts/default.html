@@ -13,5 +13,31 @@
 
     {% include custom-foot.html %}
     {% include analytics.html %}
+    
+    <script>
+      // Dark mode toggle functionality
+      const darkModeBtn = document.getElementById('dark-mode-btn');
+      const body = document.body;
+      
+      // Check for saved preference or default to light mode
+      const currentMode = localStorage.getItem('darkMode');
+      if (currentMode === 'enabled') {
+        body.classList.add('dark-mode');
+        darkModeBtn.textContent = '☀️';
+      }
+      
+      // Toggle dark mode
+      darkModeBtn.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        
+        if (body.classList.contains('dark-mode')) {
+          localStorage.setItem('darkMode', 'enabled');
+          darkModeBtn.textContent = '☀️';
+        } else {
+          localStorage.setItem('darkMode', 'disabled');
+          darkModeBtn.textContent = '🌙';
+        }
+      });
+    </script>
   </body>
 </html>
