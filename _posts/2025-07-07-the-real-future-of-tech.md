@@ -59,6 +59,6 @@ I also [post my thoughts on Twitter/X](https://x.com/rez0__).
 <meta name="twitter:site" content="@rez0__" />
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://josephthacker.com/ai/2025/07/07/the-real-future-of-tech.html" />
-<meta property="og:title" content="The Real Future of IoT" />
+<meta property="og:title" content="The Real Future of Tech" />
 <meta property="og:description" content="Exploring the transformative predictions of 'The Real Internet of Things' by Daniel Miessler and how they've come true." />
 <meta property="og:image" content="https://josephthacker.com/assets/images/the_real_internet_of_things_banner.png" />
