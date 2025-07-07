@@ -48,6 +48,15 @@ layout: default
         border-radius: 0;
     }
 
+    .highlight-nonviewable {
+        background-color: #ff6b6b;
+        display: inline;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+        color: #ffffff;
+    }
+
     #outputString {
         white-space: pre-wrap;
         padding: 1rem;
@@ -102,6 +111,10 @@ layout: default
     <button onclick="convertAndHighlight()">Convert and Highlight</button>
 
     <p>Converted Output:</p>
+    <div style="margin-bottom: 0.5rem;">
+        <span class="highlight" style="padding: 0.2rem 0.4rem; margin-right: 0.5rem;">Cyan</span> = Unicode Tag Characters
+        <span class="highlight-nonviewable" style="padding: 0.2rem 0.4rem;">Red</span> = Other Non-Viewable Characters
+    </div>
     <div id="outputString"></div>
   </div>
 
@@ -165,10 +178,110 @@ layout: default
                     asciiChar = String.fromCharCode(charCode - tagBlockStart);
                 }
                 appendToOutput(asciiChar, 'highlight');
+            } else if (isNonViewableCharacter(charCode)) {
+                const representation = getNonViewableCharRepresentation(charCode);
+                appendToOutput(representation, 'highlight-nonviewable');
             } else {
                 appendToOutput(ch, '');
             }
         }
+    }
+
+    function isNonViewableCharacter(charCode) {
+        // Control characters (C0 and C1 controls)
+        if ((charCode >= 0x00 && charCode <= 0x1F) || (charCode >= 0x7F && charCode <= 0x9F)) {
+            return true;
+        }
+        
+        // Common invisible Unicode characters
+        const invisibleChars = [
+            0x00AD, // Soft hyphen
+            0x200B, // Zero-width space
+            0x200C, // Zero-width non-joiner
+            0x200D, // Zero-width joiner
+            0x200E, // Left-to-right mark
+            0x200F, // Right-to-left mark
+            0x2028, // Line separator
+            0x2029, // Paragraph separator
+            0x202A, // Left-to-right embedding
+            0x202B, // Right-to-left embedding
+            0x202C, // Pop directional formatting
+            0x202D, // Left-to-right override
+            0x202E, // Right-to-left override
+            0x2060, // Word joiner
+            0x2061, // Function application
+            0x2062, // Invisible times
+            0x2063, // Invisible separator
+            0x2064, // Invisible plus
+            0xFEFF, // Zero-width no-break space (BOM)
+            0xFFF9, // Interlinear annotation anchor
+            0xFFFA, // Interlinear annotation separator
+            0xFFFB, // Interlinear annotation terminator
+        ];
+        
+        return invisibleChars.includes(charCode);
+    }
+
+    function getNonViewableCharRepresentation(charCode) {
+        const charNames = {
+            0x00: '[NULL]',
+            0x01: '[SOH]',
+            0x02: '[STX]',
+            0x03: '[ETX]',
+            0x04: '[EOT]',
+            0x05: '[ENQ]',
+            0x06: '[ACK]',
+            0x07: '[BEL]',
+            0x08: '[BS]',
+            0x09: '[TAB]',
+            0x0A: '[LF]',
+            0x0B: '[VT]',
+            0x0C: '[FF]',
+            0x0D: '[CR]',
+            0x0E: '[SO]',
+            0x0F: '[SI]',
+            0x10: '[DLE]',
+            0x11: '[DC1]',
+            0x12: '[DC2]',
+            0x13: '[DC3]',
+            0x14: '[DC4]',
+            0x15: '[NAK]',
+            0x16: '[SYN]',
+            0x17: '[ETB]',
+            0x18: '[CAN]',
+            0x19: '[EM]',
+            0x1A: '[SUB]',
+            0x1B: '[ESC]',
+            0x1C: '[FS]',
+            0x1D: '[GS]',
+            0x1E: '[RS]',
+            0x1F: '[US]',
+            0x7F: '[DEL]',
+            0x00AD: '[SHY]',
+            0x200B: '[ZWSP]',
+            0x200C: '[ZWNJ]',
+            0x200D: '[ZWJ]',
+            0x200E: '[LRM]',
+            0x200F: '[RLM]',
+            0x2028: '[LSEP]',
+            0x2029: '[PSEP]',
+            0x202A: '[LRE]',
+            0x202B: '[RLE]',
+            0x202C: '[PDF]',
+            0x202D: '[LRO]',
+            0x202E: '[RLO]',
+            0x2060: '[WJ]',
+            0x2061: '[FA]',
+            0x2062: '[IT]',
+            0x2063: '[IS]',
+            0x2064: '[IP]',
+            0xFEFF: '[BOM]',
+            0xFFF9: '[IAA]',
+            0xFFFA: '[IAS]',
+            0xFFFB: '[IAT]',
+        };
+        
+        return charNames[charCode] || `[U+${charCode.toString(16).toUpperCase().padStart(4, '0')}]`;
     }
 
     function ord(ch) {
