@@ -46,6 +46,11 @@ layout: default
         padding: 0;
         margin: 0;
         border-radius: 0;
+        cursor: help;
+    }
+
+    .highlight:hover {
+        background-color: #00e6d6;
     }
 
     .highlight-nonviewable {
@@ -55,6 +60,11 @@ layout: default
         margin: 0;
         border-radius: 0;
         color: #ffffff;
+        cursor: help;
+    }
+
+    .highlight-nonviewable:hover {
+        background-color: #ff5252;
     }
 
     #outputString {
@@ -177,10 +187,10 @@ layout: default
                 } else {
                     asciiChar = String.fromCharCode(charCode - tagBlockStart);
                 }
-                appendToOutput(asciiChar, 'highlight');
+                appendToOutput(asciiChar, 'highlight', `U+${charCode.toString(16).toUpperCase().padStart(4, '0')}`);
             } else if (isNonViewableCharacter(charCode)) {
                 const representation = getNonViewableCharRepresentation(charCode);
-                appendToOutput(representation, 'highlight-nonviewable');
+                appendToOutput(representation, 'highlight-nonviewable', `U+${charCode.toString(16).toUpperCase().padStart(4, '0')}`);
             } else {
                 appendToOutput(ch, '');
             }
@@ -195,6 +205,7 @@ layout: default
         
         // Common invisible Unicode characters
         const invisibleChars = [
+            0x00A0, // Non-breaking space
             0x00AD, // Soft hyphen
             0x200B, // Zero-width space
             0x200C, // Zero-width non-joiner
@@ -257,6 +268,7 @@ layout: default
             0x1E: '[RS]',
             0x1F: '[US]',
             0x7F: '[DEL]',
+            0x00A0: '[NBSP]',
             0x00AD: '[SHY]',
             0x200B: '[ZWSP]',
             0x200C: '[ZWNJ]',
@@ -288,11 +300,14 @@ layout: default
         return ch.codePointAt(0);
     }
 
-    function appendToOutput(ch, className) {
+    function appendToOutput(ch, className, hexCode = null) {
         const outputDiv = document.getElementById('outputString');
         const span = document.createElement('span');
         span.textContent = ch;
         span.className = className;
+        if (hexCode) {
+            span.title = `Character: ${hexCode}`;
+        }
         outputDiv.appendChild(span);
     }
   </script>
