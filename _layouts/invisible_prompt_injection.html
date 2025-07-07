@@ -47,6 +47,7 @@ layout: default
         margin: 0;
         border-radius: 0;
         cursor: help;
+        position: relative;
     }
 
     .highlight:hover {
@@ -61,10 +62,46 @@ layout: default
         border-radius: 0;
         color: #ffffff;
         cursor: help;
+        position: relative;
     }
 
     .highlight-nonviewable:hover {
         background-color: #ff5252;
+    }
+
+    .tooltip {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #333;
+        color: #fff;
+        padding: 5px 8px;
+        border-radius: 4px;
+        font-size: 12px;
+        white-space: nowrap;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        z-index: 1000;
+        pointer-events: none;
+        margin-bottom: 5px;
+    }
+
+    .tooltip::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 5px solid transparent;
+        border-top-color: #333;
+    }
+
+    .highlight:hover .tooltip,
+    .highlight-nonviewable:hover .tooltip {
+        opacity: 1;
+        visibility: visible;
     }
 
     #outputString {
@@ -306,7 +343,10 @@ layout: default
         span.textContent = ch;
         span.className = className;
         if (hexCode) {
-            span.title = `Character: ${hexCode}`;
+            const tooltip = document.createElement('div');
+            tooltip.className = 'tooltip';
+            tooltip.textContent = `Character: ${hexCode}`;
+            span.appendChild(tooltip);
         }
         outputDiv.appendChild(span);
     }

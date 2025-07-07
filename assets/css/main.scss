@@ -293,27 +293,6 @@ body.post .post-title {
   }
 }
 
-// Dark mode styles
-.dark-mode-toggle {
-  text-align: center;
-  padding: 1rem 0;
-  border-bottom: $border-width solid $border-color;
-  margin: 0 -2rem 1rem -2rem;
-  
-  button {
-    background: none;
-    border: $border-width solid $border-color;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: all 0.2s ease;
-    
-    &:hover {
-      background: rgba(0,0,0,0.05);
-    }
-  }
-}
-
 // Dark mode implementation
 body.dark-mode {
   filter: invert(1) hue-rotate(180deg);

@@ -16,26 +16,29 @@
     
     <script>
       // Dark mode toggle functionality
-      const darkModeBtn = document.getElementById('dark-mode-btn');
+      const darkModeLink = document.getElementById('dark-mode-link');
       const body = document.body;
+      
+      const moonSvg = `{% include svg/moon.svg %}`;
+      const sunSvg = `{% include svg/sun.svg %}`;
       
       // Check for saved preference or default to light mode
       const currentMode = localStorage.getItem('darkMode');
       if (currentMode === 'enabled') {
         body.classList.add('dark-mode');
-        darkModeBtn.textContent = '☀️';
+        darkModeLink.innerHTML = sunSvg;
       }
       
       // Toggle dark mode
-      darkModeBtn.addEventListener('click', () => {
+      darkModeLink.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
         
         if (body.classList.contains('dark-mode')) {
           localStorage.setItem('darkMode', 'enabled');
-          darkModeBtn.textContent = '☀️';
+          darkModeLink.innerHTML = sunSvg;
         } else {
           localStorage.setItem('darkMode', 'disabled');
-          darkModeBtn.textContent = '🌙';
+          darkModeLink.innerHTML = moonSvg;
         }
       });
     </script>
