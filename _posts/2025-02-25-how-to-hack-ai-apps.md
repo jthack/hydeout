@@ -289,7 +289,7 @@ Addressing AI vulnerabilities, especially prompt injection, requires a multi-lay
 
 9. **Continual Testing - AI Security**: This is the most important mitigation of all. The only way to know if your mitigations are effective is to test them. This means pentests and eventually having a bug bounty program. If you're interested in an application security penetration test, reach out to me at joseph@rez0corp.com. For a bug bounty proram, you should reach out to Hackerone, Bugcrowd, or Intigriti and ask them how to get started.
 
-10. **Continual Testing - AI Safety**: Again, testing is the most important mitigation of all. To do continual AI safety testing, you need a product such as [Haize Labs](https://haizelabs.com/) or [Whitecircle.ai](https://whitecircle.ai/) that can test for AI safety vulnerabilities automatically.
+10. **Continual Testing - AI Safety**: Again, testing is the most important mitigation of all. To do continual AI safety testing, you need a product such as [SPLX]([Haize Labs](https://haizelabs.com/) or [Whitecircle.ai](https://whitecircle.ai/) that can test for AI safety vulnerabilities automatically.
 
 ### AI Hacking Methodology Overview
 
