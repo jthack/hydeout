@@ -49,7 +49,7 @@ And you could literally pick any of those concepts and apply them to an industry
 ### Bye
 So yeah, you should read it. It's free on his site [here](https://danielmiessler.com/blog/the-real-internet-of-things).
 
-Peace!
+Peace!  
 \- Joseph
 
 [Sign up for my email list](https://thacker.beehiiv.com/subscribe) to know when I post more content like this.
