@@ -16,13 +16,16 @@ One morning after I went full time bug bounty back in January, I decided to find
 
 When it comes to domains for payloads, sometimes every character counts. ASCII and Unicode characters counts play a crucial role here. Many Unicode characters resolve to ASCII, which means if you're crafting an XSS or SSRF payload, a short domain can sometimes be your best friend. 
 
-For example, a domain like `1.com` is straightforward with 4 ASCII and 4 Unicode characters because it doesn't condense. But then there's `rad.pw`, which I own (pretty cool, right? It's like "rad password"). It has 5 ASCII characters but only 2 Unicode because "㎭" and "㎺" are each a single Unicode character.
+For example, a domain like `1.com` is straightforward with 4 ASCII and 4 Unicode characters because it doesn't condense. But then there's `rad.pw`, which I own . It has 5 ASCII characters but only 2 Unicode because "㎭" and "㎺" are each a single Unicode character.
 
 ### The Hunt for the Shortest Domain
 
 My goal was to find the lowest character count possible, ideally 3 ASCII and 2 Unicode, like `1.rs`. Unfortunately, those are (mostly) all taken. So, I set my sights on finding a domain with 4 ASCII and 2 Unicode characters. 
 
-However, finding such a domain at a reasonable price proved to also be a challenge. After much searching, I ended up with `rad.pw` (5 ASCII, 2 Unicode), `t4.rs` (4 ASCII, 3 Unicode because t4 doesn't condense), and `km3.pw` (5 ASCII, 2 Unicode). If anyone's interested, I don't really need the last one so let me know if you'd like it.
+However, finding such a domain at a reasonable price proved to also be a challenge. After much searching, I ended up with:  
+- `rad.pw`: 5 ASCII, 2 Unicode, and "rad password" is a cool domain for POCs
+- `t4.rs`: 4 ASCII, 3 Unicode because t4 doesn't condense, and short for [tars](https://interstellarfilm.fandom.com/wiki/TARS) the robot
+- `km3.pw`: 5 ASCII, 2 Unicode. I got this one first, before finding the other two. If anyone is interested in having it, I don't really need it so let me know if you'd like it.
 
 > **Sidenote**: Due to this whole process, I added this tool to my website: [ASCII to Unicode Character Reducer](https://josephthacker.com/unicode_reducer)
 
