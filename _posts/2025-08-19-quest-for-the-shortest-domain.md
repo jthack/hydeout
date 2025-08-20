@@ -57,6 +57,6 @@ I also [post my thoughts on Twitter/X](https://x.com/rez0__).
 <meta name="twitter:site" content="@rez0__" />
 <meta name="twitter:creator" content="@rez0__" />
 <meta property="og:url" content="https://josephthacker.com/hacking/2025/08/19/quest-for-the-shortest-domain.html" />
-<meta property="og:title" content="Quest for the Shortest Domain" />
+<meta property="og:title" content="The Quest for the Shortest Domain" />
 <meta property="og:description" content="A journey into finding the most efficient domain for XSS payloads in bug bounty hunting." />
-<meta property="og:image" content="/assets/images/domain_quest_banner.png" />
+<meta property="og:image" content="https://josephthacker.com/assets/images/domain_quest_banner.png" />
