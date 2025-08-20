@@ -10,7 +10,7 @@ tags:
 ![](/assets/images/ai_safety_tuning_blog_banner.png){: width="400" }
 It hit me like a lightning bolt during a casual conversation about AI safety: **we're tuning these models for adults, but kids are using them too.**
 
-Think about it. When we discuss whether an AI model is "safe," we're thinking about bombs, violence, and other adult topics. But most AI apps today don't expose the user's age to the model. So ithas absolutely no idea that a user is ten or seven or five years old.
+Think about it. When we discuss whether an AI model is "safe," we're thinking about bombs, violence, and other adult topics. But most AI apps today don't expose the user's age to the model. So it has absolutely no idea that a user is ten or seven or five years old.
 
 ## The Young User Problem
 
