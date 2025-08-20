@@ -60,4 +60,4 @@ I also [post my thoughts on Twitter/X](https://x.com/rez0__).
 <meta property="og:url" content="https://josephthacker.com/ai/2025/08/19/ai-models-are-not-safety-tuned-for-kids.html" />
 <meta property="og:title" content="AI Models Are Not Safety-Tuned for Kids" />
 <meta property="og:description" content="AI models are safety-tuned for adults, but what happens when a 10-year-old asks about genocide, substance abuse, or adult relationships? The age-blind nature of current AI systems reveals a critical gap in safety architecture." />
-<meta property="og:image" content="https://josephthacker.com/assets/images/ai_age_safety_banner.png" />
+<meta property="og:image" content="https://josephthacker.com/assets/images/ai_safety_tuning_blog_banner.png" />
