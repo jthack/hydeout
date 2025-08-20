@@ -8,15 +8,15 @@ tags:
   - cybersecurity
 ---
 ![](/assets/images/domain_quest_banner.png){: width="400" }
-In the world of bug bounty hunting, having a short domain for XSS payloads can be the difference in exploiting a bug or not... and it's just really cool to have a nice domain for payloads, LOL. 
+In bug bounty hunting, having a short domain for XSS payloads can be the difference in exploiting a bug or not... and it's just really cool to have a nice domain for payloads, LOL. 
 
-One morning after I went full time bug bounty back in January, I decided to find me a nice domain for POCs and payloads. It turned into a full day journey. It was quite the adventure. I spent around **six hours** reversing domain-provider APIs and automating the process of finding them. I dove into the intricacies of ASCII and Unicode character counts, and the things I found were interesting.
+One morning after I went full time bug bounty back in January, I decided to find me a nice domain for POCs and payloads. It turned into a full day adventure. I spent around **six hours** reversing engineering domain-provider APIs and automating the process of checking which domains are available. 
 
 ### ASCII and Unicode
 
-When it comes to domains for payloads, sometimes every character counts. ASCII and Unicode characters counts play a crucial role here. Many Unicode characters resolve to ASCII, which means if you're crafting an XSS or SSRF payload, a short domain can sometimes be your best friend. 
+When it comes to domains for payloads, sometimes every character counts. ASCII and Unicode character counts both matter. Many Unicode characters resolve to ASCII for urls, which means if you're crafting an XSS or SSRF payload, a short domain can sometimes be exactly what you meed. 
 
-For example, a domain like `1.com` is straightforward with 4 ASCII and 4 Unicode characters because it doesn't condense. But then there's `rad.pw`, which I own . It has 5 ASCII characters but only 2 Unicode because "㎭" and "㎺" are each a single Unicode character.
+For example, a domain like `1.com` is straightforward with 4 ASCII and 4 Unicode characters because it doesn't condense. But then there's `rad.pw`, which I own. It has 5 ASCII characters but only 2 Unicode because "㎭" and "㎺" are each a single Unicode character.
 
 ### The Hunt for the Shortest Domain
 
