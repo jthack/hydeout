@@ -225,11 +225,11 @@ layout: default
                     asciiChar = String.fromCharCode(charCode - tagBlockStart);
                 }
                 appendToOutput(asciiChar, 'highlight', `U+${charCode.toString(16).toUpperCase().padStart(4, '0')}`);
+            } else if (charCode === 0x0A) { // Line feed (newline) - handle before non-viewable check
+                appendToOutput('\n', '');
             } else if (isNonViewableCharacter(charCode)) {
                 const representation = getNonViewableCharRepresentation(charCode);
                 appendToOutput(representation, 'highlight-nonviewable', `U+${charCode.toString(16).toUpperCase().padStart(4, '0')}`);
-            } else if (charCode === 0x0A) { // Line feed (newline)
-                appendToOutput('\n', '');
             } else {
                 appendToOutput(ch, '');
             }
