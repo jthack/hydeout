@@ -341,16 +341,22 @@ layout: default
 
     function appendToOutput(ch, className, hexCode = null) {
         const outputDiv = document.getElementById('outputString');
-        const span = document.createElement('span');
-        span.textContent = ch;
-        span.className = className;
-        if (hexCode) {
-            const tooltip = document.createElement('div');
-            tooltip.className = 'tooltip';
-            tooltip.textContent = `Character: ${hexCode}`;
-            span.appendChild(tooltip);
+        
+        if (ch === '\n') {
+            // Create a line break element for newlines
+            outputDiv.appendChild(document.createElement('br'));
+        } else {
+            const span = document.createElement('span');
+            span.textContent = ch;
+            span.className = className;
+            if (hexCode) {
+                const tooltip = document.createElement('div');
+                tooltip.className = 'tooltip';
+                tooltip.textContent = `Character: ${hexCode}`;
+                span.appendChild(tooltip);
+            }
+            outputDiv.appendChild(span);
         }
-        outputDiv.appendChild(span);
     }
   </script>
 </div> 
