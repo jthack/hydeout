@@ -228,6 +228,8 @@ layout: default
             } else if (isNonViewableCharacter(charCode)) {
                 const representation = getNonViewableCharRepresentation(charCode);
                 appendToOutput(representation, 'highlight-nonviewable', `U+${charCode.toString(16).toUpperCase().padStart(4, '0')}`);
+            } else if (charCode === 0x0A) { // Line feed (newline)
+                appendToOutput('\n', '');
             } else {
                 appendToOutput(ch, '');
             }
