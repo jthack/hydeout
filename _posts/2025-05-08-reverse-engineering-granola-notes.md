@@ -69,11 +69,11 @@ def load_credentials():
     try:
         with open(creds_path, 'r') as f:
             data = json.load(f)
-            
-        # Parse the cognito_tokens string into a dict
-        cognito_tokens = json.loads(data['cognito_tokens'])
-        access_token = cognito_tokens.get('access_token')
-        
+
+        # Parse the workos_tokens string into a dict
+        workos_tokens = json.loads(data['workos_tokens'])
+        access_token = workos_tokens.get('access_token')
+
         if not access_token:
             logger.error("No access token found in credentials file")
             return None
