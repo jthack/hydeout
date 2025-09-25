@@ -75,4 +75,4 @@ I also [post my thoughts on Twitter/X](https://x.com/rez0__).
 <meta property="og:url" content="https://josephthacker.com/ai/2025/09/24/ai-comprehension-gaps.html" />
 <meta property="og:title" content="AI Comprehension Gaps" />
 <meta property="og:description" content="When Humans and AI See Different Things" />
-<meta property="og:image" content="/assets/images/ai-context-asymmetry.jpeg" />
+<meta property="og:image" content="https://josephthacker.com/assets/images/ai-context-asymmetry.jpeg" />
