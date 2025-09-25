@@ -15,8 +15,8 @@ I have five examples of this phenomena below, but there are probably many more. 
 
 ### 1. Invisible Unicode Tags
 
-**Humans see**: Nothing
-**AI sees**: ASCII-based messages via Invisible Unicode tags
+**Humans see**: Nothing  
+**AI sees**: ASCII-based messages via Invisible Unicode tags  
 
 Ahhh yes, invisible unicode tags, one of my favorite AI security issues. [I tweeted about this](https://x.com/rez0__/status/1745545813512663203) shortly after [Riley Goodside](https://x.com/goodside) discovered it. You can read about them on wikipedia [here](https://en.wikipedia.org/wiki/Tags_(Unicode_block)).
 
@@ -26,8 +26,8 @@ Imagine you're asking an LLM to summarize a page or a research paper, but you ha
 
 ### 2. QR Code from Emojis
 
-**Humans see**: QR Code (leads to malicious site)
-**AI sees**: Random string of emojis
+**Humans see**: QR Code (leads to malicious site)  
+**AI sees**: Random string of emojis  
 
 My friend [Yuji](https://x.com/Yujilik) thought of this technique and shared it with me. I used it on a report to Google's bug bounty program a while back. It wasn't accepted, but I still think it's a great example of an AI Comprehension Gap.
 
@@ -36,23 +36,23 @@ Picture this: you tell an LLM to respond with a long string of black and white e
 So, if you ask it to print this string of these emojis, it will do so without realizing it's creating a malicious link in the form of a QR code. This is a prime example of an AI Comprehension Gap leading to a security loophole.
 
 ### 3. AI Browsing Blind Spots
-**Humans see**: Full webpage (including images)
-**AI sees**: Source code of webpage and no images (depending on setup)
+**Humans see**: Full webpage (including images)  
+**AI sees**: Source code of webpage and no images (depending on setup)  
 
 I've been testing and thinking about AI browsing capabilities a lot lately. It's a fascinating area, but it also has its quirks that can lead to a comprehension gap. For example, if an AI is set up to include the source code of a webpage or the DOM, but doesn't ingest the images via a VLM, then it won't "see" the images.
 
 This leads to an AI Comprehension Gap because the image could say something like "site closed", but the source could have a bunch of instructions for the AI on tool calls it should make. This can lead to an AI security vulnerability depending on what tools the AI has access to.
 
 ### 4. Steganography in Images
-**Humans see**: Normal image (sometimes)
-**AI sees**: Normal image (sometimes)
+**Humans see**: Normal image (sometimes)  
+**AI sees**: Normal image (sometimes)  
 
 This is a funny one because the comprehension gap can go both ways. Humans can hide information in images using steganography, which the AI is not prone to notice. But... if an AI is tasked with adding steganography to an image as a form of exfiltration, it can often do so without a human noticing.
 
 ### 5. Base64 Encoded Text, other languages, etc.
 
-**Humans see**: Text they don't understand
-**AI sees**: Text it understands
+**Humans see**: Text they don't understand  
+**AI sees**: Text it understands  
 
 Naturally, humans can often notice base64 encoded text or text in a foreign language that they don't understand. And they'll often decode/translate it. However, that does add complexity and introduce some minor risk. This creates a situation where a human might overlook potentially harmful content because they can't read it, while the AI can process and act on it.
 
