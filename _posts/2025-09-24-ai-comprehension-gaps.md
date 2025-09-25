@@ -1,5 +1,5 @@
 ---
-title: "AI Comprehension Gaps: When Humans and AI See Different Things:"
+title: "AI Comprehension Gaps: When Humans and AI See Different Things"
 layout: post
 categories:
   - ai
