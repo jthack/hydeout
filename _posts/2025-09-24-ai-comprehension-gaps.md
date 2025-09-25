@@ -24,6 +24,8 @@ These sneaky characters don't show up on our screens, much like zero-width chara
 
 Imagine you're asking an LLM to summarize a page or a research paper, but you have no idea there are invisible characters in the text, which the AI gobbles up and can tell it to summarize it a specific way or even convince your model to run malicious tool calls. 
 
+Note: I actually made a tool on my website to play with invisible unicode tags. You can check it out [here](https://josephthacker.com/invisible_prompt_injection).
+
 ### 2. QR Code from Emojis
 
 **Humans see**: QR Code (leads to malicious site)  
