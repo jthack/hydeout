@@ -9,7 +9,7 @@ tags:
   - hacking
 ---
 ![](/assets/images/ai-context-asymmetry.jpeg){: width="400" }
-There's an AI Security and Safety concept that I'm calling "AI Comprehension Gaps." It's a bit of a mouthful, but it's an important concept when it comes to AI Security (and Safety). It's when **there's a mismatch between what a user knows or sees and what an AI model understands from the same context**. This information gap can lead to some pretty significant security issues.
+There's an AI Security and Safety concept that I'm calling "AI Comprehension Gaps." It's a bit of a mouthful, but it's an important concept. It's when **there's a mismatch between what a user knows or sees and what an AI model understands from the same context**. This information gap can lead to some pretty significant security issues.
 
 I have five examples of this concept below, but there are probably many more. I'm actually really interested in hearing about them. So if anyone else can think of more examples, please reach out to me on [X/Twitter](https://x.com/rez0__) or via [email](mailto:joseph@rez0corp.com).
 
