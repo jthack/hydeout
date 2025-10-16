@@ -8,9 +8,9 @@ sidebar_link: true
 
 ### Joseph Thacker (rez0)
 
-I'm a Solo Founder, Bug Bounty Hunter, and startup Advisor who specializes in application security and AI. I’ve helped Fortune 500 companies find vulnerabilities that could have cost them millions, and I've submitted over 1,000 vulnerabilities across Hackerone and Bugcrowd. I love helping secure the planet by building, breaking, and teaching.  
+I'm a full time Bug Bounty Hunter, AI Red Teamer, and startup Advisor. I also co-host the [biggest bug bounty podcast](https://ctbb.show). I've submitted over 1,000 vulnerabilities across Hackerone and Bugcrowd. I've won Most Valuable Hacker at Google live hacking events and landed many "Best Team" awards at Hackerone live hacking events. I love helping secure the planet by building, breaking, and teaching.
 
-Email me if you are interested in **AI consulting** (implementation help/advice or AI security assesments). I'm also available for **startup advising** at high velocity startups that need a technical advisor who is well-networked, at the bleeding edge of AI and Security, passionate, involved, and has a wide range of knowledge.
+Email me if you are interested in **AI consulting** (implementation help/advice or AI security assesments). I'm also available for **startup advising** at high velocity startups that need a technical advisor who is well-networked, at the bleeding edge of AI and Security, passionate, and involved.
    
 On a more personal level, I'm a Christian, husband, and father.
 I love most things in life, but I'm particularly fond of hacking, ai-art, running, podcasts, and keylime pie.
