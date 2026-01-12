@@ -15,35 +15,35 @@ _I love You, LORD, my strength._
 
 _You are my rock, my fortress and my deliverer, my shield and the horn of my salvation,_
 
-_my stronghold; in You I take refuge$^1$_
+_my stronghold; in You I take refuge_$^1$
 
 _“You bore my sins” in Your body on the cross, so that I might die to sins and live for righteousness;_
 
-_“by Your wounds I have been healed.”$^2$_
+_“by Your wounds I have been healed.”_$^2$
 
-_You are the way, the truth, and the life.$^3$_
+_You are the way, the truth, and the life._$^3$
 
-_I am convinced that nothing can separate me from Your love.$^4$_
+_I am convinced that nothing can separate me from Your love._$^4$
 
-_I will be joyful in hope, patient in affliction, faithful in prayer.$^5$_
+_I will be joyful in hope, patient in affliction, faithful in prayer._$^5$
 
-_All authority has been given to me; therefore I will go and make disciples.$^6$_
+_All authority has been given to me; therefore I will go and make disciples._$^6$
 
-_I will not be afraid, I will only believe.$^7$_
+_I will not be afraid, I will only believe._$^7$
 
-_For you did not give me a spirit of timidity, but a spirit of power, of love, and of self-discipline.$^8$_
+_For you did not give me a spirit of timidity, but a spirit of power, of love, and of self-discipline._$^8$
 
-_Whatever happens, I will conduct myself in a manner worthy of the gospel of Christ.$^9$_
+_Whatever happens, I will conduct myself in a manner worthy of the gospel of Christ._$^9$
 
-_I will fight the good fight, I will finish the race, I will keep the faith.$^{10}$_
+_I will fight the good fight, I will finish the race, I will keep the faith._$^{10}$
 
 _I will not love the world or anything in the world for the world and its desires will pass away_
 
-_but if I do Your will, I will live forever.$^{11}$_
+_but if I do Your will, I will live forever._$^{11}$
 
-_Now I know in part; then I shall know fully, even as I am fully known.$^{12}$_
+_Now I know in part; then I shall know fully, even as I am fully known._$^{12}$
 
-_And I will see Your face.$^{13}$_
+_And I will see Your face._$^{13}$
 
 _I do all things for Your glory and in the name of Jesus._
 
