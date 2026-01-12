@@ -15,35 +15,35 @@ _I love You, LORD, my strength._
 
 _You are my rock, my fortress and my deliverer, my shield and the horn of my salvation,_
 
-_my stronghold; in You I take refuge_$^1$
+_my stronghold; in You I take refuge_¹
 
 _“You bore my sins” in Your body on the cross, so that I might die to sins and live for righteousness;_
 
-_“by Your wounds I have been healed.”_$^2$
+_“by Your wounds I have been healed.”_²
 
-_You are the way, the truth, and the life._$^3$
+_You are the way, the truth, and the life._³
 
-_I am convinced that nothing can separate me from Your love._$^4$
+_I am convinced that nothing can separate me from Your love._⁴
 
-_I will be joyful in hope, patient in affliction, faithful in prayer._$^5$
+_I will be joyful in hope, patient in affliction, faithful in prayer._⁵
 
-_All authority has been given to me; therefore I will go and make disciples._$^6$
+_All authority has been given to me; therefore I will go and make disciples._⁶
 
-_I will not be afraid, I will only believe._$^7$
+_I will not be afraid, I will only believe._⁷
 
-_For you did not give me a spirit of timidity, but a spirit of power, of love, and of self-discipline._$^8$
+_For you did not give me a spirit of timidity, but a spirit of power, of love, and of self-discipline._⁸
 
-_Whatever happens, I will conduct myself in a manner worthy of the gospel of Christ._$^9$
+_Whatever happens, I will conduct myself in a manner worthy of the gospel of Christ._⁹
 
-_I will fight the good fight, I will finish the race, I will keep the faith._$^{10}$
+_I will fight the good fight, I will finish the race, I will keep the faith._¹⁰
 
 _I will not love the world or anything in the world for the world and its desires will pass away_
 
-_but if I do Your will, I will live forever._$^{11}$
+_but if I do Your will, I will live forever._¹¹
 
-_Now I know in part; then I shall know fully, even as I am fully known._$^{12}$
+_Now I know in part; then I shall know fully, even as I am fully known._¹²
 
-_And I will see Your face._$^{13}$
+_And I will see Your face._¹³
 
 _I do all things for Your glory and in the name of Jesus._
 
