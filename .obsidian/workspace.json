@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "4dd62f04bc48b61b",
+    "type": "split",
+    "children": [
+      {
+        "id": "098903aed192ef53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01097137db9af1b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-05-13-root-for-your-friends.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-05-13-root-for-your-friends"
+            }
+          },
+          {
+            "id": "2a73b11a5cb6d8f1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/images/Pasted image 20250508155200.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250508155200"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba6f902482783082",
+    "type": "split",
+    "children": [
+      {
+        "id": "468554299e925dff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "274dc720af5d144e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f40cd046cb6cc34f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5b5dcf24b7fdc7a4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ece8db69b22d5bad",
+    "type": "split",
+    "children": [
+      {
+        "id": "421bf75eac0c6096",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e88453ed25205ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2025-05-13-root-for-your-friends.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-05-13-root-for-your-friends"
+            }
+          },
+          {
+            "id": "319807afcc0c008c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2025-05-13-root-for-your-friends.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-05-13-root-for-your-friends"
+            }
+          },
+          {
+            "id": "ff6728dc41851fba",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "725e6fb7fd34481c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2025-05-13-root-for-your-friends.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-05-13-root-for-your-friends"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "01097137db9af1b9",
+  "lastOpenFiles": [
+    "_includes/top-posts.html",
+    "_site/hacking/2025/06/09/this-is-how-they-tell-me-bug-bounty-ends.html",
+    "_site/hacking/2025/06/09",
+    "_posts/2025-06-09-this-is-how-they-tell-me-bug-bounty-ends.md",
+    "_site/hacking/2025/06/01/this-is-how-they-tell-me-bug-bounty-ends.html",
+    "_site/hacking/2025/06/01",
+    "_site/hacking/2025/06",
+    "_posts/2025-06-01-this-is-how-they-tell-me-bug-bounty-ends.md",
+    "_site/assets/images/bug_bounty_transformation_banner.png",
+    "_site/tmp_posts/2025-06-01-this-is-how-they-tell-me-bug-bounty-ends.html",
+    "tmp_posts/2025-06-01-this-is-how-they-tell-me-bug-bounty-ends.md",
+    "assets/images/bug_bounty_transformation_banner.png",
+    "_site/tmp_posts/2025-05-27-sleep-changes-everything.html",
+    "tmp_posts/2025-05-27-sleep-changes-everything.md",
+    "_site/assets/images/prioritizing_sleep_banner.png",
+    "assets/images/prioritizing_sleep_banner.png",
+    "_site/CLAUDE.md",
+    "CLAUDE.md",
+    "_site/assets/images/Pasted image 20250523103607.png",
+    "assets/images/Pasted image 20250523103607.png",
+    "_site/tmp_posts/2025-05-23-the-friend-flywheel.html",
+    "tmp_posts/2025-05-23-the-friend-flywheel.md",
+    "_site/assets/images/rooting_for_friends_banner.png",
+    "assets/images/rooting_for_friends_banner.png",
+    "_site/tmp_posts/2025-05-22-the-context-revolution.html",
+    "tmp_posts/2025-05-22-the-context-revolution.md",
+    "_site/assets/images/context_revolution_banner.png",
+    "assets/images/context_revolution_banner.png",
+    "_site/tmp_posts/2025-05-22-context-rich-ai-applications.html",
+    "tmp_posts/2025-05-22-context-rich-ai-applications.md",
+    "tmp_posts/2025-05-22-root-for-friends.md",
+    "_posts/2025-05-08-reverse-engineering-granola-notes.md",
+    "_posts/2025-05-13-root-for-your-friends.md",
+    "tmp_posts/2025-05-13-root-for-your-friends.md",
+    "tmp_posts/2025-05-08-reverse-engineering-granola-notes.md",
+    "assets/images/Pasted.md",
+    "_site/assets/images/Pasted.md",
+    "tmp_posts/2025-05-08-ai-collaboration-helper-functions.md",
+    "tmp_posts/2025-05-08-integrating-granola-ai-into-obsidian.md",
+    "tmp_posts/2025-03-28-unlocking-high-agency-potential.md",
+    "_posts/2022-08-18-unpredictable-idors.md",
+    "_posts/2019-01-03-my-favorite-podcasts.md"
+  ]
+}

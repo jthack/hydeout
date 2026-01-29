@@ -10,6 +10,9 @@ from typing import List
 import instructor
 import logging
 import base64
+import mimetypes
+from google import genai
+from google.genai import types
 
 logging.basicConfig(level=logging.INFO)
 
@@ -653,22 +656,33 @@ def get_image_prompt(content):
     )
     return image
 
-# Instantiate the OpenAI client
-oai_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-def call_dalle3(user_prompt,
-               image_dimension="1536x1024",
-               image_quality="high",
-               model="gpt-image-1",
-               nb_final_image=1):
-    response = oai_client.images.generate(
+# Instantiate the Gemini client
+gemini_client = genai.Client(
+    api_key=os.environ.get("GEMINI_API_KEY"),
+)
+
+def call_gemini_image(user_prompt, image_size="2K", aspect_ratio="16:9"):
+    """Generate an image using Gemini 3 Pro Image model."""
+    model = "gemini-3-pro-image-preview"
+
+    response = gemini_client.models.generate_content(
         model=model,
-        prompt=user_prompt,
-        size=image_dimension,
-        quality=image_quality,
-        n=nb_final_image,
+        contents=user_prompt,
+        config=types.GenerateContentConfig(
+            response_modalities=["TEXT", "IMAGE"],
+            image_config=types.ImageConfig(
+                aspect_ratio=aspect_ratio,
+                image_size=image_size,
+            ),
+        ),
     )
-    image_base64 = response.data[0].b64_json
-    return image_base64
+
+    # Extract image data from response
+    for part in response.parts:
+        if hasattr(part, 'inline_data') and part.inline_data and part.inline_data.data:
+            return part.inline_data.data, part.inline_data.mime_type
+
+    return None, None
 
 def download_image(url, filename):
     # If the url is base64 encoded
@@ -757,12 +771,15 @@ if __name__ == "__main__":
 
     image = get_image_prompt(content)
 
-    image_base64 = call_dalle3(image.prompt)
+    image_data, mime_type = call_gemini_image(image.prompt)
     file_path = "assets/images/" + image.filename
-    # take the base64 and save it to the file path
-    with open(file_path, "wb") as f:
-        f.write(base64.b64decode(image_base64))
-    logging.info(f"Saved image to: {file_path}")
+    # save the image data directly
+    if image_data:
+        with open(file_path, "wb") as f:
+            f.write(image_data)
+        logging.info(f"Saved image to: {file_path}")
+    else:
+        logging.error("Failed to generate image")
 
     image_string = f"![](/{file_path}){{: width=\"400\" }}"
     content = f"{header_string}\n{image_string}\n{content}"
