@@ -287,7 +287,7 @@ Addressing AI vulnerabilities, especially prompt injection, requires a multi-lay
    
 8. **Multi-Modal Security**: This one is tough but I think there is room for cool innovations such as pixel (or audio) smoothing that would "round" pixels (or audio) to specific thresholds that don't change the image (or audio) much but would break hidden prompt injections.
 
-9. **Continual Testing - AI Security**: This is the most important mitigation of all. The only way to know if your mitigations are effective is to test them. This means pentests and eventually having a bug bounty program. If you're interested in an application security penetration test, reach out to me at joseph@rez0corp.com. For a bug bounty proram, you should reach out to Hackerone, Bugcrowd, or Intigriti and ask them how to get started.
+9. **Continual Testing - AI Security**: This is the most important mitigation of all. The only way to know if your mitigations are effective is to test them. This means pentests and eventually having a bug bounty program. If you're interested in an application security penetration test, reach out to me at joseph@rez0.com. For a bug bounty proram, you should reach out to Hackerone, Bugcrowd, or Intigriti and ask them how to get started.
 
 10. **Continual Testing - AI Safety**: Again, testing is the most important mitigation of all. To do continual AI safety testing, you need a product such as [SPLX]([Haize Labs](https://haizelabs.com/) or [Whitecircle.ai](https://whitecircle.ai/) that can test for AI safety vulnerabilities automatically.
 
@@ -362,7 +362,7 @@ Also, I've written about AI before on the blog, if you're wanting to read more:
 
 You can follow me on X at [@rez0\_\_](https://x.com/rez0__) or [sign up for my email list](https://thacker.beehiiv.com/subscribe) to know when I post more content like this.
 
-If you're interested in high quality manual testing, reach out to me at joseph@rez0corp.com. If you like bug bounty content, check out the podcast I co-host: [Critical Thinking Bug Bounty Podcast](https://ctbb.show)
+If you're interested in high quality manual testing, reach out to me at joseph@rez0.com. If you like bug bounty content, check out the podcast I co-host: [Critical Thinking Bug Bounty Podcast](https://ctbb.show)
 
 \- Joseph (rez0)
 
