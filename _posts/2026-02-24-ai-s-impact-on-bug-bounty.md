@@ -8,7 +8,7 @@ tags:
   - hacking
   - cybersecurity
 ---
-
+![](/assets/images/ai_impact_software_bug_bounty.png){: width="400" }
 I have a lot of thoughts on how AI will affect things, including bug bounty. And most of it is speculation, of course, but I have to put this out into the world because I want to know if this is correct in a year or two. 
 
 There are 2 main things I want to talk about. One is that the proliferation of high quality coding agents allows anyone to build like 80% of prior software products. So anyone with Claude Code right now can vibe code up a security logging platform (a bad one, but one that works) and go passionately sell it to a bunch of local businesses that don't have the expertise to know any better.
