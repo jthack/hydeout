@@ -34,4 +34,4 @@ I also [post my thoughts on Twitter/X](https://x.com/rez0__).
 <meta property="og:url" content="https://josephthacker.com/ai/2026/02/24/ai-s-impact-on-bug-bounty.html" />
 <meta property="og:title" content="AI's Impact on Software and Bug Bounty" />
 <meta property="og:description" content="Exploring AI's influence on the bug bounty landscape and its implications for the cybersecurity industry." />
-<meta property="og:image" content="https://josephthacker.com/assets/images/REPLACE_WITH_IMAGE.png" />
+<meta property="og:image" content="https://josephthacker.com/assets/images/ai_impact_software_bug_bounty.png" />
