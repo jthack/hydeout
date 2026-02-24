@@ -23,7 +23,7 @@ The downside is that I think companies will start running coding agents (like Cl
 
 I love practical takeaways. To me, the big takeaway is that _this year is massively important_. Level up. Scale up. And buckle up. It's going to be really interesting.
 
-- Joseph
+\- Joseph
 
 [Sign up for my email list](https://thacker.beehiiv.com/subscribe) to know when I post more content like this.
 I also [post my thoughts on Twitter/X](https://x.com/rez0__).
