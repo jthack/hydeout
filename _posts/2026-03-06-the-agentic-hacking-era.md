@@ -9,10 +9,6 @@ tags:
   - cybersecurity
 ---
 ![agentic_hacking_era_banner.png](/assets/images/agentic_hacking_era_banner.png){: width="400" }
-
-
-![](/assets/images/agentic_hacking_era.png){: width="400" }
-
 A few weeks ago I wrote about [how AI is going to impact bug bounty](https://josephthacker.com/ai/2026/02/24/ai-s-impact-on-bug-bounty.html). That post was mostly predictions. This one is about what's actually happening right now.
 
 First off, that prediction is already coming true. Since that post, there's been an explosion of people posting about their bugs found with claude code on X. 
