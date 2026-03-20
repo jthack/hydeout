@@ -10,8 +10,15 @@ tags:
 ![ai_hacking_skills_blog_banner.png](/assets/images/claude-ctbb.png){: width="400" }
 Hey y'all,
 
-Very short post today. This video for the podcast I co-host went live yesterday, and it's one of my favorite episodes we've ever done. I felt like I had super clear thinking and gave insanely valuable information. I think you'd like if you haven't seen it:
-https://www.youtube.com/watch?v=qTX9u-EsjmM
+Very short post today. 
+
+This video below went live yesterday. It's one of my favorite episodes we've ever done on the podcast I cohost. 
+
+I had super clear thinking and gave really insightful answers to some great, hard questions from Justin. I think you'd like if you haven't seen it:
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe src="https://www.youtube.com/embed/qTX9u-EsjmM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Thanks,
 
