@@ -7,7 +7,7 @@ tags:
   - ai
   - hacking
 ---
-![ai_hacking_skills_blog_banner.png](/assets/images/ai_hacking_skills_blog_banner.png){: width="400" }
+![ai_hacking_skills_blog_banner.png](/assets/images/claude-ctbb.png){: width="400" }
 
 
 Hey y'all,
@@ -28,4 +28,4 @@ I also [post my thoughts on Twitter/X](https://x.com/rez0__).
 <meta property="og:url" content="https://josephthacker.com/personal/2026/03/20/claude-code-hacking-skills.html" />
 <meta property="og:title" content="Claude Code Hacking Skills Video" />
 <meta property="og:description" content="Check out one of my favorite podcast episodes where I share valuable insights about Claude Code Hacking Skills." />
-<meta property="og:image" content="https://josephthacker.com/assets/images/ai_hacking_skills_blog_banner.png" />
+<meta property="og:image" content="https://josephthacker.com/assets/images/claude-ctbb.png" />
