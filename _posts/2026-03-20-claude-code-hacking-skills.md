@@ -8,8 +8,6 @@ tags:
   - hacking
 ---
 ![ai_hacking_skills_blog_banner.png](/assets/images/claude-ctbb.png){: width="400" }
-
-
 Hey y'all,
 
 Very short post today. This video for the podcast I co-host went live yesterday, and it's one of my favorite episodes we've ever done. I felt like I had super clear thinking and gave insanely valuable information. I think you'd like if you haven't seen it:
