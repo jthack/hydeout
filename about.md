@@ -31,7 +31,7 @@ I love most things in life, but I'm particularly fond of hacking, ai-art, runnin
 ## affiliations
 
 - [**Ethiack**](https://ethiack.com/): Advisor
-- [**SPLX**](https://splx.ai): Advisor
+- [**SPLX**](https://splx.ai): Advisor (acquired)
 - [**Caido**](https://caido.io/): Advisor
 - [**HackerOne**](https://hackerone.com/): Hacker Advisory Board Member
 - [**Cornerstone Haiti**](https://cornerstonehaiti.org/): Board Member
