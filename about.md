@@ -23,6 +23,7 @@ I love most things in life, but I'm particularly fond of hacking, ai-art, runnin
 - hackerone: [rez0](https://hackerone.com/rez0)
 - bugcrowd: [rez0](https://bugcrowd.com/rez0)
 - email list: [Thacker Thoughts](https://thacker.beehiiv.com/subscribe) (subscribe to know when I post)
+- for parents: [AI Safety For Parents](https://aisafetyforparents.com) (my 10-day course on keeping kids safe with AI)
 
 <p class="message">
   "As water reflects the face, so one's life reflects the heart." Proverbs 27:19 
