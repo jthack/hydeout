@@ -10,7 +10,7 @@ tags:
 ---
 
 ![](/assets/images/operation_floodlight_banner_candidate_2_clean.jpg){: width="400" }
-I have been thinking about the impact of AI system with strong cybersecurity capabilities. 
+I have been thinking about the downstream impacts of AI systems having strong cybersecurity capabilities. 
 
 The United States has a lot of critical infrastructure that is obviously important: hospitals, water systems, power, transportation, telecom, financial services, food, dams, manufacturing, and all the other sectors [CISA lists](https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors).
 
