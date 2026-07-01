@@ -1,7 +1,6 @@
 ---
 title: "Operation Floodlight"
 layout: post
-published: false
 categories:
   - hacking
 tags:
