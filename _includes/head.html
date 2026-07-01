@@ -26,5 +26,30 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/{{ site.feed.path | default: 'feed.xml' }}" />
 
+  <!-- Canonical + structured data (added for SEO) -->
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+  {% if page.layout == 'post' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": {{ page.title | jsonify }},
+    "description": {{ page.description | default: page.excerpt | strip_html | truncate: 300 | jsonify }},
+    "image": "{{ page.image | default: '/assets/images/joseph_circle.png' | absolute_url }}",
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+    "url": "{{ page.url | absolute_url }}",
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ page.url | absolute_url }}"},
+    "author": {
+      "@type": "Person", "name": "Joseph Thacker", "alternateName": "rez0",
+      "url": "https://josephthacker.com/",
+      "sameAs": ["https://x.com/rez0__","https://hackerone.com/rez0","https://www.linkedin.com/in/josephthacker","https://github.com/jthack","https://ctbb.show"]
+    },
+    "publisher": {"@type": "Person", "name": "Joseph Thacker",
+      "logo": {"@type": "ImageObject", "url": "{{ '/assets/images/joseph_circle.png' | absolute_url }}"}}
+  }
+  </script>
+  {% endif %}
+
   {% include custom-head.html %}
 </head>

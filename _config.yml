@@ -8,7 +8,7 @@ tagline:          'aka rez0s blog'
 description:      'My thoughts on hacking, ai, faith, and more.'
 host:             josephthacker.com
 port:             443
-#url:              http://localhost:4000
+url:              https://josephthacker.com
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -29,6 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Sidebar link settings
 sidebar_home_link:  false
