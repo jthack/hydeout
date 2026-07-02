@@ -387,7 +387,7 @@ The following findings were surfaced by [Autonomous Cyber's](https://acyber.co) 
 
 **#483668814** | **High (P2/S2)** | **$5,000** — XSS in a major open-source web framework's internationalization system: the ICU message parser skipped URL sanitization for static HTML attributes in translation files, allowing a malicious translator to inject `javascript:` URLs into `<a href>` tags inside ICU plural/select cases and bypass the framework's documented sanitizer for the affected locale. Patch submitted and merged by the framework team.
 
-**#3550286** | **Medium** | **$4,580** — Arbitrary file read in a major enterprise software company's open-source e-commerce platform, allowing attackers to read sensitive server-side files via remote file inclusion.
+**#3550286** | **High** | **$4,580** — Arbitrary file read in a major enterprise software company's open-source e-commerce platform, allowing attackers to read sensitive server-side files via remote file inclusion.
 
 **#483679874** | **High (Duplicate)** — SSRF in the same open-source web framework's server-side rendering module: the default HTTP interceptor blindly trusted the `Host` header to rewrite all relative URLs, enabling attacker-controlled outbound requests from the SSR process to internal networks, cloud metadata endpoints, and arbitrary external domains.
 
