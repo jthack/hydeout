@@ -383,7 +383,7 @@ Two live PoC mints on Solana mainnet, both indexed and reachable:
 
 #### Found by Autonomous Cyber's "FUZZ E" agent — single overnight run
 
-*The following findings were surfaced by [Autonomous Cyber's](https://acyber.co) autonomous offensive agent "FUZZ E" in one overnight run against targets I granted it access to as authorized testing.*
+The following findings were surfaced by [Autonomous Cyber's](https://acyber.co) autonomous offensive agent "FUZZ E" in one overnight run against targets they let me point it at. Absolutely insane findings on super hardened targets. You should 1000% check out their work.
 
 **#483668814** | **High (P2/S2)** | **$5,000** — XSS in a major open-source web framework's internationalization system: the ICU message parser skipped URL sanitization for static HTML attributes in translation files, allowing a malicious translator to inject `javascript:` URLs into `<a href>` tags inside ICU plural/select cases and bypass the framework's documented sanitizer for the affected locale. Patch submitted and merged by the framework team.
 
