@@ -1,0 +1,42 @@
+---
+layout: page
+title: media mentions
+---
+
+A running list of places that have quoted or featured my work on AI and security. I'm mostly keeping it here so it all lives in one spot.
+
+- [Wired — An AI Toy Exposed 50,000 Logs of Its Chats With Kids to Anyone With a Gmail Account](https://www.wired.com/story/an-ai-toy-exposed-50000-logs-of-its-chats-with-kids-to-anyone-with-a-gmail-account/)
+- [Forbes — How Some Experts See the Future of AI in 2024](https://www.forbes.com/sites/jenniferkitepowell/2023/12/29/how-some-experts-see-the-future-of-ai-in-2024/)
+- [Dark Reading — UN Adopts Symbolic Resolution for Secure, Trustworthy AI](https://www.darkreading.com/cybersecurity-operations/un-adopts-symbolic-resolution-secure-trustworthy-ai)
+- [Dark Reading — Apple Intelligence Could Introduce Device Security Risks](https://www.darkreading.com/cyber-risk/apple-intelligence-could-introduce-device-security-risks)
+- [VentureBeat — New Generative AI-Powered SaaS Security Expert From AppOmni](https://venturebeat.com/security/new-generative-ai-powered-saas-security-expert-from-appomni/)
+- [HackerOne — AI Red Teaming Explained by Red Teamers (video)](https://www.hackerone.com/blog/ai-red-teaming-explained-by-red-teamers)
+- [Bugcrowd — Introducing AI Penetration Testing](https://www.bugcrowd.com/blog/introducing-ai-penetration-testing/)
+- [Cloud Security Alliance — Using AI for Offensive Security](https://cloudsecurityalliance.org/artifacts/using-ai-for-offensive-security)
+- [TEDx — talk (YouTube)](https://www.youtube.com/watch?v=Y_x6KXV1y_0)
+- [KTVU FOX 2 — 1st-in-Nation AI Safety Bill Passes CA Senate, Headed to Governor's Desk (video)](https://www.ktvu.com/news/1st-nation-a-i-safety-bill-passes-ca-senate-headed-governors-desk)
+- [KTVU FOX 2 — TV interview on AI safety (video)](https://www.ktvu.com/video/1417137)
+- [Yahoo News — House announces bipartisan AI task force (video)](https://news.yahoo.com/house-announces-bipartisan-task-force-012125703.html)
+- [CPO Magazine — New AI Rules for US Federal Agencies: Mandatory Risk Assessments, Public Disclosures, and Chief AI Officers](https://www.cpomagazine.com/cyber-security/new-ai-rules-for-us-federal-agencies-mandatory-risk-assessments-and-public-disclosures-appointment-of-chief-ai-officers-now-required/)
+- [IT Brew — Microsoft Introduces Red Team Augmentation via AI](https://www.itbrew.com/stories/2024/04/02/microsoft-introduces-red-team-augmentation-via-ai)
+- [ClearanceJobs — Upskilling in the AI Age: How to Move Forward With Industry Demands](https://news.clearancejobs.com/2024/03/13/upskilling-in-the-ai-age-how-to-move-forward-with-the-industry-demands/)
+- [IT World Canada — NIST Issues Cybersecurity Guide for AI Developers](https://www.itworldcanada.com/article/nist-issues-cybersecurity-guide-for-ai-developers/555880)
+- [IT World Canada — AI Safety Summit at Bletchley Park: All About Trust (and Champagne)](https://www.itworldcanada.com/article/ai-safety-summit-at-bletchley-park-all-about-trust-champagne/552055)
+- [IT World Canada — Forty-Eight Governments Pledge Not to Pay Ransomware Gangs](https://www.itworldcanada.com/article/forty-eight-governments-pledge-not-to-pay-ransomware-gangs/551284)
+- [StateScoop — NIST on AI Security Threats for State and Local Government](https://statescoop.com/nist-security-threats-ai-state-local/)
+- [StateScoop — State and Local Government AI Data Poisoning (podcast)](https://statescoop.com/radio/state-local-government-ai-data-poisoning/)
+- [Help Net Security — PyRIT: Microsoft Framework to Find Risks in Generative AI Systems](https://www.helpnetsecurity.com/2024/03/04/pyrit-microsoft-framework-find-risks-generative-ai-systems/)
+- [Techopedia — 5 State-Backed AI Threat Actors Identified by Microsoft and OpenAI](https://www.techopedia.com/5-state-backed-ai-threat-actors-identified-by-microsoft-openai)
+- [SecurityWeek — NIST: No Silver Bullet Against Adversarial Machine Learning Attacks](https://www.securityweek.com/nist-no-silver-bullet-against-adversarial-machine-learning-attacks/)
+- [Help Net Security — Securing AI Systems: Evasion, Poisoning, and Abuse](https://www.helpnetsecurity.com/2024/01/09/securing-ai-systems-evasion-poisoning-abuse/)
+- [InformationWeek — What the NYT Case Against OpenAI and Microsoft Could Mean for AI and Its Users](https://www.informationweek.com/machine-learning-ai/what-the-nyt-case-against-openai-microsoft-could-mean-for-ai-and-its-users)
+- [CIO — 6 Warning Signs CIOs Should Look Out for in 2024](https://www.cio.com/article/1284240/6-warning-signs-cios-should-look-out-for-in-2024.html)
+- [Security Info Watch — Cybersecurity Predictions for 2024 Reflect More Advanced Threats](https://www.securityinfowatch.com/cybersecurity/article/53081676/cybersecurity-predictions-for-2024-reflect-more-advanced-threats)
+- [Techstrong.ai — New York Times Sues Microsoft, OpenAI Over Copyright Infringement](https://techstrong.ai/articles/new-york-times-sues-microsoft-openai-over-copyright-infringement/)
+- [CPO Magazine — US, UK Lead 18 Nations in Adoption of AI Security Guidelines](https://www.cpomagazine.com/cyber-security/us-uk-lead-18-nations-in-adoption-of-ai-security-guidelines/)
+- [Silicon Republic — Grok AI, X, Elon Musk, and the Risks](https://www.siliconrepublic.com/machines/grok-ai-x-elon-musk-risks)
+- [CSO Online — How the EU AI Act Regulates Artificial Intelligence and What It Means for Cybersecurity](https://www.csoonline.com/article/1258597/how-the-eu-ai-act-regulates-artificial-intelligence-and-what-it-means-for-cybersecurity.html)
+- [Computerworld España — Cómo Regula la UE la Inteligencia Artificial y Qué Significa para la Ciberseguridad](https://cso.computerworld.es/legislacion/como-regula-la-ue-la-inteligencia-artificial-que-significa-para-la-ciberseguridad)
+- [SC Magazine — Defending Infrastructure, Securing Systems Key to CISA's New AI Guidelines](https://www.scmagazine.com/news/defending-infrastructure-securing-systems-key-to-cisas-new-ai-guidelines)
+- [DataBreachToday — DHS: AI-Enhanced Nuclear, Chemical Threats Are a Risk to US](https://www.databreachtoday.com/dhs-ai-enhanced-nuclear-chemical-threats-are-risk-to-us-a-24981)
+- [TechRepublic — AI Seoul Summit: Key Takeaways](https://www.techrepublic.com/article/ai-seoul-summit-takeaways/)

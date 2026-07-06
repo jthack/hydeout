@@ -22,6 +22,7 @@ I love most things in life, but I'm particularly fond of hacking, ai-art, runnin
 - linkedin: [Joseph Thacker](https://www.linkedin.com/in/josephthacker/)
 - hackerone: [rez0](https://hackerone.com/rez0)
 - bugcrowd: [rez0](https://bugcrowd.com/rez0)
+- media: [some places I've been featured](/media_mentions.html)
 - email list: [Thacker Thoughts](https://thacker.beehiiv.com/subscribe) (subscribe to know when I post)
 - for parents: [AI Safety For Parents](https://aisafetyforparents.com) (my 10-day course on keeping kids safe with AI)
 
