@@ -1,5 +1,5 @@
 ---
-title: "Launching: Rez0's Rascals"
+title: "Launching: rez0's rascals"
 layout: post
 description: "I built a K-5 learning app for homeschool, co-op, and hybrid-school families."
 categories:
