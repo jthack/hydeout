@@ -2,6 +2,8 @@
 title: "it's important to say things"
 layout: post
 date: 2026-07-22 00:00:00 +0000
+description: "Ambiguity sucks. It often leaves people self-conscious. It leaves room for anxiety and doubt. It’s super important to say things."
+image: /assets/images/its-important-to-say-things-banner.png
 categories:
   - personal
 tags:
