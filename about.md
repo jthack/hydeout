@@ -15,6 +15,10 @@ Email me if you are interested in **AI consulting** (implementation help/advice 
 On a more personal level, I'm a Christian, husband, and father.
 I love most things in life, but I'm particularly fond of hacking, ai-art, running, podcasts, and keylime pie.
 
+<p class="message">
+  "As water reflects the face, so one's life reflects the heart." Proverbs 27:19
+</p>
+
 ## whereami
 
 - email: [joseph@rez0.com](mailto:joseph@rez0.com)
@@ -30,10 +34,6 @@ I love most things in life, but I'm particularly fond of hacking, ai-art, runnin
 - [**rez0.com**](https://rez0.com/): AI security and penetration testing services
 - [**AI Safety For Parents**](https://aisafetyforparents.com/): My 10-day email course on keeping kids safe with AI
 - [**Rez0's Rascals**](https://rez0srascals.com/): A K-5 learning app for homeschool, co-op, and hybrid-school families
-
-<p class="message">
-  "As water reflects the face, so one's life reflects the heart." Proverbs 27:19 
-</p>
 
 ## affiliations
 
