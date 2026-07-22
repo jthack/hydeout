@@ -11,7 +11,6 @@ tags:
 ---
 
 ![](/assets/images/its-important-to-say-things-banner.png){: width="600" }
-
 Ambiguity sucks. It often leaves people self-conscious. It leaves room for anxiety and doubt. It’s super important to *say things*. 
 
 When I was growing up, I knew my dad would take a bullet for me. Why did I know that? He told me several times. Why did that topic come up? I dont know. My hunch is that it was when we were driving around or sitting around, he was just thinking about it and said it out loud.
