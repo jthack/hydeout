@@ -8,7 +8,7 @@ sidebar_link: true
 
 ### Joseph Thacker (rez0)
 
-I'm a full time Bug Bounty Hunter, AI Red Teamer, and startup Advisor. I also co-host the [biggest bug bounty podcast](https://ctbb.show). I've submitted over 1,000 vulnerabilities across Hackerone and Bugcrowd. I've won Most Valuable Hacker at Google live hacking events and landed many "Best Team" awards at Hackerone live hacking events. I love helping secure the planet by building, breaking, and teaching.
+I'm a full time Bug Bounty Hunter, AI Red Teamer, and startup Advisor. I also co-host the [biggest bug bounty podcast](https://ctbb.show). I've submitted more than 1,400 vulnerabilities across Hackerone and Bugcrowd. I've won Most Valuable Hacker at Google live hacking events and landed many "Best Team" awards at Hackerone live hacking events. I love helping secure the planet by building, breaking, and teaching.
 
 Email me if you are interested in **AI consulting** (implementation help/advice or AI security assesments). I'm also available for **startup advising** at high velocity startups that need a technical advisor who is well-networked, at the bleeding edge of AI and Security, passionate, and involved.
    
