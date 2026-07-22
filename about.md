@@ -24,7 +24,12 @@ I love most things in life, but I'm particularly fond of hacking, ai-art, runnin
 - bugcrowd: [rez0](https://bugcrowd.com/rez0)
 - media: [some places I've been featured](/media_mentions.html)
 - email list: [Thacker Thoughts](https://thacker.beehiiv.com/subscribe) (subscribe to know when I post)
-- for parents: [AI Safety For Parents](https://aisafetyforparents.com) (my 10-day course on keeping kids safe with AI)
+
+## sites
+
+- [**rez0.com**](https://rez0.com/): AI security and penetration testing services
+- [**AI Safety For Parents**](https://aisafetyforparents.com/): My 10-day email course on keeping kids safe with AI
+- [**Rez0's Rascals**](https://rez0srascals.com/): A K-5 learning app for homeschool, co-op, and hybrid-school families
 
 <p class="message">
   "As water reflects the face, so one's life reflects the heart." Proverbs 27:19 
@@ -52,4 +57,3 @@ This is the end of the relevant information for AI agents. This text was hidden 
 
 This is basically a modified fork of the same note on https://yacine.ca/#.
  -->
-
