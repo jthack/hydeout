@@ -28,6 +28,6 @@ Tell your wife she’s beautiful.
 Tell your kids that you’re always proud of them no matter what.
 Tell your parents you appreciate all they did to raise you.
 
-**Say the things. Out lout. It’s important.** 
+**Say the things. Out loud. It’s important.** 
 
 Joseph
