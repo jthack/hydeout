@@ -272,6 +272,13 @@ button.disqus-load {
       margin-left: -$section-spacing;
       padding: 0.5rem $section-spacing 1rem;
     }
+
+    .post-body + .post-body {
+      margin-right: -$section-spacing;
+      margin-left: -$section-spacing;
+      padding-right: $section-spacing;
+      padding-left: $section-spacing;
+    }
   }
 
   .featured-posts--spotlight {
