@@ -1,0 +1,34 @@
+{% assign featured_variant = include.variant | default: 'list' %}
+{% assign featured_limit = include.limit | default: 4 %}
+{% assign featured_excerpt_length = include.excerpt_length | default: 70 %}
+{% assign display_posts = include.posts %}
+
+<section class="featured-posts featured-posts--{{ featured_variant }}" aria-labelledby="featured-posts-title">
+  <h2 id="featured-posts-title" class="featured-posts-title">Top Posts</h2>
+  <p class="featured-posts-description">Evergreen essays or posts that were particularly well received.</p>
+  <div class="featured-posts-list">
+    {% for post in display_posts limit: featured_limit %}
+    <article class="featured-post">
+      <span class="featured-post-number" aria-hidden="true">0{{ forloop.index }}</span>
+      <div class="featured-post-thumbnail">
+        {% assign img_tags = post.content | split: '<img ' %}
+        {% if img_tags.size > 1 %}
+          {% assign src_part = img_tags[1] | split: 'src="' %}
+          {% if src_part.size > 1 %}
+            {% assign image_url = src_part[1] | split: '"' | first %}
+            <img src="{{ image_url }}" alt="" loading="lazy">
+          {% else %}
+            <div class="no-image" aria-hidden="true"></div>
+          {% endif %}
+        {% else %}
+          <div class="no-image" aria-hidden="true"></div>
+        {% endif %}
+      </div>
+      <div class="featured-post-content">
+        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="featured-post-excerpt">{{ post.content | strip_html | truncate: featured_excerpt_length }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

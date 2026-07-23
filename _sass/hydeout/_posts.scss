@@ -7,13 +7,18 @@ article + *, .post-body ~ section {
   padding-top: $section-spacing;
   border-top: 1px solid $border-color;
   margin-top: $section-spacing;
-  margin-left: -$section-spacing * 2;
-  margin-right: -$section-spacing * 2;
-  padding-left: $section-spacing * 2;
-  padding-right: $section-spacing * 2;
 
   > h2:first-child, > h3:first-child {
     margin-top: 0;
+  }
+}
+
+@media (min-width: $large-breakpoint) {
+  article + *, .post-body ~ section {
+    margin-left: -$section-spacing * 2;
+    margin-right: -$section-spacing * 2;
+    padding-left: $section-spacing * 2;
+    padding-right: $section-spacing * 2;
   }
 }
 
@@ -96,91 +101,200 @@ button.disqus-load {
 
 // Featured posts section
 .featured-posts {
-  margin-bottom: 2rem;
-  padding-top: $section-spacing;
-  padding-bottom: 0rem;
+  margin: -4rem (-$section-spacing * 2) 2rem;
+  padding: $section-spacing ($section-spacing * 2);
   border-bottom: 1px solid $border-color;
-  margin-top: -4rem;
-  margin-left: -$section-spacing * 2;
-  margin-right: -$section-spacing * 2;
-  padding-left: $section-spacing * 2;
-  padding-right: $section-spacing * 2;
-  padding-bottom: 2rem;
-  
-  .featured-posts-title {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    color: $heading-color;
-    font-size: 2rem !important;
-  }
-  
-  // Override the general article + * rule for featured posts
-  article + article {
-    border-top: none !important;
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-  }
+}
+
+.featured-posts-title {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: $heading-color;
+  font-size: 2rem;
+}
+
+.featured-posts-description {
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
 }
 
 .featured-post {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
-  padding-bottom: .1rem;
-  border-bottom: none !important;
-  border-top: none !important;
-  padding-top: 0;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
+  margin: 0 0 1rem;
+  padding: 0;
+  border: 0;
+}
+
+.featured-post-number {
+  display: none;
 }
 
 .featured-post-thumbnail {
+  flex: 0 0 60px;
   width: 60px;
   height: 60px;
   margin-right: 1rem;
-  flex-shrink: 0;
-  
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 4px;
-  }
-  
+
+  img,
   .no-image {
     width: 100%;
     height: 100%;
-    background-color: $border-color;
+    margin: 0;
     border-radius: 4px;
+  }
+
+  img {
+    object-fit: cover;
+  }
+
+  .no-image {
+    background-color: $border-color;
   }
 }
 
 .featured-post-content {
+  min-width: 0;
   flex: 1;
-  
+
   h3 {
-    margin: 0;
-    margin-bottom: 0.25rem;
+    margin: 0 0 0.25rem;
     font-size: 1.1rem;
     font-weight: 600;
-    
+
     a {
       color: $heading-color;
       text-decoration: none;
-      
-      &:hover {
+
+      &:hover,
+      &:focus {
         text-decoration: underline;
       }
     }
   }
-  
-  .featured-post-excerpt {
+}
+
+.featured-post-excerpt {
+  margin: 0;
+  color: $body-muted;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+
+.featured-posts--list {
+  .featured-posts-title {
+    margin-top: 1rem;
+  }
+
+  .featured-post {
+    padding-bottom: 0.1rem;
+  }
+}
+
+// Compact editorial list.
+.featured-posts--spotlight {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  column-gap: 1.75rem;
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
+
+  .featured-posts-title {
     margin: 0;
-    font-size: 0.85rem;
-    color: $body-muted;
+    font-size: 1.4375rem;
+  }
+
+  .featured-posts-description {
+    grid-column: 1;
+    margin: 0.15rem 0 0;
+    font-size: 0.72rem;
     line-height: 1.3;
+  }
+
+  .featured-posts-list {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  .featured-post {
+    display: grid;
+    grid-template-columns: 1.35rem 64px minmax(0, 1fr);
+    align-items: center;
+    gap: 0.65rem;
+    margin: 0;
+  }
+
+  .featured-post-number {
+    display: block;
+    color: $body-muted;
+    font-family: $code-font-family;
+    font-size: 0.7rem;
+    line-height: 1;
+    letter-spacing: 0.04em;
+  }
+
+  .featured-post-thumbnail {
+    display: block;
+    width: 64px;
+    height: 36px;
+    margin: 0;
+  }
+
+  .featured-post-excerpt {
+    display: none;
+  }
+
+  .featured-post-content h3 {
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.3;
+    letter-spacing: 0.005em;
+  }
+}
+
+@media (max-width: $large-breakpoint) {
+  .featured-posts {
+    margin: 0 0 2rem;
+    padding: $section-spacing 0;
+  }
+
+  .home.index {
+    .container > .content {
+      padding-top: 0;
+    }
+
+    .featured-posts {
+      margin-right: -$section-spacing;
+      margin-left: -$section-spacing;
+      padding: 0.5rem $section-spacing 1rem;
+    }
+  }
+
+  .featured-posts--spotlight {
+    grid-template-columns: 1fr;
+    row-gap: 0.65rem;
+
+    .featured-posts-description {
+      display: none;
+    }
+
+    .featured-posts-list {
+      grid-column: 1;
+      grid-row: auto;
+    }
+
+    .featured-post {
+      grid-template-columns: 1.25rem 56px minmax(0, 1fr);
+      gap: 0.55rem;
+    }
+
+    .featured-post-thumbnail {
+      width: 56px;
+      height: 31.5px;
+    }
   }
 }

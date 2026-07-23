@@ -39,17 +39,14 @@ $border-width: 1px;
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 1rem 0 0.1rem 0;
+    margin: 1rem 0 0.1rem;
 
     img {
       border: 3px solid $border-color;
-      border-radius: 50%;  // Keep it circular
+      border-radius: 50%;
     }
   }
-}
 
-// Add divider lines in sidebar
-#sidebar {
   .lead {
     border-bottom: $border-width solid $border-color;
     margin: 0 -2rem 1rem -2rem;
@@ -171,22 +168,8 @@ body.post .post-title {
   }
 }
 
-// Add this to your existing CSS
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink {
-  50% { border-color: transparent }
-}
-
 #sidebar {
   .site-title {
-    a {
-      text-decoration: none;
-    }
-
     .typing-line {
       display: block;
       white-space: nowrap;
@@ -197,17 +180,16 @@ body.post .post-title {
       }
     }
 
-    // Add cursor to second line
     .typing-line.line2 {
-      font-size: inherit;  // Changed from 0 to inherit to match parent
+      font-size: inherit;
       
       span {
-        font-size: inherit;  // Changed from 1rem to inherit
+        font-size: inherit;
       }
       
       &::after {
         content: '|';
-        font-size: inherit;  // Changed from 1rem to inherit
+        font-size: inherit;
         animation: blink 1s step-end infinite;
         opacity: 0;
         animation-delay: 1.4s;
@@ -216,7 +198,6 @@ body.post .post-title {
   }
 }
 
-// Animation for each letter
 .typing-line.line1 {
   span:nth-child(1) { animation: fadeIn 0.1s 0.1s forwards; }
   span:nth-child(2) { animation: fadeIn 0.1s 0.2s forwards; }
@@ -252,7 +233,6 @@ body.post .post-title {
   50% { opacity: 0; }
 }
 
-// Ensure visibility in animated state
 .site-title.animated {
   .typing-line span {
     visibility: visible !important;
@@ -302,12 +282,10 @@ body.dark-mode {
     filter: invert(1) hue-rotate(180deg);
   }
   
-  // Fix for profile image to prevent double inversion
   .profile-image img {
     filter: invert(1) hue-rotate(180deg);
   }
   
-  // Fix border color for dark mode
   #sidebar .profile-image img {
     border-color: #fff;
   }
