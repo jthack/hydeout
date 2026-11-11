@@ -5,6 +5,7 @@ categories:
   - hacking
 tags:
   - hacking
+muse_canonical_probe: "https://t4.rs/muse-search-citation/20261111-b/"
 ---
 
 TLDR: Through the help of two friends, some bash tricks, the use of Tomnomnom's tool `meg`, and a service vulnerable to [ImageTragick](https://imagetragick.com/), I found my first RCE (and my first critical!) within the first two months of bug bounty hunting.

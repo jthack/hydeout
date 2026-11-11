@@ -27,14 +27,19 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/{{ site.feed.path | default: 'feed.xml' }}" />
 
   <!-- Canonical + structured data (added for SEO) -->
-  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+  {% if page.muse_canonical_probe %}
+    {% assign canonical_url = page.muse_canonical_probe %}
+  {% else %}
+    {% assign canonical_url = page.url | absolute_url %}
+  {% endif %}
+  <link rel="canonical" href="{{ canonical_url }}" />
   {% assign social_title = page.title | default: site.title %}
   {% assign social_description = page.description | default: page.excerpt | default: site.tagline | strip_html | strip_newlines | truncate: 300 %}
   {% assign social_image = page.image | default: '/assets/images/joseph_circle.png' %}
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
   <meta property="og:title" content="{{ social_title | escape }}" />
   <meta property="og:description" content="{{ social_description | escape }}" />
-  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:url" content="{{ canonical_url }}" />
   <meta property="og:image" content="{{ social_image | absolute_url }}" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{{ social_title | escape }}" />
@@ -50,8 +55,8 @@
     "image": "{{ page.image | default: '/assets/images/joseph_circle.png' | absolute_url }}",
     "datePublished": "{{ page.date | date_to_xmlschema }}",
     "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-    "url": "{{ page.url | absolute_url }}",
-    "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ page.url | absolute_url }}"},
+    "url": "{{ canonical_url }}",
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ canonical_url }}"},
     "author": {
       "@type": "Person", "name": "Joseph Thacker", "alternateName": "rez0",
       "url": "https://josephthacker.com/",
